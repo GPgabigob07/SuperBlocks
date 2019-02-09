@@ -1,0 +1,10 @@
+{
+  "homepage": "https://github.com/MaxFreemen/SuperBlocks",
+  "1.12.2": {
+    "alfa-0.1": "Created base mod."
+  },
+  "promos": {
+    "1.12.2-latest": "alfa-0.1",
+    "1.12.2-recommended": "alfa-0.1"
+  }
+}
