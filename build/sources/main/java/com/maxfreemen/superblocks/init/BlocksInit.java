@@ -4,6 +4,7 @@ import com.maxfreemen.superblocks.common.blocks.BlockLaboratory;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkClean;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkPipe;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratoryLight;
+import com.maxfreemen.superblocks.common.blocks.BlockLaboratoryLightPipe;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratoryTop;
 import com.maxfreemen.superblocks.common.blocks.BlockLamp;
 
@@ -24,6 +25,7 @@ public class BlocksInit {
 	public static final Block LABORATORY_BLOCK_DARK_PIPE = new BlockLaboratoryDarkPipe();
 	public static final Block LABORATORY_BLOCK_TOP = new BlockLaboratoryTop();
 	public static final Block LABORATORY_BLOCK_LIGHT =  new BlockLaboratoryLight();
+	public static final Block LABORATORY_BLOCK_LIGHT_PIPE =  new BlockLaboratoryLightPipe();
 	
 	public static void registerBlocks() {
 		
@@ -33,6 +35,7 @@ public class BlocksInit {
         setRegister(LABORATORY_BLOCK_DARK_PIPE);
         setRegister(LABORATORY_BLOCK_TOP);
         setRegister(LABORATORY_BLOCK_LIGHT);
+        setRegister(LABORATORY_BLOCK_LIGHT_PIPE);
         
     }
 
@@ -45,6 +48,7 @@ public class BlocksInit {
         setRender(LABORATORY_BLOCK_DARK_PIPE);
         setRender(LABORATORY_BLOCK_TOP);
         setRender(LABORATORY_BLOCK_LIGHT);
+        setRender(LABORATORY_BLOCK_LIGHT_PIPE);
         
     }
 
