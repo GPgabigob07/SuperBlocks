@@ -3,6 +3,7 @@ package com.maxfreemen.superblocks.init;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratory;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkClean;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkPipe;
+import com.maxfreemen.superblocks.common.blocks.BlockLaboratoryTop;
 import com.maxfreemen.superblocks.common.blocks.BlockLamp;
 
 import net.minecraft.block.Block;
@@ -20,6 +21,7 @@ public class BlocksInit {
 	public static final Block LABORATORY_BLOCK = new BlockLaboratory();
 	public static final Block LABORATORY_BLOCK_DARK_CLEAN = new BlockLaboratoryDarkClean();
 	public static final Block LABORATORY_BLOCK_DARK_PIPE = new BlockLaboratoryDarkPipe();
+	public static final Block LABORATORY_BLOCK_TOP = new BlockLaboratoryTop();
 	
 	public static void registerBlocks() {
 		
@@ -27,6 +29,7 @@ public class BlocksInit {
         setRegister(LABORATORY_BLOCK);
         setRegister(LABORATORY_BLOCK_DARK_CLEAN);
         setRegister(LABORATORY_BLOCK_DARK_PIPE);
+        setRegister(LABORATORY_BLOCK_TOP);
         
     }
 
@@ -37,6 +40,7 @@ public class BlocksInit {
         setRender(LABORATORY_BLOCK);
         setRender(LABORATORY_BLOCK_DARK_CLEAN);
         setRender(LABORATORY_BLOCK_DARK_PIPE);
+        setRender(LABORATORY_BLOCK_TOP);
         
     }
 
