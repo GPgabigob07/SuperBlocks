@@ -1,4 +1,4 @@
 itemGroup.laboratory=Блоки лаборатории
 tile.superblocks.laboratory_block.name=Блок лаборатории
 tile.superblocks.lamp.name=Лампа
-item.superblocks.test_sword=Тестовый меч
+item.superblocks.test_sword.name=Тестовый меч
