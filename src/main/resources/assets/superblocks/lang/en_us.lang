@@ -7,3 +7,5 @@ tile.superblocks.laboratory_block_dark_pipe.name=Dark laboratory block with pipe
 tile.superblocks.laboratory_block_top.name=Laboratory ceiling
 tile.superblocks.laboratory_block_light.name=Laboratory block light
 tile.superblocks.laboratory_block_light_pipe.name=Laboratory block light with pipe
+tile.superblocks.laboratory_block_hazard_light.name=Light hazard line
+tile.superblocks.laboratory_block_hazard_dark.name=Dark hazard line
