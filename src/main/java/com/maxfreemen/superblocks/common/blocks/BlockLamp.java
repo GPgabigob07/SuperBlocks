@@ -13,7 +13,7 @@ public class BlockLamp extends Block {
 		
 		this.setCreativeTab(TabsInit.LABORATORY_BLOCKS);
 		this.setHardness(1.0F);
-		this.setLightLevel(15.0F);
+		this.setLightLevel(7.0F);
 		this.setRegistryName("lamp");
 		this.setResistance(1.0F);
 		this.setUnlocalizedName("superblocks.lamp");
