@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "superblocks:dark_computer" },
-        "facing=south": { "model": "superblocks:dark_computer", "y": 180 },
-        "facing=west":  { "model": "superblocks:dark_computer", "y": 270 },
-        "facing=east":  { "model": "superblocks:dark_computer", "y": 90 }
-    }
-}

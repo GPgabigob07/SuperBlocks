@@ -2,6 +2,7 @@ package com.maxfreemen.superblocks.client;
 
 import com.maxfreemen.superblocks.common.CommonProxy;
 import com.maxfreemen.superblocks.init.BlocksInit;
+import com.maxfreemen.superblocks.init.ItemsInit;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -22,6 +23,7 @@ public class ClientProxy extends CommonProxy {
         super.init(event);
         
         BlocksInit.registerBlockRenders();
+        ItemsInit.registerItemRenders();
         
     }
 

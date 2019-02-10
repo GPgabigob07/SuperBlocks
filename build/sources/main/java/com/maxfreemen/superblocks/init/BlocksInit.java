@@ -1,11 +1,9 @@
 package com.maxfreemen.superblocks.init;
 
-import com.maxfreemen.superblocks.common.blocks.BlockDarkComputer;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratory;
 import com.maxfreemen.superblocks.common.blocks.BlockLamp;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockContainer;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -18,13 +16,11 @@ public class BlocksInit {
 	
 	public static final Block LAMP = new BlockLamp();
 	public static final Block LABORATORY_BLOCK = new BlockLaboratory();
-	public static final BlockContainer DARK_COMPUTER = new BlockDarkComputer();
 	
 	public static void registerBlocks() {
 		
         setRegister(LAMP);
         setRegister(LABORATORY_BLOCK);
-        setRegister(DARK_COMPUTER);
         
     }
 
@@ -33,7 +29,6 @@ public class BlocksInit {
     	
         setRender(LAMP);
         setRender(LABORATORY_BLOCK);
-        setRender(DARK_COMPUTER);
         
     }
 
