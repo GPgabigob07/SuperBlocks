@@ -14,8 +14,8 @@ public class BlockLamp extends Block {
 		
 		this.setCreativeTab(TabsInit.LABORATORY_BLOCKS);
 		this.setHardness(1.0F);
-		this.setLightLevel(7.0F);
-		this.setLightOpacity(7);
+		this.setLightLevel(7.0F); //Выставляет свет
+		this.setLightOpacity(7); //Выставляет поглощение света блоками за ним
 		this.setRegistryName("lamp");
 		this.setResistance(1.0F);
 		this.setUnlocalizedName("superblocks.lamp");
@@ -23,14 +23,14 @@ public class BlockLamp extends Block {
 	}
 	
 	 @Override
-	    public boolean isOpaqueCube(IBlockState state) {
+	    public boolean isOpaqueCube(IBlockState state) {  //чтобы при другой модельке не было иксрей еффекта
 		 
 	        return false;
 	        
 	    }
 
 	    @Override
-	    public boolean isFullCube(IBlockState state) {
+	    public boolean isFullCube(IBlockState state) { //Делает блок полным, тобишь свет нормально работает
 	    	
 	        return true;
 	        
