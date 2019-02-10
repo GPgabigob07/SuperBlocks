@@ -9,3 +9,5 @@ tile.superblocks.laboratory_block_light.name=Светлый блок лабор�
 tile.superblocks.laboratory_block_light_pipe.name=Светлый блок лаборатории с трубой
 tile.superblocks.laboratory_block_hazard_light.name=Светлая линия
 tile.superblocks.laboratory_block_hazard_dark.name=Темная линия
+tile.superblocks.laboratory_block_vent_a.name=Блок вентиляции А
+tile.superblocks.laboratory_block_vent_b.name=Блок вентиляции Б

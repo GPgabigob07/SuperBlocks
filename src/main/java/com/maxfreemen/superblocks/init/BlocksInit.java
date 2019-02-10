@@ -9,6 +9,8 @@ import com.maxfreemen.superblocks.common.blocks.BlockLaboratoryLight;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratoryLightPipe;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratoryTop;
 import com.maxfreemen.superblocks.common.blocks.BlockLamp;
+import com.maxfreemen.superblocks.common.blocks.LaboratoryBlockVentA;
+import com.maxfreemen.superblocks.common.blocks.LaboratoryBlockVentB;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
@@ -30,6 +32,8 @@ public class BlocksInit {
 	public static final Block LABORATORY_BLOCK_LIGHT_PIPE =  new BlockLaboratoryLightPipe();
 	public static final Block LABORATORY_BLOCK_HAZARD_LIGHT =  new BlockLaboratoryHazardLight();
 	public static final Block LABORATORY_BLOCK_HAZARD_DARK =  new BlockLaboratoryHazardDark();
+	public static final Block LABORATORY_BLOCK_VENT_A =  new LaboratoryBlockVentA();
+	public static final Block LABORATORY_BLOCK_VENT_B =  new LaboratoryBlockVentB();
 	
 	
 	public static void registerBlocks() {
@@ -43,6 +47,8 @@ public class BlocksInit {
         setRegister(LABORATORY_BLOCK_LIGHT_PIPE);
         setRegister(LABORATORY_BLOCK_HAZARD_LIGHT);
         setRegister(LABORATORY_BLOCK_HAZARD_DARK);
+        setRegister(LABORATORY_BLOCK_VENT_A);
+        setRegister(LABORATORY_BLOCK_VENT_B);
         
     }
 
@@ -58,6 +64,8 @@ public class BlocksInit {
         setRender(LABORATORY_BLOCK_LIGHT_PIPE);
         setRender(LABORATORY_BLOCK_HAZARD_LIGHT);
         setRender(LABORATORY_BLOCK_HAZARD_DARK);
+        setRender(LABORATORY_BLOCK_VENT_A);
+        setRender(LABORATORY_BLOCK_VENT_B);
         
     }
 
