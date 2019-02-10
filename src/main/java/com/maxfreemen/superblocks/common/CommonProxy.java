@@ -1,6 +1,7 @@
 package com.maxfreemen.superblocks.common;
 
 import com.maxfreemen.superblocks.init.BlocksInit;
+import com.maxfreemen.superblocks.init.ItemsInit;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -11,6 +12,7 @@ public class CommonProxy {
 	public void preInit(FMLPreInitializationEvent event) {
 		
 		BlocksInit.registerBlocks();
+		ItemsInit.registerItems();
 
     }
 
