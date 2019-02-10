@@ -3,5 +3,5 @@ tile.superblocks.laboratory_block.name=Laboratory block
 tile.superblocks.lamp.name=Lamp
 item.superblocks.test_sword.name=Test sword
 item.superblocks.superblocks.laboratory_block_dark_clean.name=Dark laboratory block
-item.superblocks.superblocks.superblocks.laboratory_block_dark_pipe.name=Dark laboratory block with pipes
+item.superblocks.laboratory_block_dark_pipe.name=Dark laboratory block with pipes
 
