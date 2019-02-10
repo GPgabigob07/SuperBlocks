@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "superblocks:blocks/dark_computer_side",
+        "front": "superblocks:blocks/dark_computer_front",
+        "side": "superblocks:blocks/dark_computer_side"
+    }
+}
