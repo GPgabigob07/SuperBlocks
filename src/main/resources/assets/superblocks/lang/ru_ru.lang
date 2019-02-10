@@ -3,3 +3,5 @@ tile.superblocks.laboratory_block.name=Блок лаборатории
 tile.superblocks.lamp.name=Лампа
 item.superblocks.test_sword.name=Тестовый меч
 item.superblocks.superblocks.laboratory_block_dark_clean.name=Темный блок лаборатории
+item.superblocks.superblocks.superblocks.laboratory_block_dark_pipe.name=Темный блок лаборатории с трубами
+
