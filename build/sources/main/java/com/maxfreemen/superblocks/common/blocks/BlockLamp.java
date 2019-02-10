@@ -14,8 +14,8 @@ public class BlockLamp extends Block {
 		
 		this.setCreativeTab(TabsInit.LABORATORY_BLOCKS);
 		this.setHardness(1.0F);
-		this.setLightLevel(7.0F);
-		this.setLightOpacity(7);
+		this.setLightLevel(7.0F); //���������� ����
+		this.setLightOpacity(7); //���������� ���������� ����� ������� �� ���
 		this.setRegistryName("lamp");
 		this.setResistance(1.0F);
 		this.setUnlocalizedName("superblocks.lamp");
@@ -23,14 +23,14 @@ public class BlockLamp extends Block {
 	}
 	
 	 @Override
-	    public boolean isOpaqueCube(IBlockState state) {
+	    public boolean isOpaqueCube(IBlockState state) {  //����� ��� ������ �������� �� ���� ������ �������
 		 
 	        return false;
 	        
 	    }
 
 	    @Override
-	    public boolean isFullCube(IBlockState state) {
+	    public boolean isFullCube(IBlockState state) { //������ ���� ������, ������ ���� ��������� ��������
 	    	
 	        return true;
 	        

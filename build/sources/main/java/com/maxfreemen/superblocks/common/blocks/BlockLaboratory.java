@@ -12,10 +12,10 @@ public class BlockLaboratory extends Block {
 		super(Material.IRON);
 		
 		this.setCreativeTab(TabsInit.LABORATORY_BLOCKS);
-		this.setHardness(2.0F);
-		this.setHarvestLevel("pickaxe", 2);
+		this.setHardness(2.0F); //�������� ������ ��� � ����������� ������
+		this.setHarvestLevel("pickaxe", 2); //������ �������� ������
 		this.setRegistryName("laboratory_block");
-		this.setResistance(15.0F);
+		this.setResistance(15.0F); //������������������ ��� � �����
 		this.setUnlocalizedName("superblocks.laboratory_block");
 		
 	}
