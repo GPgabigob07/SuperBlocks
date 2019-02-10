@@ -1,7 +1,6 @@
 package com.maxfreemen.superblocks.common.items;
 
 import com.maxfreemen.superblocks.init.ItemsInit;
-import com.maxfreemen.superblocks.init.TabsInit;
 
 import net.minecraft.item.EnumRarity;
 import net.minecraft.item.ItemStack;
@@ -13,7 +12,6 @@ public class ItemTestSword extends ItemSword {
 		
 		super(ItemsInit.TEST_TOOL_MATERIAL);
 		
-		this.setCreativeTab(TabsInit.LABORATORY_BLOCKS);
 		this.setMaxStackSize(1);
 		this.setRegistryName("test_sword");
 		this.setUnlocalizedName("superblocks.test_sword");
