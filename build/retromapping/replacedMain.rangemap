@@ -1,0 +1,636 @@
+Symbol range map extraction starting
+Processing 19 files
+startProcessing "com\maxfreemen\superblocks\SuperBlocks.java" md5: 73677a7a1b93822cce80ba6aa65932e1
+Cache Hit!
+@|com\maxfreemen\superblocks\SuperBlocks.java|8|34|com.maxfreemen.superblocks|package|com.maxfreemen.superblocks|(file)
+Class Start: com.maxfreemen.superblocks.SuperBlocks
+   @|com\maxfreemen\superblocks\SuperBlocks.java|448|451|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com\maxfreemen\superblocks\SuperBlocks.java|452|457|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|475|479|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|498|505|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|520|532|dependencies|method|net.minecraftforge.fml.common.Mod|dependencies|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|575|586|useMetadata|method|net.minecraftforge.fml.common.Mod|useMetadata|()Z
+   @|com\maxfreemen\superblocks\SuperBlocks.java|595|620|acceptedMinecraftVersions|method|net.minecraftforge.fml.common.Mod|acceptedMinecraftVersions|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|635|646|modLanguage|method|net.minecraftforge.fml.common.Mod|modLanguage|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|657|667|updateJSON|method|net.minecraftforge.fml.common.Mod|updateJSON|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|764|775|SuperBlocks|class|com.maxfreemen.superblocks.SuperBlocks
+   @|com\maxfreemen\superblocks\SuperBlocks.java|931|942|CommonProxy|class|com.maxfreemen.superblocks.common.CommonProxy
+   @|com\maxfreemen\superblocks\SuperBlocks.java|781|791|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|com\maxfreemen\superblocks\SuperBlocks.java|792|802|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|854|864|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|931|942|CommonProxy|class|com.maxfreemen.superblocks.common.CommonProxy
+   @|com\maxfreemen\superblocks\SuperBlocks.java|943|948|proxy|field|com.maxfreemen.superblocks.SuperBlocks|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1014|1019|event|param|com.maxfreemen.superblocks.SuperBlocks|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\SuperBlocks.java|954|966|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\maxfreemen\superblocks\SuperBlocks.java|980|987|preInit|method|com.maxfreemen.superblocks.SuperBlocks|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\maxfreemen\superblocks\SuperBlocks.java|988|1013|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1031|1036|proxy|field|com.maxfreemen.superblocks.SuperBlocks|proxy
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1037|1044|preInit|method|com.maxfreemen.superblocks.common.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1045|1050|event|param|com.maxfreemen.superblocks.SuperBlocks|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1119|1124|event|param|com.maxfreemen.superblocks.SuperBlocks|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1065|1077|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1091|1095|init|method|com.maxfreemen.superblocks.SuperBlocks|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1096|1118|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1136|1141|proxy|field|com.maxfreemen.superblocks.SuperBlocks|proxy
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1142|1146|init|method|com.maxfreemen.superblocks.common.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1147|1152|event|param|com.maxfreemen.superblocks.SuperBlocks|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1229|1234|event|param|com.maxfreemen.superblocks.SuperBlocks|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1167|1179|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1193|1201|postInit|method|com.maxfreemen.superblocks.SuperBlocks|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1202|1228|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1246|1251|proxy|field|com.maxfreemen.superblocks.SuperBlocks|proxy
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1252|1260|postInit|method|com.maxfreemen.superblocks.common.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1261|1266|event|param|com.maxfreemen.superblocks.SuperBlocks|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.maxfreemen.superblocks.SuperBlocks
+endProcessing "com\maxfreemen\superblocks\SuperBlocks.java"
+
+startProcessing "com\maxfreemen\superblocks\client\ClientProxy.java" md5: b47a1d9e78def5ef84b9fbdde9f0a167
+Cache Hit!
+@|com\maxfreemen\superblocks\client\ClientProxy.java|8|41|com.maxfreemen.superblocks.client|package|com.maxfreemen.superblocks.client|(file)
+Class Start: com.maxfreemen.superblocks.client.ClientProxy
+   @|com\maxfreemen\superblocks\client\ClientProxy.java|422|433|ClientProxy|class|com.maxfreemen.superblocks.client.ClientProxy
+   @|com\maxfreemen\superblocks\client\ClientProxy.java|442|453|CommonProxy|class|com.maxfreemen.superblocks.common.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|519|524|event|param|com.maxfreemen.superblocks.client.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|460|468|Override|class|java.lang.Override
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|485|492|preInit|method|com.maxfreemen.superblocks.common.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|493|518|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|545|552|preInit|method|com.maxfreemen.superblocks.common.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|553|558|event|param|com.maxfreemen.superblocks.client.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|635|640|event|param|com.maxfreemen.superblocks.client.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|582|590|Override|class|java.lang.Override
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|607|611|init|method|com.maxfreemen.superblocks.common.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|612|634|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|664|668|init|method|com.maxfreemen.superblocks.common.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|669|674|event|param|com.maxfreemen.superblocks.client.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|694|704|BlocksInit|class|com.maxfreemen.superblocks.init.BlocksInit
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|705|725|registerBlockRenders|method|com.maxfreemen.superblocks.init.BlocksInit|registerBlockRenders|()V
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|737|746|ItemsInit|class|com.maxfreemen.superblocks.init.ItemsInit
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|747|766|registerItemRenders|method|com.maxfreemen.superblocks.init.ItemsInit|registerItemRenders|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|852|857|event|param|com.maxfreemen.superblocks.client.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|791|799|Override|class|java.lang.Override
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|816|824|postInit|method|com.maxfreemen.superblocks.common.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|825|851|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|881|889|postInit|method|com.maxfreemen.superblocks.common.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\maxfreemen\superblocks\client\ClientProxy.java|890|895|event|param|com.maxfreemen.superblocks.client.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.maxfreemen.superblocks.client.ClientProxy
+endProcessing "com\maxfreemen\superblocks\client\ClientProxy.java"
+
+startProcessing "com\maxfreemen\superblocks\common\CommonProxy.java" md5: a23ded1bff7ec747bdeea1e5b8f27c18
+Cache Hit!
+@|com\maxfreemen\superblocks\common\CommonProxy.java|8|41|com.maxfreemen.superblocks.common|package|com.maxfreemen.superblocks.common|(file)
+Class Start: com.maxfreemen.superblocks.common.CommonProxy
+   @|com\maxfreemen\superblocks\common\CommonProxy.java|368|379|CommonProxy|class|com.maxfreemen.superblocks.common.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\maxfreemen\superblocks\common\CommonProxy.java|431|436|event|param|com.maxfreemen.superblocks.common.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\common\CommonProxy.java|397|404|preInit|method|com.maxfreemen.superblocks.common.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\maxfreemen\superblocks\common\CommonProxy.java|405|430|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\maxfreemen\superblocks\common\CommonProxy.java|445|455|BlocksInit|class|com.maxfreemen.superblocks.init.BlocksInit
+      @|com\maxfreemen\superblocks\common\CommonProxy.java|456|470|registerBlocks|method|com.maxfreemen.superblocks.init.BlocksInit|registerBlocks|()V
+      @|com\maxfreemen\superblocks\common\CommonProxy.java|476|485|ItemsInit|class|com.maxfreemen.superblocks.init.ItemsInit
+      @|com\maxfreemen\superblocks\common\CommonProxy.java|486|499|registerItems|method|com.maxfreemen.superblocks.init.ItemsInit|registerItems|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\maxfreemen\superblocks\common\CommonProxy.java|555|560|event|param|com.maxfreemen.superblocks.common.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\common\CommonProxy.java|527|531|init|method|com.maxfreemen.superblocks.common.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\maxfreemen\superblocks\common\CommonProxy.java|532|554|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\maxfreemen\superblocks\common\CommonProxy.java|624|629|event|param|com.maxfreemen.superblocks.common.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\common\CommonProxy.java|588|596|postInit|method|com.maxfreemen.superblocks.common.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\maxfreemen\superblocks\common\CommonProxy.java|597|623|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.maxfreemen.superblocks.common.CommonProxy
+endProcessing "com\maxfreemen\superblocks\common\CommonProxy.java"
+
+startProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java" md5: 46641d2355be41d7214ac6aeab9a5c63
+Cache Hit!
+@|com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java|8|48|com.maxfreemen.superblocks.common.blocks|package|com.maxfreemen.superblocks.common.blocks|(file)
+Class Start: com.maxfreemen.superblocks.common.blocks.BlockLaboratory
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java|195|210|BlockLaboratory|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratory
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java|219|224|Block|class|net.minecraft.block.Block
+   Method Start: BlockLaboratory()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java|237|252|BlockLaboratory|method|com.maxfreemen.superblocks.common.blocks.BlockLaboratory|BlockLaboratory|()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java|268|276|Material|class|net.minecraft.block.material.Material
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java|277|281|IRON|field|net.minecraft.block.material.Material|IRON
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java|294|308|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java|309|317|TabsInit|class|com.maxfreemen.superblocks.init.TabsInit
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java|318|335|LABORATORY_BLOCKS|field|com.maxfreemen.superblocks.init.TabsInit|LABORATORY_BLOCKS
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java|345|356|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java|414|429|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java|477|492|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java|521|534|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java|583|601|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+   Method End: BlockLaboratory()V
+Class End  : com.maxfreemen.superblocks.common.blocks.BlockLaboratory
+endProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratory.java"
+
+startProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java" md5: e20bab35e93c192c9e5c54d3354193e7
+Cache Hit!
+@|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java|8|48|com.maxfreemen.superblocks.common.blocks|package|com.maxfreemen.superblocks.common.blocks|(file)
+Class Start: com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkClean
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java|195|219|BlockLaboratoryDarkClean|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkClean
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java|228|233|Block|class|net.minecraft.block.Block
+   Method Start: BlockLaboratoryDarkClean()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java|247|271|BlockLaboratoryDarkClean|method|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkClean|BlockLaboratoryDarkClean|()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java|287|295|Material|class|net.minecraft.block.material.Material
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java|296|300|IRON|field|net.minecraft.block.material.Material|IRON
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java|313|327|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java|328|336|TabsInit|class|com.maxfreemen.superblocks.init.TabsInit
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java|337|354|LABORATORY_BLOCKS|field|com.maxfreemen.superblocks.init.TabsInit|LABORATORY_BLOCKS
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java|364|375|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java|433|448|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java|496|511|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java|551|564|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java|613|631|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+   Method End: BlockLaboratoryDarkClean()V
+Class End  : com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkClean
+endProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkClean.java"
+
+startProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java" md5: bcf92b1ff5de226bfcf46d916b9dace4
+Cache Hit!
+@|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java|8|48|com.maxfreemen.superblocks.common.blocks|package|com.maxfreemen.superblocks.common.blocks|(file)
+Class Start: com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkPipe
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java|195|218|BlockLaboratoryDarkPipe|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkPipe
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java|227|232|Block|class|net.minecraft.block.Block
+   Method Start: BlockLaboratoryDarkPipe()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java|244|267|BlockLaboratoryDarkPipe|method|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkPipe|BlockLaboratoryDarkPipe|()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java|283|291|Material|class|net.minecraft.block.material.Material
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java|292|296|IRON|field|net.minecraft.block.material.Material|IRON
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java|309|323|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java|324|332|TabsInit|class|com.maxfreemen.superblocks.init.TabsInit
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java|333|350|LABORATORY_BLOCKS|field|com.maxfreemen.superblocks.init.TabsInit|LABORATORY_BLOCKS
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java|360|371|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java|429|444|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java|492|507|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java|546|559|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java|608|626|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+   Method End: BlockLaboratoryDarkPipe()V
+Class End  : com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkPipe
+endProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratoryDarkPipe.java"
+
+startProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java" md5: 1615dbbf6163c111a0cb24464a8c6c15
+Cache Hit!
+@|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java|8|48|com.maxfreemen.superblocks.common.blocks|package|com.maxfreemen.superblocks.common.blocks|(file)
+Class Start: com.maxfreemen.superblocks.common.blocks.BlockLaboratoryHazardDark
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java|195|220|BlockLaboratoryHazardDark|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryHazardDark
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java|229|234|Block|class|net.minecraft.block.Block
+   Method Start: BlockLaboratoryHazardDark()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java|246|271|BlockLaboratoryHazardDark|method|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryHazardDark|BlockLaboratoryHazardDark|()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java|287|295|Material|class|net.minecraft.block.material.Material
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java|296|300|IRON|field|net.minecraft.block.material.Material|IRON
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java|313|327|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java|328|336|TabsInit|class|com.maxfreemen.superblocks.init.TabsInit
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java|337|354|LABORATORY_BLOCKS|field|com.maxfreemen.superblocks.init.TabsInit|LABORATORY_BLOCKS
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java|364|375|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java|433|448|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java|496|511|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java|552|565|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java|614|632|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+   Method End: BlockLaboratoryHazardDark()V
+Class End  : com.maxfreemen.superblocks.common.blocks.BlockLaboratoryHazardDark
+endProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardDark.java"
+
+startProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java" md5: 3ce7d49ceddaaad1a0e4618f2d20b7a7
+Cache Hit!
+@|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java|8|48|com.maxfreemen.superblocks.common.blocks|package|com.maxfreemen.superblocks.common.blocks|(file)
+Class Start: com.maxfreemen.superblocks.common.blocks.BlockLaboratoryHazardLight
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java|195|221|BlockLaboratoryHazardLight|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryHazardLight
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java|230|235|Block|class|net.minecraft.block.Block
+   Method Start: BlockLaboratoryHazardLight()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java|246|272|BlockLaboratoryHazardLight|method|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryHazardLight|BlockLaboratoryHazardLight|()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java|288|296|Material|class|net.minecraft.block.material.Material
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java|297|301|IRON|field|net.minecraft.block.material.Material|IRON
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java|314|328|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java|329|337|TabsInit|class|com.maxfreemen.superblocks.init.TabsInit
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java|338|355|LABORATORY_BLOCKS|field|com.maxfreemen.superblocks.init.TabsInit|LABORATORY_BLOCKS
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java|365|376|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java|434|449|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java|497|512|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java|554|567|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java|616|634|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+   Method End: BlockLaboratoryHazardLight()V
+Class End  : com.maxfreemen.superblocks.common.blocks.BlockLaboratoryHazardLight
+endProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratoryHazardLight.java"
+
+startProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java" md5: 3021529fd1e628633b4e4df09958e5c2
+Cache Hit!
+@|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java|8|48|com.maxfreemen.superblocks.common.blocks|package|com.maxfreemen.superblocks.common.blocks|(file)
+Class Start: com.maxfreemen.superblocks.common.blocks.BlockLaboratoryLight
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java|195|215|BlockLaboratoryLight|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryLight
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java|224|229|Block|class|net.minecraft.block.Block
+   Method Start: BlockLaboratoryLight()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java|241|261|BlockLaboratoryLight|method|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryLight|BlockLaboratoryLight|()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java|277|285|Material|class|net.minecraft.block.material.Material
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java|286|290|IRON|field|net.minecraft.block.material.Material|IRON
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java|303|317|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java|318|326|TabsInit|class|com.maxfreemen.superblocks.init.TabsInit
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java|327|344|LABORATORY_BLOCKS|field|com.maxfreemen.superblocks.init.TabsInit|LABORATORY_BLOCKS
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java|354|365|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java|423|438|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java|486|501|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java|536|549|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java|598|616|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+   Method End: BlockLaboratoryLight()V
+Class End  : com.maxfreemen.superblocks.common.blocks.BlockLaboratoryLight
+endProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLight.java"
+
+startProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java" md5: 7bb2f1340ea810969d9cf4d22ccacc9a
+Cache Hit!
+@|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java|8|48|com.maxfreemen.superblocks.common.blocks|package|com.maxfreemen.superblocks.common.blocks|(file)
+Class Start: com.maxfreemen.superblocks.common.blocks.BlockLaboratoryLightPipe
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java|195|219|BlockLaboratoryLightPipe|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryLightPipe
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java|228|233|Block|class|net.minecraft.block.Block
+   Method Start: BlockLaboratoryLightPipe()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java|245|269|BlockLaboratoryLightPipe|method|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryLightPipe|BlockLaboratoryLightPipe|()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java|285|293|Material|class|net.minecraft.block.material.Material
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java|294|298|IRON|field|net.minecraft.block.material.Material|IRON
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java|311|325|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java|326|334|TabsInit|class|com.maxfreemen.superblocks.init.TabsInit
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java|335|352|LABORATORY_BLOCKS|field|com.maxfreemen.superblocks.init.TabsInit|LABORATORY_BLOCKS
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java|362|373|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java|431|446|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java|494|509|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java|549|562|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java|611|629|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+   Method End: BlockLaboratoryLightPipe()V
+Class End  : com.maxfreemen.superblocks.common.blocks.BlockLaboratoryLightPipe
+endProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratoryLightPipe.java"
+
+startProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java" md5: a96e74aba5fde4f256a6e7a716678a6f
+Cache Hit!
+@|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java|8|48|com.maxfreemen.superblocks.common.blocks|package|com.maxfreemen.superblocks.common.blocks|(file)
+Class Start: com.maxfreemen.superblocks.common.blocks.BlockLaboratoryTop
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java|195|213|BlockLaboratoryTop|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryTop
+   @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java|222|227|Block|class|net.minecraft.block.Block
+   Method Start: BlockLaboratoryTop()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java|238|256|BlockLaboratoryTop|method|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryTop|BlockLaboratoryTop|()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java|272|280|Material|class|net.minecraft.block.material.Material
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java|281|285|IRON|field|net.minecraft.block.material.Material|IRON
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java|298|312|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java|313|321|TabsInit|class|com.maxfreemen.superblocks.init.TabsInit
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java|322|339|LABORATORY_BLOCKS|field|com.maxfreemen.superblocks.init.TabsInit|LABORATORY_BLOCKS
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java|349|360|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java|418|433|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java|481|496|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java|529|542|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java|591|609|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+   Method End: BlockLaboratoryTop()V
+Class End  : com.maxfreemen.superblocks.common.blocks.BlockLaboratoryTop
+endProcessing "com\maxfreemen\superblocks\common\blocks\BlockLaboratoryTop.java"
+
+startProcessing "com\maxfreemen\superblocks\common\blocks\BlockLamp.java" md5: 6eb8b16f8af0674056fe771427a7d7ba
+Cache Hit!
+@|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|8|48|com.maxfreemen.superblocks.common.blocks|package|com.maxfreemen.superblocks.common.blocks|(file)
+Class Start: com.maxfreemen.superblocks.common.blocks.BlockLamp
+   @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|241|250|BlockLamp|class|com.maxfreemen.superblocks.common.blocks.BlockLamp
+   @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|259|264|Block|class|net.minecraft.block.Block
+   Method Start: BlockLamp()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|276|285|BlockLamp|method|com.maxfreemen.superblocks.common.blocks.BlockLamp|BlockLamp|()V
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|301|309|Material|class|net.minecraft.block.material.Material
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|310|315|GLASS|field|net.minecraft.block.material.Material|GLASS
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|328|342|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|343|351|TabsInit|class|com.maxfreemen.superblocks.init.TabsInit
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|352|369|LABORATORY_BLOCKS|field|com.maxfreemen.superblocks.init.TabsInit|LABORATORY_BLOCKS
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|379|390|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|405|418|setLightLevel|method|net.minecraft.block.Block|setLightLevel|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|451|466|setLightOpacity|method|net.minecraft.block.Block|setLightOpacity|(I)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|523|538|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|555|568|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|583|601|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+   Method End: BlockLamp()V
+   Method Start: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|688|693|state|param|com.maxfreemen.superblocks.common.blocks.BlockLamp|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|634|642|Override|class|java.lang.Override
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|663|675|isOpaqueCube|method|net.minecraft.block.Block|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|676|687|IBlockState|class|net.minecraft.block.state.IBlockState
+   Method End: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
+   Method Start: isFullCube(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|852|857|state|param|com.maxfreemen.superblocks.common.blocks.BlockLamp|isFullCube|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|800|808|Override|class|java.lang.Override
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|829|839|isFullCube|method|net.minecraft.block.Block|isFullCube|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com\maxfreemen\superblocks\common\blocks\BlockLamp.java|840|851|IBlockState|class|net.minecraft.block.state.IBlockState
+   Method End: isFullCube(Lnet/minecraft/block/state/IBlockState;)Z
+Class End  : com.maxfreemen.superblocks.common.blocks.BlockLamp
+endProcessing "com\maxfreemen\superblocks\common\blocks\BlockLamp.java"
+
+startProcessing "com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java" md5: b297d83b35569f969c44db1e6cdd1ba2
+Cache Hit!
+@|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java|8|48|com.maxfreemen.superblocks.common.blocks|package|com.maxfreemen.superblocks.common.blocks|(file)
+Class Start: com.maxfreemen.superblocks.common.blocks.LaboratoryBlockVentA
+   @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java|195|215|LaboratoryBlockVentA|class|com.maxfreemen.superblocks.common.blocks.LaboratoryBlockVentA
+   @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java|224|229|Block|class|net.minecraft.block.Block
+   Method Start: LaboratoryBlockVentA()V
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java|241|261|LaboratoryBlockVentA|method|com.maxfreemen.superblocks.common.blocks.LaboratoryBlockVentA|LaboratoryBlockVentA|()V
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java|277|285|Material|class|net.minecraft.block.material.Material
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java|286|290|IRON|field|net.minecraft.block.material.Material|IRON
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java|303|317|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java|318|326|TabsInit|class|com.maxfreemen.superblocks.init.TabsInit
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java|327|344|LABORATORY_BLOCKS|field|com.maxfreemen.superblocks.init.TabsInit|LABORATORY_BLOCKS
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java|354|365|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java|423|438|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java|486|501|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java|537|550|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java|599|617|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+   Method End: LaboratoryBlockVentA()V
+Class End  : com.maxfreemen.superblocks.common.blocks.LaboratoryBlockVentA
+endProcessing "com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentA.java"
+
+startProcessing "com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java" md5: 82f9971f2e98375213579c6a0d72028f
+Cache Hit!
+@|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java|8|48|com.maxfreemen.superblocks.common.blocks|package|com.maxfreemen.superblocks.common.blocks|(file)
+Class Start: com.maxfreemen.superblocks.common.blocks.LaboratoryBlockVentB
+   @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java|195|215|LaboratoryBlockVentB|class|com.maxfreemen.superblocks.common.blocks.LaboratoryBlockVentB
+   @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java|224|229|Block|class|net.minecraft.block.Block
+   Method Start: LaboratoryBlockVentB()V
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java|241|261|LaboratoryBlockVentB|method|com.maxfreemen.superblocks.common.blocks.LaboratoryBlockVentB|LaboratoryBlockVentB|()V
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java|277|285|Material|class|net.minecraft.block.material.Material
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java|286|290|IRON|field|net.minecraft.block.material.Material|IRON
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java|303|317|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java|318|326|TabsInit|class|com.maxfreemen.superblocks.init.TabsInit
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java|327|344|LABORATORY_BLOCKS|field|com.maxfreemen.superblocks.init.TabsInit|LABORATORY_BLOCKS
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java|354|365|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java|423|438|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java|486|501|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java|537|550|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java|599|617|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+   Method End: LaboratoryBlockVentB()V
+Class End  : com.maxfreemen.superblocks.common.blocks.LaboratoryBlockVentB
+endProcessing "com\maxfreemen\superblocks\common\blocks\LaboratoryBlockVentB.java"
+
+startProcessing "com\maxfreemen\superblocks\common\items\ItemTestSword.java" md5: 57f626974f3c212f951ef7c57edc4986
+Cache Hit!
+@|com\maxfreemen\superblocks\common\items\ItemTestSword.java|8|47|com.maxfreemen.superblocks.common.items|package|com.maxfreemen.superblocks.common.items|(file)
+Class Start: com.maxfreemen.superblocks.common.items.ItemTestSword
+   @|com\maxfreemen\superblocks\common\items\ItemTestSword.java|227|240|ItemTestSword|class|com.maxfreemen.superblocks.common.items.ItemTestSword
+   @|com\maxfreemen\superblocks\common\items\ItemTestSword.java|249|258|ItemSword|class|net.minecraft.item.ItemSword
+   Method Start: ItemTestSword()V
+      @|com\maxfreemen\superblocks\common\items\ItemTestSword.java|270|283|ItemTestSword|method|com.maxfreemen.superblocks.common.items.ItemTestSword|ItemTestSword|()V
+      @|com\maxfreemen\superblocks\common\items\ItemTestSword.java|299|308|ItemsInit|class|com.maxfreemen.superblocks.init.ItemsInit
+      @|com\maxfreemen\superblocks\common\items\ItemTestSword.java|309|327|TEST_TOOL_MATERIAL|field|com.maxfreemen.superblocks.init.ItemsInit|TEST_TOOL_MATERIAL
+      @|com\maxfreemen\superblocks\common\items\ItemTestSword.java|340|355|setMaxStackSize|method|net.minecraft.item.Item|setMaxStackSize|(I)Lnet/minecraft/item/Item;
+      @|com\maxfreemen\superblocks\common\items\ItemTestSword.java|367|382|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\maxfreemen\superblocks\common\items\ItemTestSword.java|405|423|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+   Method End: ItemTestSword()V
+   Method Start: getRarity(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumRarity;
+      @|com\maxfreemen\superblocks\common\items\ItemTestSword.java|498|503|stack|param|com.maxfreemen.superblocks.common.items.ItemTestSword|getRarity|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumRarity;|stack|0
+      @|com\maxfreemen\superblocks\common\items\ItemTestSword.java|467|477|EnumRarity|class|net.minecraft.item.EnumRarity
+      @|com\maxfreemen\superblocks\common\items\ItemTestSword.java|478|487|getRarity|method|net.minecraft.item.Item|getRarity|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumRarity;
+      @|com\maxfreemen\superblocks\common\items\ItemTestSword.java|488|497|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\maxfreemen\superblocks\common\items\ItemTestSword.java|522|531|ItemsInit|class|com.maxfreemen.superblocks.init.ItemsInit
+      @|com\maxfreemen\superblocks\common\items\ItemTestSword.java|532|538|COMMON|field|com.maxfreemen.superblocks.init.ItemsInit|COMMON
+   Method End: getRarity(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumRarity;
+Class End  : com.maxfreemen.superblocks.common.items.ItemTestSword
+endProcessing "com\maxfreemen\superblocks\common\items\ItemTestSword.java"
+
+startProcessing "com\maxfreemen\superblocks\creativetabs\LaboratoryBlocksTab.java" md5: 6d2d29cbd30c8451b76fa45f7daf4876
+Cache Hit!
+@|com\maxfreemen\superblocks\creativetabs\LaboratoryBlocksTab.java|8|47|com.maxfreemen.superblocks.creativetabs|package|com.maxfreemen.superblocks.creativetabs|(file)
+Class Start: com.maxfreemen.superblocks.creativetabs.LaboratoryBlocksTab
+   @|com\maxfreemen\superblocks\creativetabs\LaboratoryBlocksTab.java|199|218|LaboratoryBlocksTab|class|com.maxfreemen.superblocks.creativetabs.LaboratoryBlocksTab
+   @|com\maxfreemen\superblocks\creativetabs\LaboratoryBlocksTab.java|227|239|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   Method Start: LaboratoryBlocksTab()V
+      @|com\maxfreemen\superblocks\creativetabs\LaboratoryBlocksTab.java|252|271|LaboratoryBlocksTab|method|com.maxfreemen.superblocks.creativetabs.LaboratoryBlocksTab|LaboratoryBlocksTab|()V
+   Method End: LaboratoryBlocksTab()V
+   Method Start: getTabIconItem()Lnet/minecraft/item/ItemStack;
+      @|com\maxfreemen\superblocks\creativetabs\LaboratoryBlocksTab.java|311|319|Override|class|java.lang.Override
+      @|com\maxfreemen\superblocks\creativetabs\LaboratoryBlocksTab.java|331|340|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\maxfreemen\superblocks\creativetabs\LaboratoryBlocksTab.java|341|355|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/ItemStack;
+      @|com\maxfreemen\superblocks\creativetabs\LaboratoryBlocksTab.java|382|391|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\maxfreemen\superblocks\creativetabs\LaboratoryBlocksTab.java|392|401|ItemsInit|class|com.maxfreemen.superblocks.init.ItemsInit
+      @|com\maxfreemen\superblocks\creativetabs\LaboratoryBlocksTab.java|402|412|TEST_SWORD|field|com.maxfreemen.superblocks.init.ItemsInit|TEST_SWORD
+   Method End: getTabIconItem()Lnet/minecraft/item/ItemStack;
+Class End  : com.maxfreemen.superblocks.creativetabs.LaboratoryBlocksTab
+endProcessing "com\maxfreemen\superblocks\creativetabs\LaboratoryBlocksTab.java"
+
+startProcessing "com\maxfreemen\superblocks\init\BlocksInit.java" md5: 6469e53522e7db4a9a1fe3beecd9907b
+Cache Hit!
+@|com\maxfreemen\superblocks\init\BlocksInit.java|8|39|com.maxfreemen.superblocks.init|package|com.maxfreemen.superblocks.init|(file)
+Class Start: com.maxfreemen.superblocks.init.BlocksInit
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1206|1216|BlocksInit|class|com.maxfreemen.superblocks.init.BlocksInit
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1242|1247|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1242|1247|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1248|1252|LAMP|field|com.maxfreemen.superblocks.init.BlocksInit|LAMP|
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1259|1268|BlockLamp|class|com.maxfreemen.superblocks.common.blocks.BlockLamp
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1293|1298|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1293|1298|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1299|1315|LABORATORY_BLOCK|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK|
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1322|1337|BlockLaboratory|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratory
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1362|1367|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1362|1367|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1368|1395|LABORATORY_BLOCK_DARK_CLEAN|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_CLEAN|
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1402|1426|BlockLaboratoryDarkClean|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkClean
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1451|1456|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1451|1456|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1457|1483|LABORATORY_BLOCK_DARK_PIPE|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_PIPE|
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1490|1513|BlockLaboratoryDarkPipe|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkPipe
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1538|1543|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1538|1543|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1544|1564|LABORATORY_BLOCK_TOP|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_TOP|
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1571|1589|BlockLaboratoryTop|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryTop
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1614|1619|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1614|1619|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1620|1642|LABORATORY_BLOCK_LIGHT|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT|
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1650|1670|BlockLaboratoryLight|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryLight
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1695|1700|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1695|1700|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1701|1728|LABORATORY_BLOCK_LIGHT_PIPE|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT_PIPE|
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1736|1760|BlockLaboratoryLightPipe|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryLightPipe
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1785|1790|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1785|1790|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1791|1820|LABORATORY_BLOCK_HAZARD_LIGHT|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_LIGHT|
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1828|1854|BlockLaboratoryHazardLight|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryHazardLight
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1879|1884|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1879|1884|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1885|1913|LABORATORY_BLOCK_HAZARD_DARK|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_DARK|
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1921|1946|BlockLaboratoryHazardDark|class|com.maxfreemen.superblocks.common.blocks.BlockLaboratoryHazardDark
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1971|1976|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1971|1976|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|1977|2000|LABORATORY_BLOCK_VENT_A|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_A|
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|2008|2028|LaboratoryBlockVentA|class|com.maxfreemen.superblocks.common.blocks.LaboratoryBlockVentA
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|2053|2058|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|2053|2058|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|2059|2082|LABORATORY_BLOCK_VENT_B|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_B|
+   @|com\maxfreemen\superblocks\init\BlocksInit.java|2090|2110|LaboratoryBlockVentB|class|com.maxfreemen.superblocks.common.blocks.LaboratoryBlockVentB
+   Method Start: registerBlocks()V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2138|2152|registerBlocks|method|com.maxfreemen.superblocks.init.BlocksInit|registerBlocks|()V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2168|2179|setRegister|method|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2180|2184|LAMP|field|com.maxfreemen.superblocks.init.BlocksInit|LAMP
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2195|2206|setRegister|method|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2207|2223|LABORATORY_BLOCK|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2234|2245|setRegister|method|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2246|2273|LABORATORY_BLOCK_DARK_CLEAN|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_CLEAN
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2284|2295|setRegister|method|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2296|2322|LABORATORY_BLOCK_DARK_PIPE|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_PIPE
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2333|2344|setRegister|method|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2345|2365|LABORATORY_BLOCK_TOP|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_TOP
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2376|2387|setRegister|method|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2388|2410|LABORATORY_BLOCK_LIGHT|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2421|2432|setRegister|method|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2433|2460|LABORATORY_BLOCK_LIGHT_PIPE|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT_PIPE
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2471|2482|setRegister|method|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2483|2512|LABORATORY_BLOCK_HAZARD_LIGHT|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_LIGHT
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2523|2534|setRegister|method|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2535|2563|LABORATORY_BLOCK_HAZARD_DARK|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_DARK
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2574|2585|setRegister|method|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2586|2609|LABORATORY_BLOCK_VENT_A|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_A
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2620|2631|setRegister|method|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2632|2655|LABORATORY_BLOCK_VENT_B|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_B
+   Method End: registerBlocks()V
+   Method Start: registerBlockRenders()V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2679|2687|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2688|2692|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2693|2699|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2724|2744|registerBlockRenders|method|com.maxfreemen.superblocks.init.BlocksInit|registerBlockRenders|()V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2763|2772|setRender|method|com.maxfreemen.superblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2773|2777|LAMP|field|com.maxfreemen.superblocks.init.BlocksInit|LAMP
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2788|2797|setRender|method|com.maxfreemen.superblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2798|2814|LABORATORY_BLOCK|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2825|2834|setRender|method|com.maxfreemen.superblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2835|2862|LABORATORY_BLOCK_DARK_CLEAN|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_CLEAN
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2873|2882|setRender|method|com.maxfreemen.superblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2883|2909|LABORATORY_BLOCK_DARK_PIPE|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_PIPE
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2920|2929|setRender|method|com.maxfreemen.superblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2930|2950|LABORATORY_BLOCK_TOP|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_TOP
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2961|2970|setRender|method|com.maxfreemen.superblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|2971|2993|LABORATORY_BLOCK_LIGHT|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3004|3013|setRender|method|com.maxfreemen.superblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3014|3041|LABORATORY_BLOCK_LIGHT_PIPE|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT_PIPE
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3052|3061|setRender|method|com.maxfreemen.superblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3062|3091|LABORATORY_BLOCK_HAZARD_LIGHT|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_LIGHT
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3102|3111|setRender|method|com.maxfreemen.superblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3112|3140|LABORATORY_BLOCK_HAZARD_DARK|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_DARK
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3151|3160|setRender|method|com.maxfreemen.superblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3161|3184|LABORATORY_BLOCK_VENT_A|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_A
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3195|3204|setRender|method|com.maxfreemen.superblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3205|3228|LABORATORY_BLOCK_VENT_B|field|com.maxfreemen.superblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_B
+   Method End: registerBlockRenders()V
+   Method Start: setRegister(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3289|3294|block|param|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3271|3282|setRegister|method|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3283|3288|Block|class|net.minecraft.block.Block
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3312|3327|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3328|3334|BLOCKS|field|net.minecraftforge.fml.common.registry.ForgeRegistries|BLOCKS
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3335|3343|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3344|3349|block|param|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3360|3375|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3376|3381|ITEMS|field|net.minecraftforge.fml.common.registry.ForgeRegistries|ITEMS
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3382|3390|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3395|3404|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3405|3410|block|param|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3412|3427|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3428|3433|block|param|com.maxfreemen.superblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3434|3449|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: setRegister(Lnet/minecraft/block/Block;)V
+   Method Start: setRender(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3538|3543|block|param|com.maxfreemen.superblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3476|3484|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3485|3489|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3490|3496|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3522|3531|setRender|method|com.maxfreemen.superblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3532|3537|Block|class|net.minecraft.block.Block
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3558|3567|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3568|3580|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3583|3596|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3599|3617|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3620|3628|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3629|3633|Item|class|net.minecraft.item.Item
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3634|3650|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3651|3656|block|param|com.maxfreemen.superblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3666|3687|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3688|3693|block|param|com.maxfreemen.superblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\maxfreemen\superblocks\init\BlocksInit.java|3694|3709|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: setRender(Lnet/minecraft/block/Block;)V
+Class End  : com.maxfreemen.superblocks.init.BlocksInit
+endProcessing "com\maxfreemen\superblocks\init\BlocksInit.java"
+
+startProcessing "com\maxfreemen\superblocks\init\ItemsInit.java" md5: 858ce0080e4d4c65aed4a8d7b960099c
+Cache Hit!
+@|com\maxfreemen\superblocks\init\ItemsInit.java|8|39|com.maxfreemen.superblocks.init|package|com.maxfreemen.superblocks.init|(file)
+Class Start: com.maxfreemen.superblocks.init.ItemsInit
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|710|719|ItemsInit|class|com.maxfreemen.superblocks.init.ItemsInit
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|739|751|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|739|751|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|752|770|TEST_TOOL_MATERIAL|field|com.maxfreemen.superblocks.init.ItemsInit|TEST_TOOL_MATERIAL|
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|773|783|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|784|799|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|859|872|setRepairItem|method|net.minecraft.item.Item.ToolMaterial|setRepairItem|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/Item$ToolMaterial;
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|877|886|ItemStack|class|net.minecraft.item.ItemStack
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|887|892|Items|class|net.minecraft.init.Items
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|893|898|FLINT|field|net.minecraft.init.Items|FLINT
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|918|928|EnumRarity|class|net.minecraft.item.EnumRarity
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|918|928|EnumRarity|class|net.minecraft.item.EnumRarity
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|929|935|COMMON|field|com.maxfreemen.superblocks.init.ItemsInit|COMMON|
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|938|948|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|949|958|addRarity|method|net.minecraftforge.common.util.EnumHelper|addRarity|(Ljava/lang/String;Lnet/minecraft/util/text/TextFormatting;Ljava/lang/String;)Lnet/minecraft/item/EnumRarity;
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|976|990|TextFormatting|class|net.minecraft.util.text.TextFormatting
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|991|995|GOLD|field|net.minecraft.util.text.TextFormatting|GOLD
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|1025|1034|ItemSword|class|net.minecraft.item.ItemSword
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|1025|1034|ItemSword|class|net.minecraft.item.ItemSword
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|1035|1045|TEST_SWORD|field|com.maxfreemen.superblocks.init.ItemsInit|TEST_SWORD|
+   @|com\maxfreemen\superblocks\init\ItemsInit.java|1052|1065|ItemTestSword|class|com.maxfreemen.superblocks.common.items.ItemTestSword
+   Method Start: registerItems()V
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1090|1103|registerItems|method|com.maxfreemen.superblocks.init.ItemsInit|registerItems|()V
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1119|1130|setRegister|method|com.maxfreemen.superblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1131|1141|TEST_SWORD|field|com.maxfreemen.superblocks.init.ItemsInit|TEST_SWORD
+   Method End: registerItems()V
+   Method Start: registerItemRenders()V
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1165|1173|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1174|1178|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1179|1185|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1210|1229|registerItemRenders|method|com.maxfreemen.superblocks.init.ItemsInit|registerItemRenders|()V
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1248|1257|setRender|method|com.maxfreemen.superblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1258|1268|TEST_SWORD|field|com.maxfreemen.superblocks.init.ItemsInit|TEST_SWORD
+   Method End: registerItemRenders()V
+   Method Start: setRegister(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1328|1332|item|param|com.maxfreemen.superblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1311|1322|setRegister|method|com.maxfreemen.superblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1323|1327|Item|class|net.minecraft.item.Item
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1350|1365|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1366|1371|ITEMS|field|net.minecraftforge.fml.common.registry.ForgeRegistries|ITEMS
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1372|1380|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1381|1385|item|param|com.maxfreemen.superblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V|item|0
+   Method End: setRegister(Lnet/minecraft/item/Item;)V
+   Method Start: setRender(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1470|1474|item|param|com.maxfreemen.superblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1409|1417|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1418|1422|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1423|1429|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1455|1464|setRender|method|com.maxfreemen.superblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1465|1469|Item|class|net.minecraft.item.Item
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1489|1498|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1499|1511|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1514|1527|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1530|1548|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1551|1559|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1560|1564|item|param|com.maxfreemen.superblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1573|1594|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1595|1599|item|param|com.maxfreemen.superblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\maxfreemen\superblocks\init\ItemsInit.java|1600|1615|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: setRender(Lnet/minecraft/item/Item;)V
+Class End  : com.maxfreemen.superblocks.init.ItemsInit
+endProcessing "com\maxfreemen\superblocks\init\ItemsInit.java"
+
+startProcessing "com\maxfreemen\superblocks\init\TabsInit.java" md5: 9116f89ce5f13c3903b8a69ef7be3d2c
+Cache Hit!
+@|com\maxfreemen\superblocks\init\TabsInit.java|8|39|com.maxfreemen.superblocks.init|package|com.maxfreemen.superblocks.init|(file)
+Class Start: com.maxfreemen.superblocks.init.TabsInit
+   @|com\maxfreemen\superblocks\init\TabsInit.java|172|180|TabsInit|class|com.maxfreemen.superblocks.init.TabsInit
+   @|com\maxfreemen\superblocks\init\TabsInit.java|206|218|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\maxfreemen\superblocks\init\TabsInit.java|206|218|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\maxfreemen\superblocks\init\TabsInit.java|219|236|LABORATORY_BLOCKS|field|com.maxfreemen.superblocks.init.TabsInit|LABORATORY_BLOCKS|
+   @|com\maxfreemen\superblocks\init\TabsInit.java|243|262|LaboratoryBlocksTab|class|com.maxfreemen.superblocks.creativetabs.LaboratoryBlocksTab
+Class End  : com.maxfreemen.superblocks.init.TabsInit
+endProcessing "com\maxfreemen\superblocks\init\TabsInit.java"
+
