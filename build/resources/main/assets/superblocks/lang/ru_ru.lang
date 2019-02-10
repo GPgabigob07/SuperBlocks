@@ -5,4 +5,5 @@ item.superblocks.test_sword.name=Тестовый меч
 tile.superblocks.laboratory_block_dark_clean.name=Темный блок лаборатории
 tile.superblocks.laboratory_block_dark_pipe.name=Темный блок лаборатории с трубами
 tile.superblocks.laboratory_block_top.name=Потолок лаборатории
+tile.superblocks.laboratory_block_light.name=Светлый блок лаборатории
 
