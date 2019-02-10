@@ -18,7 +18,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ItemsInit {
 	
-	public static ToolMaterial TEST_TOOL_MATERIAL = EnumHelper.addToolMaterial("superblocks:test_tool_material", 3, 255, 25.0F, 2.0F, 8).setRepairItem(new ItemStack(Items.FLINT));;
+	public static ToolMaterial TEST_TOOL_MATERIAL = EnumHelper.addToolMaterial("superblocks:test_tool_material", 3, 255, 25.0F, 45.0F, 8).setRepairItem(new ItemStack(Items.FLINT));;
 	public static EnumRarity COMMON = EnumHelper.addRarity("rarity_common", TextFormatting.GOLD, "");
 	
 	public static final ItemSword TEST_SWORD = new ItemTestSword();
