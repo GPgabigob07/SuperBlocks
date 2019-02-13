@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "superblocks:blocks/factory_block_orange_two"
+    }
+}

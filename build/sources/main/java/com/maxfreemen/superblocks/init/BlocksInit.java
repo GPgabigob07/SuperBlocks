@@ -1,6 +1,7 @@
 package com.maxfreemen.superblocks.init;
 
 import com.maxfreemen.superblocks.common.blocks.BlockFactoryOrangeOne;
+import com.maxfreemen.superblocks.common.blocks.BlockFactoryOrangeTwo;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratory;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkClean;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkPipe;
@@ -36,6 +37,7 @@ public class BlocksInit {
 	public static final Block LABORATORY_BLOCK_VENT_A =  new LaboratoryBlockVentA();
 	public static final Block LABORATORY_BLOCK_VENT_B =  new LaboratoryBlockVentB();
 	public static final Block FACTORY_BLOCK_ORANGE_ONE =  new BlockFactoryOrangeOne();
+	public static final Block FACTORY_BLOCK_ORANGE_TWO =  new BlockFactoryOrangeTwo();
 	
 	
 	public static void registerBlocks() {
@@ -52,6 +54,7 @@ public class BlocksInit {
         setRegister(LABORATORY_BLOCK_VENT_A);
         setRegister(LABORATORY_BLOCK_VENT_B);
         setRegister(FACTORY_BLOCK_ORANGE_ONE);
+        setRegister(FACTORY_BLOCK_ORANGE_TWO);
         
     }
 
@@ -70,6 +73,7 @@ public class BlocksInit {
         setRender(LABORATORY_BLOCK_VENT_A);
         setRender(LABORATORY_BLOCK_VENT_B);
         setRender(FACTORY_BLOCK_ORANGE_ONE);
+        setRender(FACTORY_BLOCK_ORANGE_TWO);
         
     }
 
