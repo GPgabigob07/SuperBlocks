@@ -12,3 +12,4 @@ tile.superblocks.laboratory_block_hazard_light.name=Light hazard line
 tile.superblocks.laboratory_block_hazard_dark.name=Dark hazard line
 tile.superblocks.laboratory_block_vent_a.name=Vent block A
 tile.superblocks.laboratory_block_vent_b.name=Vent block B
+tile.superblocks.factory_block_orange_one.name=Factory wall A
