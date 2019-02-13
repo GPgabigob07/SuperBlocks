@@ -1,4 +1,5 @@
 itemGroup.laboratory=Блоки лаборатории
+itemGroup.factory=Блоки фабрики
 tile.superblocks.laboratory_block.name=Блок лаборатории
 tile.superblocks.lamp.name=Лампа
 item.superblocks.test_sword.name=Тестовый меч

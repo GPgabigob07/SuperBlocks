@@ -1,4 +1,5 @@
 itemGroup.laboratory=Blocks for laboratory
+itemGroup.factory=Blocks for factory
 tile.superblocks.laboratory_block.name=Laboratory block
 tile.superblocks.lamp.name=Lamp
 item.superblocks.test_sword.name=Test sword
