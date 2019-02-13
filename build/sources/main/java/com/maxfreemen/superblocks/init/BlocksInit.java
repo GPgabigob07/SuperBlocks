@@ -1,5 +1,6 @@
 package com.maxfreemen.superblocks.init;
 
+import com.maxfreemen.superblocks.common.blocks.BlockFactoryOne;
 import com.maxfreemen.superblocks.common.blocks.BlockFactoryOrangeOne;
 import com.maxfreemen.superblocks.common.blocks.BlockFactoryOrangeThree;
 import com.maxfreemen.superblocks.common.blocks.BlockFactoryOrangeTwo;
@@ -40,6 +41,7 @@ public class BlocksInit {
 	public static final Block FACTORY_BLOCK_ORANGE_ONE =  new BlockFactoryOrangeOne();
 	public static final Block FACTORY_BLOCK_ORANGE_TWO =  new BlockFactoryOrangeTwo();
 	public static final Block FACTORY_BLOCK_ORANGE_THREE =  new BlockFactoryOrangeThree();
+	public static final Block FACTORY_BLOCK_ONE =  new BlockFactoryOne();
 	
 	
 	public static void registerBlocks() {
@@ -58,6 +60,7 @@ public class BlocksInit {
         setRegister(FACTORY_BLOCK_ORANGE_ONE);
         setRegister(FACTORY_BLOCK_ORANGE_TWO);
         setRegister(FACTORY_BLOCK_ORANGE_THREE);
+        setRegister(FACTORY_BLOCK_ONE);
         
     }
 
@@ -78,6 +81,7 @@ public class BlocksInit {
         setRender(FACTORY_BLOCK_ORANGE_ONE);
         setRender(FACTORY_BLOCK_ORANGE_TWO);
         setRender(FACTORY_BLOCK_ORANGE_THREE);
+        setRender(FACTORY_BLOCK_ONE);
         
     }
 
