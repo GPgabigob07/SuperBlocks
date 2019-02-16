@@ -1,5 +1,6 @@
 package com.maxfreemen.superblocks.init;
 
+import com.maxfreemen.superblocks.common.items.ItemFactorySword;
 import com.maxfreemen.superblocks.common.items.ItemTestSword;
 
 import net.minecraft.client.Minecraft;
@@ -22,10 +23,12 @@ public class ItemsInit {
 	public static EnumRarity COMMON = EnumHelper.addRarity("rarity_common", TextFormatting.GOLD, "");
 	
 	public static final ItemSword TEST_SWORD = new ItemTestSword();
+	public static final ItemSword FACTORY_SWORD = new ItemFactorySword();
 
 	public static void registerItems() {
 		
         setRegister(TEST_SWORD);
+        setRegister(FACTORY_SWORD);
         
     }
 
@@ -33,6 +36,7 @@ public class ItemsInit {
     public static void registerItemRenders() {
     	
         setRender(TEST_SWORD);
+        setRender(FACTORY_SWORD);
         
     }
 

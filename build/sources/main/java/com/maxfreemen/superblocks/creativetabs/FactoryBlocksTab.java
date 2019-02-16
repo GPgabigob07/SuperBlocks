@@ -16,7 +16,7 @@ public class FactoryBlocksTab extends CreativeTabs{
 	@Override
     public ItemStack getTabIconItem() {
 		
-        return new ItemStack(ItemsInit.TEST_SWORD);
+        return new ItemStack(ItemsInit.FACTORY_SWORD);
         
     }
 }
