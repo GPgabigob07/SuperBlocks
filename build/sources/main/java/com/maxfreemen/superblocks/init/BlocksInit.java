@@ -11,6 +11,7 @@ import com.maxfreemen.superblocks.common.blocks.BlockFactoryOrangeTwo;
 import com.maxfreemen.superblocks.common.blocks.BlockFactoryThree;
 import com.maxfreemen.superblocks.common.blocks.BlockFactoryTwo;
 import com.maxfreemen.superblocks.common.blocks.BlockFactoryVent;
+import com.maxfreemen.superblocks.common.blocks.BlockFactoryVentWall;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratory;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkClean;
 import com.maxfreemen.superblocks.common.blocks.BlockLaboratoryDarkPipe;
@@ -56,6 +57,7 @@ public class BlocksInit {
 	public static final Block FACTORY_BLOCK_LAMP_ONE =  new BlockFactoryLampOne();	
 	public static final Block FACTORY_BLOCK_LAMP_TWO =  new BlockFactoryLampTwo();	
 	public static final Block FACTORY_BLOCK_ORANGE_FOUR =  new BlockFactoryOrangeFour();
+	public static final Block FACTORY_BLOCK_VENT_WALL =  new BlockFactoryVentWall();	
 	
 	public static void registerBlocks() {
 		
@@ -81,6 +83,7 @@ public class BlocksInit {
         setRegister(FACTORY_BLOCK_LAMP_ONE);
         setRegister(FACTORY_BLOCK_LAMP_TWO);
         setRegister(FACTORY_BLOCK_ORANGE_FOUR);
+        setRegister(FACTORY_BLOCK_VENT_WALL);
         
     }
 
@@ -109,6 +112,7 @@ public class BlocksInit {
         setRender(FACTORY_BLOCK_LAMP_ONE);
         setRender(FACTORY_BLOCK_LAMP_TWO);
         setRender(FACTORY_BLOCK_ORANGE_FOUR);
+        setRender(FACTORY_BLOCK_VENT_WALL);
         
     }
 
