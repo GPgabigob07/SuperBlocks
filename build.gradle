@@ -18,8 +18,8 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 version = "alfa-0.1"
-group = "com.maxfreemen.superblocks"
-archivesBaseName = "superblocks"
+group = "com.maxfreemen.extendedblocks"
+archivesBaseName = "extendedblocks"
 
 sourceCompatibility = targetCompatibility = '1.8'
 
