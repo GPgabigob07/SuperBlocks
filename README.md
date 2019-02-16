@@ -1,2 +1,2 @@
 # SuperBlocks
-This mod adds to Minecraft new building blocks.
+This mod adds new building blocks to Minecraft.
