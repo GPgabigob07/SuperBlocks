@@ -1,51 +1,50 @@
 Symbol range map extraction starting
 Processing 33 files
-startProcessing "com\maxfreemen\superblocks\SuperBlocks.java" md5: 73677a7a1b93822cce80ba6aa65932e1
-Cache Hit!
+startProcessing "com\maxfreemen\superblocks\SuperBlocks.java" md5: 948ebee60ba4f916b48dcaa393161bbc
 @|com\maxfreemen\superblocks\SuperBlocks.java|8|34|com.maxfreemen.superblocks|package|com.maxfreemen.superblocks|(file)
 Class Start: com.maxfreemen.superblocks.SuperBlocks
    @|com\maxfreemen\superblocks\SuperBlocks.java|448|451|Mod|class|net.minecraftforge.fml.common.Mod
    @|com\maxfreemen\superblocks\SuperBlocks.java|452|457|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
-   @|com\maxfreemen\superblocks\SuperBlocks.java|475|479|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
-   @|com\maxfreemen\superblocks\SuperBlocks.java|498|505|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
-   @|com\maxfreemen\superblocks\SuperBlocks.java|520|532|dependencies|method|net.minecraftforge.fml.common.Mod|dependencies|()Ljava/lang/String;
-   @|com\maxfreemen\superblocks\SuperBlocks.java|575|586|useMetadata|method|net.minecraftforge.fml.common.Mod|useMetadata|()Z
-   @|com\maxfreemen\superblocks\SuperBlocks.java|595|620|acceptedMinecraftVersions|method|net.minecraftforge.fml.common.Mod|acceptedMinecraftVersions|()Ljava/lang/String;
-   @|com\maxfreemen\superblocks\SuperBlocks.java|635|646|modLanguage|method|net.minecraftforge.fml.common.Mod|modLanguage|()Ljava/lang/String;
-   @|com\maxfreemen\superblocks\SuperBlocks.java|657|667|updateJSON|method|net.minecraftforge.fml.common.Mod|updateJSON|()Ljava/lang/String;
-   @|com\maxfreemen\superblocks\SuperBlocks.java|764|775|SuperBlocks|class|com.maxfreemen.superblocks.SuperBlocks
-   @|com\maxfreemen\superblocks\SuperBlocks.java|931|942|CommonProxy|class|com.maxfreemen.superblocks.common.CommonProxy
-   @|com\maxfreemen\superblocks\SuperBlocks.java|781|791|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
-   @|com\maxfreemen\superblocks\SuperBlocks.java|792|802|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
-   @|com\maxfreemen\superblocks\SuperBlocks.java|854|864|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
-   @|com\maxfreemen\superblocks\SuperBlocks.java|931|942|CommonProxy|class|com.maxfreemen.superblocks.common.CommonProxy
-   @|com\maxfreemen\superblocks\SuperBlocks.java|943|948|proxy|field|com.maxfreemen.superblocks.SuperBlocks|proxy|
+   @|com\maxfreemen\superblocks\SuperBlocks.java|478|482|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|504|511|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|526|538|dependencies|method|net.minecraftforge.fml.common.Mod|dependencies|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|581|592|useMetadata|method|net.minecraftforge.fml.common.Mod|useMetadata|()Z
+   @|com\maxfreemen\superblocks\SuperBlocks.java|601|626|acceptedMinecraftVersions|method|net.minecraftforge.fml.common.Mod|acceptedMinecraftVersions|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|641|652|modLanguage|method|net.minecraftforge.fml.common.Mod|modLanguage|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|663|673|updateJSON|method|net.minecraftforge.fml.common.Mod|updateJSON|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|770|781|SuperBlocks|class|com.maxfreemen.superblocks.SuperBlocks
+   @|com\maxfreemen\superblocks\SuperBlocks.java|937|948|CommonProxy|class|com.maxfreemen.superblocks.common.CommonProxy
+   @|com\maxfreemen\superblocks\SuperBlocks.java|787|797|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|com\maxfreemen\superblocks\SuperBlocks.java|798|808|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|860|870|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com\maxfreemen\superblocks\SuperBlocks.java|937|948|CommonProxy|class|com.maxfreemen.superblocks.common.CommonProxy
+   @|com\maxfreemen\superblocks\SuperBlocks.java|949|954|proxy|field|com.maxfreemen.superblocks.SuperBlocks|proxy|
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1014|1019|event|param|com.maxfreemen.superblocks.SuperBlocks|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|com\maxfreemen\superblocks\SuperBlocks.java|954|966|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|com\maxfreemen\superblocks\SuperBlocks.java|980|987|preInit|method|com.maxfreemen.superblocks.SuperBlocks|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|com\maxfreemen\superblocks\SuperBlocks.java|988|1013|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1031|1036|proxy|field|com.maxfreemen.superblocks.SuperBlocks|proxy
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1037|1044|preInit|method|com.maxfreemen.superblocks.common.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1045|1050|event|param|com.maxfreemen.superblocks.SuperBlocks|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1020|1025|event|param|com.maxfreemen.superblocks.SuperBlocks|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\SuperBlocks.java|960|972|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\maxfreemen\superblocks\SuperBlocks.java|986|993|preInit|method|com.maxfreemen.superblocks.SuperBlocks|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\maxfreemen\superblocks\SuperBlocks.java|994|1019|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1037|1042|proxy|field|com.maxfreemen.superblocks.SuperBlocks|proxy
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1043|1050|preInit|method|com.maxfreemen.superblocks.common.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1051|1056|event|param|com.maxfreemen.superblocks.SuperBlocks|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1119|1124|event|param|com.maxfreemen.superblocks.SuperBlocks|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1065|1077|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1091|1095|init|method|com.maxfreemen.superblocks.SuperBlocks|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1096|1118|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1136|1141|proxy|field|com.maxfreemen.superblocks.SuperBlocks|proxy
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1142|1146|init|method|com.maxfreemen.superblocks.common.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1147|1152|event|param|com.maxfreemen.superblocks.SuperBlocks|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1125|1130|event|param|com.maxfreemen.superblocks.SuperBlocks|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1071|1083|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1097|1101|init|method|com.maxfreemen.superblocks.SuperBlocks|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1102|1124|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1142|1147|proxy|field|com.maxfreemen.superblocks.SuperBlocks|proxy
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1148|1152|init|method|com.maxfreemen.superblocks.common.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1153|1158|event|param|com.maxfreemen.superblocks.SuperBlocks|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
    Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1229|1234|event|param|com.maxfreemen.superblocks.SuperBlocks|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1167|1179|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1193|1201|postInit|method|com.maxfreemen.superblocks.SuperBlocks|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1202|1228|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1246|1251|proxy|field|com.maxfreemen.superblocks.SuperBlocks|proxy
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1252|1260|postInit|method|com.maxfreemen.superblocks.common.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|com\maxfreemen\superblocks\SuperBlocks.java|1261|1266|event|param|com.maxfreemen.superblocks.SuperBlocks|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1235|1240|event|param|com.maxfreemen.superblocks.SuperBlocks|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1173|1185|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1199|1207|postInit|method|com.maxfreemen.superblocks.SuperBlocks|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1208|1234|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1252|1257|proxy|field|com.maxfreemen.superblocks.SuperBlocks|proxy
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1258|1266|postInit|method|com.maxfreemen.superblocks.common.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\maxfreemen\superblocks\SuperBlocks.java|1267|1272|event|param|com.maxfreemen.superblocks.SuperBlocks|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
    Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
 Class End  : com.maxfreemen.superblocks.SuperBlocks
 endProcessing "com\maxfreemen\superblocks\SuperBlocks.java"
