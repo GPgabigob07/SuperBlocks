@@ -21,6 +21,7 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryLight;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryLightPipe;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryTop;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLamp;
+import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowOne;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentA;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentB;
 
@@ -57,7 +58,8 @@ public class BlocksInit {
 	public static final Block FACTORY_BLOCK_LAMP_ONE =  new BlockFactoryLampOne();	
 	public static final Block FACTORY_BLOCK_LAMP_TWO =  new BlockFactoryLampTwo();	
 	public static final Block FACTORY_BLOCK_ORANGE_FOUR =  new BlockFactoryOrangeFour();
-	public static final Block FACTORY_BLOCK_VENT_WALL =  new BlockFactoryVentWall();	
+	public static final Block FACTORY_BLOCK_VENT_WALL =  new BlockFactoryVentWall();
+	public static final Block ROAD_YELLOW_ONE = new BlockRoadYellowOne();
 	
 	public static void registerBlocks() {
 		
@@ -84,6 +86,7 @@ public class BlocksInit {
         setRegister(FACTORY_BLOCK_LAMP_TWO);
         setRegister(FACTORY_BLOCK_ORANGE_FOUR);
         setRegister(FACTORY_BLOCK_VENT_WALL);
+        setRegister(ROAD_YELLOW_ONE);
         
     }
 
@@ -113,6 +116,7 @@ public class BlocksInit {
         setRender(FACTORY_BLOCK_LAMP_TWO);
         setRender(FACTORY_BLOCK_ORANGE_FOUR);
         setRender(FACTORY_BLOCK_VENT_WALL);
+        setRender(ROAD_YELLOW_ONE);
         
     }
 

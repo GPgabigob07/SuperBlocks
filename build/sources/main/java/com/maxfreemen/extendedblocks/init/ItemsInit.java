@@ -1,6 +1,7 @@
 package com.maxfreemen.extendedblocks.init;
 
 import com.maxfreemen.extendedblocks.common.items.ItemFactorySword;
+import com.maxfreemen.extendedblocks.common.items.ItemRoadSword;
 import com.maxfreemen.extendedblocks.common.items.ItemTestSword;
 
 import net.minecraft.client.Minecraft;
@@ -24,11 +25,13 @@ public class ItemsInit {
 	
 	public static final ItemSword TEST_SWORD = new ItemTestSword();
 	public static final ItemSword FACTORY_SWORD = new ItemFactorySword();
+	public static final ItemSword ROAD_SWORD = new ItemRoadSword();
 
 	public static void registerItems() {
 		
         setRegister(TEST_SWORD);
         setRegister(FACTORY_SWORD);
+        setRegister(ROAD_SWORD);
         
     }
 
@@ -37,6 +40,7 @@ public class ItemsInit {
     	
         setRender(TEST_SWORD);
         setRender(FACTORY_SWORD);
+        setRender(ROAD_SWORD);
         
     }
 

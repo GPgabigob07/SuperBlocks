@@ -1,5 +1,6 @@
 itemGroup.laboratory=Блоки лаборатории
 itemGroup.factory=Блоки фабрики
+itemGroup.road=Блоки дороги
 tile.extendedblocks.laboratory_block.name=Блок лаборатории
 tile.extendedblocks.lamp.name=Лампа
 item.extendedblocks.test_sword.name=Тестовый меч
@@ -24,3 +25,4 @@ tile.extendedblocks.factory_block_orange_lamp.name=Оранжевая фабри
 tile.extendedblocks.factory_block_lamp_one.name=Фабричная лампа А
 tile.extendedblocks.factory_block_lamp_two.name=Фабричная лампа Б
 tile.extendedblocks.factory_block_orange_four.name=Оранжевый потолок фабрики
+tile.road_yellow_one.name=Блок дороги с жёлтой разметкой

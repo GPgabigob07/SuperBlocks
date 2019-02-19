@@ -1,5 +1,6 @@
 itemGroup.laboratory=Blocks for laboratory
 itemGroup.factory=Blocks for factory
+itemGroup.road=Road blocks
 tile.extendedblocks.laboratory_block.name=Laboratory block
 tile.extendedblocks.lamp.name=Lamp
 item.extendedblocks.test_sword.name=Test sword
@@ -24,3 +25,4 @@ tile.extendedblocks.factory_block_orange_lamp.name=Orange factory lamp
 tile.extendedblocks.factory_block_lamp_one.name=Factory lamp A
 tile.extendedblocks.factory_block_lamp_two.name=Factory lamp B
 tile.extendedblocks.factory_block_orange_four.name=Orange factory ceiling
+tile.road_yellow_one.name=Yellow road
