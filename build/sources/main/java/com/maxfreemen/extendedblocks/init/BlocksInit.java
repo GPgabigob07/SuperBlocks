@@ -1,5 +1,6 @@
 package com.maxfreemen.extendedblocks.init;
 
+import com.maxfreemen.extendedblocks.common.blocks.BlockBench;
 import com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryLampOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryLampTwo;
@@ -78,6 +79,7 @@ public class BlocksInit {
 	public static final Block ROAD_WHITE_THREE = new BlockRoadWhiteThree();
 	public static final Block ROAD_WHITE_FOUR = new BlockRoadWhiteFour();
 	public static final Block CEMENT_MIXER = new BlockCementmixer();
+	public static final Block BENCH_BLOCK = new BlockBench();
 
 	
 	public static void registerBlocks() {
@@ -115,6 +117,7 @@ public class BlocksInit {
         setRegister(ROAD_WHITE_THREE);
         setRegister(ROAD_WHITE_FOUR);
         setRegister(CEMENT_MIXER);
+        setRegister(BENCH_BLOCK);
         
         
     }
@@ -155,6 +158,7 @@ public class BlocksInit {
         setRender(ROAD_WHITE_THREE);
         setRender(ROAD_WHITE_FOUR);
         setRender(CEMENT_MIXER);
+        setRender(BENCH_BLOCK);
         
     }
 

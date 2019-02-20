@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "extendedblocks:bench_block" },
+        "facing=west": { "model": "extendedblocks:bench_block", "y": 90 },
+        "facing=north": { "model": "extendedblocks:bench_block", "y": 180 },
+        "facing=east": { "model": "extendedblocks:bench_block", "y": 270 }
+    }
+}
