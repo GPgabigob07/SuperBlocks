@@ -22,6 +22,10 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryLightPipe;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryTop;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLamp;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadBasic;
+import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteFour;
+import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteOne;
+import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteThree;
+import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowFour;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowThree;
@@ -68,6 +72,11 @@ public class BlocksInit {
 	public static final Block ROAD_YELLOW_THREE = new BlockRoadYellowThree();
 	public static final Block ROAD_YELLOW_FOUR = new BlockRoadYellowFour();
 	public static final Block ROAD_BLOCK_BASIC = new BlockRoadBasic();
+	public static final Block ROAD_WHITE_ONE = new BlockRoadWhiteOne();
+	public static final Block ROAD_WHITE_TWO = new BlockRoadWhiteTwo();
+	public static final Block ROAD_WHITE_THREE = new BlockRoadWhiteThree();
+	public static final Block ROAD_WHITE_FOUR = new BlockRoadWhiteFour();
+
 	
 	public static void registerBlocks() {
 		
@@ -99,6 +108,10 @@ public class BlocksInit {
         setRegister(ROAD_YELLOW_THREE);
         setRegister(ROAD_YELLOW_FOUR);
         setRegister(ROAD_BLOCK_BASIC);
+        setRegister(ROAD_WHITE_ONE);
+        setRegister(ROAD_WHITE_TWO);
+        setRegister(ROAD_WHITE_THREE);
+        setRegister(ROAD_WHITE_FOUR);
         
     }
 
@@ -133,6 +146,10 @@ public class BlocksInit {
         setRender(ROAD_YELLOW_THREE);
         setRender(ROAD_YELLOW_FOUR);
         setRender(ROAD_BLOCK_BASIC);
+        setRender(ROAD_WHITE_ONE);
+        setRender(ROAD_WHITE_TWO);
+        setRender(ROAD_WHITE_THREE);
+        setRender(ROAD_WHITE_FOUR);
         
     }
 
