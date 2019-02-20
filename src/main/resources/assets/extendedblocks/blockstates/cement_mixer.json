@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "extendedblocks:cement_mixer" },
+        "facing=west": { "model": "extendedblocks:cement_mixer", "y": 90 },
+        "facing=north": { "model": "extendedblocks:cement_mixer", "y": 180 },
+        "facing=east": { "model": "extendedblocks:cement_mixer", "y": 270 }
+    }
+}
