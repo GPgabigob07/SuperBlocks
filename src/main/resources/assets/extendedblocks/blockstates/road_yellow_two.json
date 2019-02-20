@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "extendedblocks:road_yellow_two" },
+        "facing=west": { "model": "extendedblocks:road_yellow_two", "y": 90 },
+        "facing=north": { "model": "extendedblocks:road_yellow_two", "y": 180 },
+        "facing=east": { "model": "extendedblocks:road_yellow_two", "y": 270 }
+    }
+}

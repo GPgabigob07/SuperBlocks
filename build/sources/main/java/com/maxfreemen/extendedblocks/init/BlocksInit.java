@@ -21,7 +21,11 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryLight;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryLightPipe;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryTop;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLamp;
+import com.maxfreemen.extendedblocks.common.blocks.BlockRoadBasic;
+import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowFour;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowOne;
+import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowThree;
+import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowTwo;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentA;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentB;
 
@@ -60,6 +64,10 @@ public class BlocksInit {
 	public static final Block FACTORY_BLOCK_ORANGE_FOUR =  new BlockFactoryOrangeFour();
 	public static final Block FACTORY_BLOCK_VENT_WALL =  new BlockFactoryVentWall();
 	public static final Block ROAD_YELLOW_ONE = new BlockRoadYellowOne();
+	public static final Block ROAD_YELLOW_TWO = new BlockRoadYellowTwo();
+	public static final Block ROAD_YELLOW_THREE = new BlockRoadYellowThree();
+	public static final Block ROAD_YELLOW_FOUR = new BlockRoadYellowFour();
+	public static final Block ROAD_BLOCK_BASIC = new BlockRoadBasic();
 	
 	public static void registerBlocks() {
 		
@@ -87,6 +95,10 @@ public class BlocksInit {
         setRegister(FACTORY_BLOCK_ORANGE_FOUR);
         setRegister(FACTORY_BLOCK_VENT_WALL);
         setRegister(ROAD_YELLOW_ONE);
+        setRegister(ROAD_YELLOW_TWO);
+        setRegister(ROAD_YELLOW_THREE);
+        setRegister(ROAD_YELLOW_FOUR);
+        setRegister(ROAD_BLOCK_BASIC);
         
     }
 
@@ -117,6 +129,10 @@ public class BlocksInit {
         setRender(FACTORY_BLOCK_ORANGE_FOUR);
         setRender(FACTORY_BLOCK_VENT_WALL);
         setRender(ROAD_YELLOW_ONE);
+        setRender(ROAD_YELLOW_TWO);
+        setRender(ROAD_YELLOW_THREE);
+        setRender(ROAD_YELLOW_FOUR);
+        setRender(ROAD_BLOCK_BASIC);
         
     }
 

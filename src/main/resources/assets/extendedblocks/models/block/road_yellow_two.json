@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "extendedblocks:blocks/road_yellow_two",
+        "side": "extendedblocks:blocks/road_base",
+        "front": "extendedblocks:blocks/road_base"
+    }
+}

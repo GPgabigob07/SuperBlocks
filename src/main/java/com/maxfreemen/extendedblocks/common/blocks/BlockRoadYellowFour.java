@@ -16,20 +16,20 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class BlockRoadYellowOne extends Block {
+public class BlockRoadYellowFour extends Block {
 	
 	public static final PropertyDirection FACING = BlockHorizontal.FACING;
 
-	public BlockRoadYellowOne() {
+	public BlockRoadYellowFour() {
 		
 		super(Material.ROCK);
 		
 		this.setCreativeTab(TabsInit.ROAD_BLOCKS);
 		this.setHardness(2.0F);
 		this.setHarvestLevel("pickaxe", 0);
-		this.setRegistryName("road_yellow_one");
+		this.setRegistryName("road_yellow_four");
 		this.setResistance(20.0F);
-		this.setUnlocalizedName("extendedblocks.road_yellow_one");
+		this.setUnlocalizedName("extendedblocks.road_yellow_four");
 		this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 		
 	}
