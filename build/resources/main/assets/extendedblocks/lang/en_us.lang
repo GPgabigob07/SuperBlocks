@@ -1,6 +1,8 @@
 itemGroup.laboratory=Blocks for laboratory
 itemGroup.factory=Blocks for factory
 itemGroup.road=Road blocks
+itemGroup.crafting=Crafting stations
+
 tile.extendedblocks.laboratory_block.name=Laboratory block
 tile.extendedblocks.lamp.name=Lamp
 item.extendedblocks.test_sword.name=Test sword

@@ -1,6 +1,8 @@
 itemGroup.laboratory=Блоки лаборатории
 itemGroup.factory=Блоки фабрики
 itemGroup.road=Блоки дороги
+itemGroup.crafting=Станции для крафта
+
 tile.extendedblocks.laboratory_block.name=Блок лаборатории
 tile.extendedblocks.lamp.name=Лампа
 item.extendedblocks.test_sword.name=Тестовый меч

@@ -24,7 +24,7 @@ public class BlockCementmixer extends Block {
 		
 		super(Material.ROCK);
 		
-		this.setCreativeTab(TabsInit.FACTORY_BLOCKS);
+		this.setCreativeTab(TabsInit.CRAFTING_BLOCKS);
 		this.setHardness(2.0F);
 		this.setHarvestLevel("pickaxe", 2);
 		this.setRegistryName("cement_mixer");

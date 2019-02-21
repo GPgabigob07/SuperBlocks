@@ -1,7 +1,6 @@
 Symbol range map extraction starting
-Processing 45 files
-startProcessing "com\maxfreemen\extendedblocks\SuperBlocks.java" md5: ebc0f702b480b0cc7577b77a669b4fee
-Cache Hit!
+Processing 48 files
+startProcessing "com\maxfreemen\extendedblocks\SuperBlocks.java" md5: 9f0d650aa7f2e244e1927b23a13a91de
 @|com\maxfreemen\extendedblocks\SuperBlocks.java|8|37|com.maxfreemen.extendedblocks|package|com.maxfreemen.extendedblocks|(file)
 Class Start: com.maxfreemen.extendedblocks.SuperBlocks
    @|com\maxfreemen\extendedblocks\SuperBlocks.java|454|457|Mod|class|net.minecraftforge.fml.common.Mod
@@ -114,29 +113,259 @@ Class Start: com.maxfreemen.extendedblocks.common.CommonProxy
 Class End  : com.maxfreemen.extendedblocks.common.CommonProxy
 endProcessing "com\maxfreemen\extendedblocks\common\CommonProxy.java"
 
-startProcessing "com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java" md5: dae30778393c4e32c15bc989f82c1d89
+startProcessing "com\maxfreemen\extendedblocks\common\blocks\BlockBench.java" md5: 245276a24aef5f20d0ddac180a3ff4c7
+@|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|8|51|com.maxfreemen.extendedblocks.common.blocks|package|com.maxfreemen.extendedblocks.common.blocks|(file)
+Class Start: com.maxfreemen.extendedblocks.common.blocks.BlockBench
+   @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|680|690|BlockBench|class|com.maxfreemen.extendedblocks.common.blocks.BlockBench
+   @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|699|704|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|729|746|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection
+   @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|729|746|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection
+   @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|747|753|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockBench|FACING|
+   @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|756|771|BlockHorizontal|class|net.minecraft.block.BlockHorizontal
+   @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|772|778|FACING|field|net.minecraft.block.BlockHorizontal|FACING
+   Method Start: BlockBench()V
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|789|799|BlockBench|method|com.maxfreemen.extendedblocks.common.blocks.BlockBench|BlockBench|()V
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|815|823|Material|class|net.minecraft.block.material.Material
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|824|828|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|841|855|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|856|864|TabsInit|class|com.maxfreemen.extendedblocks.init.TabsInit
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|865|880|CRAFTING_BLOCKS|field|com.maxfreemen.extendedblocks.init.TabsInit|CRAFTING_BLOCKS
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|890|901|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|916|931|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|954|969|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|993|1006|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1022|1040|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1079|1094|setDefaultState|method|net.minecraft.block.Block|setDefaultState|(Lnet/minecraft/block/state/IBlockState;)V
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1100|1110|blockState|field|net.minecraft.block.Block|blockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1111|1123|getBaseState|method|net.minecraft.block.state.BlockStateContainer|getBaseState|()Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1126|1138|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1139|1145|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockBench|FACING
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1147|1157|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1158|1163|NORTH|field|net.minecraft.util.EnumFacing|NORTH
+   Method End: BlockBench()V
+   Method Start: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1230|1235|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1177|1185|Override|class|java.lang.Override
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1205|1217|isOpaqueCube|method|net.minecraft.block.Block|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1218|1229|IBlockState|class|net.minecraft.block.state.IBlockState
+   Method End: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
+   Method Start: isFullCube(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1328|1333|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|isFullCube|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1277|1285|Override|class|java.lang.Override
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1305|1315|isFullCube|method|net.minecraft.block.Block|isFullCube|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1316|1327|IBlockState|class|net.minecraft.block.state.IBlockState
+   Method End: isFullCube(Lnet/minecraft/block/state/IBlockState;)Z
+   Method Start: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1382|1401|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1402|1418|createBlockState|method|net.minecraft.block.Block|createBlockState|()Lnet/minecraft/block/state/BlockStateContainer;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1446|1465|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1476|1485|IProperty|class|net.minecraft.block.properties.IProperty
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1489|1495|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockBench|FACING
+   Method End: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
+   Method Start: withRotation(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1554|1559|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1570|1573|rot|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|rot|1
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1517|1528|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1529|1541|withRotation|method|net.minecraft.block.Block|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1542|1553|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1561|1569|Rotation|class|net.minecraft.util.Rotation
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1596|1601|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1602|1614|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1615|1621|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockBench|FACING
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1623|1626|rot|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|rot|1
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1627|1633|rotate|method|net.minecraft.util.Rotation|rotate|(Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1635|1645|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1646|1651|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1652|1660|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1661|1667|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockBench|FACING
+   Method End: withRotation(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;
+   Method Start: withMirror(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1725|1730|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1739|1747|mirrorIn|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|mirrorIn|1
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1690|1701|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1702|1712|withMirror|method|net.minecraft.block.Block|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1713|1724|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1732|1738|Mirror|class|net.minecraft.util.Mirror
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1770|1775|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1776|1788|withRotation|method|net.minecraft.block.state.IBlockProperties|withRotation|(Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1789|1797|mirrorIn|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|mirrorIn|1
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1798|1808|toRotation|method|net.minecraft.util.Mirror|toRotation|(Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1810|1820|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1821|1826|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1827|1835|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1836|1842|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockBench|FACING
+   Method End: withMirror(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;
+   Method Start: getStateForPlacement(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1904|1911|worldIn|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|worldIn|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1922|1925|pos|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|pos|1
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1938|1944|facing|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|facing|2
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1952|1956|hitX|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitX|3
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1964|1968|hitY|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitY|4
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1976|1980|hitZ|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitZ|5
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1986|1990|meta|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|meta|6
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2009|2015|placer|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|placer|7
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1865|1876|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1877|1897|getStateForPlacement|method|net.minecraft.block.Block|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1898|1903|World|class|net.minecraft.world.World
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1913|1921|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1927|1937|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|1992|2008|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2043|2058|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2061|2073|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2074|2080|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockBench|FACING
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2082|2088|placer|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|placer|7
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2089|2108|getHorizontalFacing|method|net.minecraft.entity.Entity|getHorizontalFacing|()Lnet/minecraft/util/EnumFacing;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2111|2122|getOpposite|method|net.minecraft.util.EnumFacing|getOpposite|()Lnet/minecraft/util/EnumFacing;
+   Method End: getStateForPlacement(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+   Method Start: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2178|2183|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2149|2165|getMetaFromState|method|net.minecraft.block.Block|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2166|2177|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2228|2238|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2239|2244|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2245|2253|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2254|2260|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockBench|FACING
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2263|2281|getHorizontalIndex|method|net.minecraft.util.EnumFacing|getHorizontalIndex|()I
+   Method End: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
+   Method Start: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2358|2362|meta|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2325|2336|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2337|2353|getStateFromMeta|method|net.minecraft.block.Block|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2390|2405|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2408|2420|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2421|2427|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockBench|FACING
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2429|2439|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2440|2453|getHorizontal|method|net.minecraft.util.EnumFacing|getHorizontal|(I)Lnet/minecraft/util/EnumFacing;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockBench.java|2454|2458|meta|param|com.maxfreemen.extendedblocks.common.blocks.BlockBench|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+   Method End: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
+Class End  : com.maxfreemen.extendedblocks.common.blocks.BlockBench
+endProcessing "com\maxfreemen\extendedblocks\common\blocks\BlockBench.java"
+
+startProcessing "com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java" md5: 86a170205dd3f41264624d56a7c7101e
 @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|8|51|com.maxfreemen.extendedblocks.common.blocks|package|com.maxfreemen.extendedblocks.common.blocks|(file)
 Class Start: com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer
-   @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|304|320|BlockCementmixer|class|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer
-   @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|329|334|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|359|376|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection
-   @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|359|376|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection
-   @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|377|383|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|FACING|
-   @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|386|401|BlockHorizontal|class|net.minecraft.block.BlockHorizontal
-   @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|402|408|FACING|field|net.minecraft.block.BlockHorizontal|FACING
+   @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|680|696|BlockCementmixer|class|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer
+   @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|705|710|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|736|753|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection
+   @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|736|753|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection
+   @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|754|760|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|FACING|
+   @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|763|778|BlockHorizontal|class|net.minecraft.block.BlockHorizontal
+   @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|779|785|FACING|field|net.minecraft.block.BlockHorizontal|FACING
    Method Start: BlockCementmixer()V
-      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|419|435|BlockCementmixer|method|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|BlockCementmixer|()V
-      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|451|459|Material|class|net.minecraft.block.material.Material
-      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|460|464|ROCK|field|net.minecraft.block.material.Material|ROCK
-      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|477|491|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
-      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|492|500|TabsInit|class|com.maxfreemen.extendedblocks.init.TabsInit
-      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|501|512|ROAD_BLOCKS|field|com.maxfreemen.extendedblocks.init.TabsInit|ROAD_BLOCKS
-      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|522|533|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
-      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|548|563|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
-      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|586|601|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
-      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|625|638|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
-      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|654|672|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|796|812|BlockCementmixer|method|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|BlockCementmixer|()V
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|828|836|Material|class|net.minecraft.block.material.Material
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|837|841|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|854|868|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|869|877|TabsInit|class|com.maxfreemen.extendedblocks.init.TabsInit
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|878|893|CRAFTING_BLOCKS|field|com.maxfreemen.extendedblocks.init.TabsInit|CRAFTING_BLOCKS
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|903|914|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|929|944|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|967|982|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1007|1020|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1036|1054|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1094|1109|setDefaultState|method|net.minecraft.block.Block|setDefaultState|(Lnet/minecraft/block/state/IBlockState;)V
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1115|1125|blockState|field|net.minecraft.block.Block|blockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1126|1138|getBaseState|method|net.minecraft.block.state.BlockStateContainer|getBaseState|()Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1141|1153|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1154|1160|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|FACING
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1162|1172|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1173|1178|NORTH|field|net.minecraft.util.EnumFacing|NORTH
    Method End: BlockCementmixer()V
+   Method Start: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1245|1250|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1192|1200|Override|class|java.lang.Override
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1220|1232|isOpaqueCube|method|net.minecraft.block.Block|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1233|1244|IBlockState|class|net.minecraft.block.state.IBlockState
+   Method End: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
+   Method Start: isFullCube(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1343|1348|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|isFullCube|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1292|1300|Override|class|java.lang.Override
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1320|1330|isFullCube|method|net.minecraft.block.Block|isFullCube|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1331|1342|IBlockState|class|net.minecraft.block.state.IBlockState
+   Method End: isFullCube(Lnet/minecraft/block/state/IBlockState;)Z
+   Method Start: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1397|1416|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1417|1433|createBlockState|method|net.minecraft.block.Block|createBlockState|()Lnet/minecraft/block/state/BlockStateContainer;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1461|1480|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1491|1500|IProperty|class|net.minecraft.block.properties.IProperty
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1504|1510|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|FACING
+   Method End: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
+   Method Start: withRotation(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1569|1574|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1585|1588|rot|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|rot|1
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1532|1543|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1544|1556|withRotation|method|net.minecraft.block.Block|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1557|1568|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1576|1584|Rotation|class|net.minecraft.util.Rotation
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1611|1616|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1617|1629|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1630|1636|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|FACING
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1638|1641|rot|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|rot|1
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1642|1648|rotate|method|net.minecraft.util.Rotation|rotate|(Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1650|1660|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1661|1666|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1667|1675|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1676|1682|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|FACING
+   Method End: withRotation(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;
+   Method Start: withMirror(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1740|1745|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1754|1762|mirrorIn|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|mirrorIn|1
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1705|1716|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1717|1727|withMirror|method|net.minecraft.block.Block|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1728|1739|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1747|1753|Mirror|class|net.minecraft.util.Mirror
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1785|1790|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1791|1803|withRotation|method|net.minecraft.block.state.IBlockProperties|withRotation|(Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1804|1812|mirrorIn|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|mirrorIn|1
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1813|1823|toRotation|method|net.minecraft.util.Mirror|toRotation|(Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1825|1835|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1836|1841|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1842|1850|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1851|1857|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|FACING
+   Method End: withMirror(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;
+   Method Start: getStateForPlacement(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1919|1926|worldIn|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|worldIn|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1937|1940|pos|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|pos|1
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1953|1959|facing|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|facing|2
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1967|1971|hitX|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitX|3
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1979|1983|hitY|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitY|4
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1991|1995|hitZ|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitZ|5
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2001|2005|meta|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|meta|6
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2024|2030|placer|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|placer|7
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1880|1891|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1892|1912|getStateForPlacement|method|net.minecraft.block.Block|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1913|1918|World|class|net.minecraft.world.World
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1928|1936|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|1942|1952|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2007|2023|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2058|2073|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2076|2088|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2089|2095|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|FACING
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2097|2103|placer|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|placer|7
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2104|2123|getHorizontalFacing|method|net.minecraft.entity.Entity|getHorizontalFacing|()Lnet/minecraft/util/EnumFacing;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2126|2137|getOpposite|method|net.minecraft.util.EnumFacing|getOpposite|()Lnet/minecraft/util/EnumFacing;
+   Method End: getStateForPlacement(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+   Method Start: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2193|2198|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2164|2180|getMetaFromState|method|net.minecraft.block.Block|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2181|2192|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2243|2253|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2254|2259|state|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2260|2268|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2269|2275|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|FACING
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2278|2296|getHorizontalIndex|method|net.minecraft.util.EnumFacing|getHorizontalIndex|()I
+   Method End: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
+   Method Start: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2373|2377|meta|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2340|2351|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2352|2368|getStateFromMeta|method|net.minecraft.block.Block|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2405|2420|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2423|2435|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2436|2442|FACING|field|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|FACING
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2444|2454|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2455|2468|getHorizontal|method|net.minecraft.util.EnumFacing|getHorizontal|(I)Lnet/minecraft/util/EnumFacing;
+      @|com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java|2469|2473|meta|param|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+   Method End: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
 Class End  : com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer
 endProcessing "com\maxfreemen\extendedblocks\common\blocks\BlockCementmixer.java"
 
@@ -1656,6 +1885,30 @@ Class Start: com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentB
 Class End  : com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentB
 endProcessing "com\maxfreemen\extendedblocks\common\blocks\LaboratoryBlockVentB.java"
 
+startProcessing "com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java" md5: 68971e6d7d80980fbbbf3ccb7882b30f
+@|com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java|8|50|com.maxfreemen.extendedblocks.common.items|package|com.maxfreemen.extendedblocks.common.items|(file)
+Class Start: com.maxfreemen.extendedblocks.common.items.ItemCraftingHammer
+   @|com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java|233|251|ItemCraftingHammer|class|com.maxfreemen.extendedblocks.common.items.ItemCraftingHammer
+   @|com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java|260|269|ItemSword|class|net.minecraft.item.ItemSword
+   Method Start: ItemCraftingHammer()V
+      @|com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java|281|299|ItemCraftingHammer|method|com.maxfreemen.extendedblocks.common.items.ItemCraftingHammer|ItemCraftingHammer|()V
+      @|com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java|315|324|ItemsInit|class|com.maxfreemen.extendedblocks.init.ItemsInit
+      @|com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java|325|343|TEST_TOOL_MATERIAL|field|com.maxfreemen.extendedblocks.init.ItemsInit|TEST_TOOL_MATERIAL
+      @|com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java|356|371|setMaxStackSize|method|net.minecraft.item.Item|setMaxStackSize|(I)Lnet/minecraft/item/Item;
+      @|com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java|383|398|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java|422|440|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+   Method End: ItemCraftingHammer()V
+   Method Start: getRarity(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumRarity;
+      @|com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java|519|524|stack|param|com.maxfreemen.extendedblocks.common.items.ItemCraftingHammer|getRarity|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumRarity;|stack|0
+      @|com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java|488|498|EnumRarity|class|net.minecraft.item.EnumRarity
+      @|com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java|499|508|getRarity|method|net.minecraft.item.Item|getRarity|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumRarity;
+      @|com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java|509|518|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java|543|552|ItemsInit|class|com.maxfreemen.extendedblocks.init.ItemsInit
+      @|com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java|553|559|COMMON|field|com.maxfreemen.extendedblocks.init.ItemsInit|COMMON
+   Method End: getRarity(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumRarity;
+Class End  : com.maxfreemen.extendedblocks.common.items.ItemCraftingHammer
+endProcessing "com\maxfreemen\extendedblocks\common\items\ItemCraftingHammer.java"
+
 startProcessing "com\maxfreemen\extendedblocks\common\items\ItemFactorySword.java" md5: cc28b93027fc2e452b8d6574afb9cab9
 Cache Hit!
 @|com\maxfreemen\extendedblocks\common\items\ItemFactorySword.java|8|50|com.maxfreemen.extendedblocks.common.items|package|com.maxfreemen.extendedblocks.common.items|(file)
@@ -1731,6 +1984,25 @@ Class Start: com.maxfreemen.extendedblocks.common.items.ItemTestSword
 Class End  : com.maxfreemen.extendedblocks.common.items.ItemTestSword
 endProcessing "com\maxfreemen\extendedblocks\common\items\ItemTestSword.java"
 
+startProcessing "com\maxfreemen\extendedblocks\creativetabs\CraftingBlocksTab.java" md5: 3554a1c78435bf9e58610e6b5f1043ed
+@|com\maxfreemen\extendedblocks\creativetabs\CraftingBlocksTab.java|8|50|com.maxfreemen.extendedblocks.creativetabs|package|com.maxfreemen.extendedblocks.creativetabs|(file)
+Class Start: com.maxfreemen.extendedblocks.creativetabs.CraftingBlocksTab
+   @|com\maxfreemen\extendedblocks\creativetabs\CraftingBlocksTab.java|205|222|CraftingBlocksTab|class|com.maxfreemen.extendedblocks.creativetabs.CraftingBlocksTab
+   @|com\maxfreemen\extendedblocks\creativetabs\CraftingBlocksTab.java|231|243|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   Method Start: CraftingBlocksTab()V
+      @|com\maxfreemen\extendedblocks\creativetabs\CraftingBlocksTab.java|255|272|CraftingBlocksTab|method|com.maxfreemen.extendedblocks.creativetabs.CraftingBlocksTab|CraftingBlocksTab|()V
+   Method End: CraftingBlocksTab()V
+   Method Start: getTabIconItem()Lnet/minecraft/item/ItemStack;
+      @|com\maxfreemen\extendedblocks\creativetabs\CraftingBlocksTab.java|310|318|Override|class|java.lang.Override
+      @|com\maxfreemen\extendedblocks\creativetabs\CraftingBlocksTab.java|330|339|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\maxfreemen\extendedblocks\creativetabs\CraftingBlocksTab.java|340|354|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/ItemStack;
+      @|com\maxfreemen\extendedblocks\creativetabs\CraftingBlocksTab.java|381|390|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\maxfreemen\extendedblocks\creativetabs\CraftingBlocksTab.java|391|400|ItemsInit|class|com.maxfreemen.extendedblocks.init.ItemsInit
+      @|com\maxfreemen\extendedblocks\creativetabs\CraftingBlocksTab.java|401|412|HAMMER_ITEM|field|com.maxfreemen.extendedblocks.init.ItemsInit|HAMMER_ITEM
+   Method End: getTabIconItem()Lnet/minecraft/item/ItemStack;
+Class End  : com.maxfreemen.extendedblocks.creativetabs.CraftingBlocksTab
+endProcessing "com\maxfreemen\extendedblocks\creativetabs\CraftingBlocksTab.java"
+
 startProcessing "com\maxfreemen\extendedblocks\creativetabs\FactoryBlocksTab.java" md5: 1d7968f78942f51b204102449ecc54a9
 Cache Hit!
 @|com\maxfreemen\extendedblocks\creativetabs\FactoryBlocksTab.java|8|50|com.maxfreemen.extendedblocks.creativetabs|package|com.maxfreemen.extendedblocks.creativetabs|(file)
@@ -1791,422 +2063,440 @@ Class Start: com.maxfreemen.extendedblocks.creativetabs.RoadBlocksTab
 Class End  : com.maxfreemen.extendedblocks.creativetabs.RoadBlocksTab
 endProcessing "com\maxfreemen\extendedblocks\creativetabs\RoadBlocksTab.java"
 
-startProcessing "com\maxfreemen\extendedblocks\init\BlocksInit.java" md5: b849b707c758b3ff0ae8c6586b412124
+startProcessing "com\maxfreemen\extendedblocks\init\BlocksInit.java" md5: 7d31c861830a71882818828e702799e7
 @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8|42|com.maxfreemen.extendedblocks.init|package|com.maxfreemen.extendedblocks.init|(file)
 Class Start: com.maxfreemen.extendedblocks.init.BlocksInit
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2814|2824|BlocksInit|class|com.maxfreemen.extendedblocks.init.BlocksInit
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2850|2855|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2850|2855|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2856|2860|LAMP|field|com.maxfreemen.extendedblocks.init.BlocksInit|LAMP|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2867|2876|BlockLamp|class|com.maxfreemen.extendedblocks.common.blocks.BlockLamp
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2901|2906|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2901|2906|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2907|2923|LABORATORY_BLOCK|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2930|2945|BlockLaboratory|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratory
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2970|2975|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2970|2975|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2976|3003|LABORATORY_BLOCK_DARK_CLEAN|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_CLEAN|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3010|3034|BlockLaboratoryDarkClean|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryDarkClean
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3059|3064|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3059|3064|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3065|3091|LABORATORY_BLOCK_DARK_PIPE|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_PIPE|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3098|3121|BlockLaboratoryDarkPipe|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryDarkPipe
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3146|3151|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3146|3151|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3152|3172|LABORATORY_BLOCK_TOP|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_TOP|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3179|3197|BlockLaboratoryTop|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryTop
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3222|3227|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3222|3227|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3228|3250|LABORATORY_BLOCK_LIGHT|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3258|3278|BlockLaboratoryLight|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryLight
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3303|3308|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3303|3308|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3309|3336|LABORATORY_BLOCK_LIGHT_PIPE|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT_PIPE|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3344|3368|BlockLaboratoryLightPipe|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryLightPipe
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3393|3398|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3393|3398|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3399|3428|LABORATORY_BLOCK_HAZARD_LIGHT|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_LIGHT|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3436|3462|BlockLaboratoryHazardLight|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryHazardLight
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3487|3492|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3487|3492|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3493|3521|LABORATORY_BLOCK_HAZARD_DARK|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_DARK|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3529|3554|BlockLaboratoryHazardDark|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryHazardDark
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3579|3584|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3579|3584|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3585|3608|LABORATORY_BLOCK_VENT_A|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_A|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3616|3636|LaboratoryBlockVentA|class|com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentA
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3661|3666|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3661|3666|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3667|3690|LABORATORY_BLOCK_VENT_B|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_B|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3698|3718|LaboratoryBlockVentB|class|com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentB
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3743|3748|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3743|3748|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3749|3773|FACTORY_BLOCK_ORANGE_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_ONE|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3781|3802|BlockFactoryOrangeOne|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryOrangeOne
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3827|3832|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3827|3832|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3833|3857|FACTORY_BLOCK_ORANGE_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_TWO|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3865|3886|BlockFactoryOrangeTwo|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryOrangeTwo
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3911|3916|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3911|3916|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3917|3943|FACTORY_BLOCK_ORANGE_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_THREE|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3951|3974|BlockFactoryOrangeThree|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryOrangeThree
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3999|4004|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3999|4004|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4005|4022|FACTORY_BLOCK_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ONE|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4030|4045|BlockFactoryOne|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryOne
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4070|4075|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4070|4075|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4076|4093|FACTORY_BLOCK_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_TWO|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4101|4116|BlockFactoryTwo|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryTwo
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4141|4146|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4141|4146|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4147|4166|FACTORY_BLOCK_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_THREE|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4174|4191|BlockFactoryThree|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryThree
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4216|4221|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4216|4221|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4222|4240|FACTORY_BLOCK_VENT|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_VENT|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4248|4264|BlockFactoryVent|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryVent
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4290|4295|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4290|4295|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4296|4321|FACTORY_BLOCK_ORANGE_LAMP|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_LAMP|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4329|4351|BlockFactoryOrangeLamp|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryOrangeLamp
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4377|4382|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4377|4382|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4383|4405|FACTORY_BLOCK_LAMP_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_LAMP_ONE|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4413|4432|BlockFactoryLampOne|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryLampOne
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4458|4463|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4458|4463|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4464|4486|FACTORY_BLOCK_LAMP_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_LAMP_TWO|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4494|4513|BlockFactoryLampTwo|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryLampTwo
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4539|4544|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4539|4544|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4545|4570|FACTORY_BLOCK_ORANGE_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_FOUR|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4578|4600|BlockFactoryOrangeFour|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryOrangeFour
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4625|4630|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4625|4630|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4631|4654|FACTORY_BLOCK_VENT_WALL|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_VENT_WALL|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4662|4682|BlockFactoryVentWall|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryVentWall
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4707|4712|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4707|4712|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4713|4728|ROAD_YELLOW_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_ONE|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4735|4753|BlockRoadYellowOne|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowOne
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4778|4783|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4778|4783|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4784|4799|ROAD_YELLOW_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_TWO|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4806|4824|BlockRoadYellowTwo|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowTwo
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4849|4854|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4849|4854|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4855|4872|ROAD_YELLOW_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_THREE|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4879|4899|BlockRoadYellowThree|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowThree
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4924|4929|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4924|4929|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4930|4946|ROAD_YELLOW_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_FOUR|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4953|4972|BlockRoadYellowFour|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowFour
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4997|5002|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4997|5002|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5003|5019|ROAD_BLOCK_BASIC|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_BLOCK_BASIC|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5026|5040|BlockRoadBasic|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadBasic
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5065|5070|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5065|5070|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5071|5085|ROAD_WHITE_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_ONE|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5092|5109|BlockRoadWhiteOne|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteOne
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5134|5139|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5134|5139|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5140|5154|ROAD_WHITE_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_TWO|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5161|5178|BlockRoadWhiteTwo|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteTwo
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5203|5208|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5203|5208|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5209|5225|ROAD_WHITE_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_THREE|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5232|5251|BlockRoadWhiteThree|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteThree
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5276|5281|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5276|5281|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5282|5297|ROAD_WHITE_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_FOUR|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5304|5322|BlockRoadWhiteFour|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteFour
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5347|5352|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5347|5352|Block|class|net.minecraft.block.Block
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5353|5364|CEMENTMIXER|field|com.maxfreemen.extendedblocks.init.BlocksInit|CEMENTMIXER|
-   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5371|5387|BlockCementmixer|class|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2877|2887|BlocksInit|class|com.maxfreemen.extendedblocks.init.BlocksInit
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2913|2918|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2913|2918|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2919|2923|LAMP|field|com.maxfreemen.extendedblocks.init.BlocksInit|LAMP|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2930|2939|BlockLamp|class|com.maxfreemen.extendedblocks.common.blocks.BlockLamp
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2964|2969|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2964|2969|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2970|2986|LABORATORY_BLOCK|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|2993|3008|BlockLaboratory|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratory
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3033|3038|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3033|3038|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3039|3066|LABORATORY_BLOCK_DARK_CLEAN|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_CLEAN|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3073|3097|BlockLaboratoryDarkClean|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryDarkClean
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3122|3127|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3122|3127|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3128|3154|LABORATORY_BLOCK_DARK_PIPE|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_PIPE|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3161|3184|BlockLaboratoryDarkPipe|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryDarkPipe
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3209|3214|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3209|3214|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3215|3235|LABORATORY_BLOCK_TOP|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_TOP|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3242|3260|BlockLaboratoryTop|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryTop
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3285|3290|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3285|3290|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3291|3313|LABORATORY_BLOCK_LIGHT|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3321|3341|BlockLaboratoryLight|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryLight
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3366|3371|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3366|3371|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3372|3399|LABORATORY_BLOCK_LIGHT_PIPE|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT_PIPE|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3407|3431|BlockLaboratoryLightPipe|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryLightPipe
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3456|3461|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3456|3461|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3462|3491|LABORATORY_BLOCK_HAZARD_LIGHT|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_LIGHT|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3499|3525|BlockLaboratoryHazardLight|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryHazardLight
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3550|3555|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3550|3555|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3556|3584|LABORATORY_BLOCK_HAZARD_DARK|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_DARK|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3592|3617|BlockLaboratoryHazardDark|class|com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryHazardDark
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3642|3647|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3642|3647|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3648|3671|LABORATORY_BLOCK_VENT_A|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_A|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3679|3699|LaboratoryBlockVentA|class|com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentA
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3724|3729|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3724|3729|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3730|3753|LABORATORY_BLOCK_VENT_B|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_B|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3761|3781|LaboratoryBlockVentB|class|com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentB
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3806|3811|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3806|3811|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3812|3836|FACTORY_BLOCK_ORANGE_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_ONE|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3844|3865|BlockFactoryOrangeOne|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryOrangeOne
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3890|3895|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3890|3895|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3896|3920|FACTORY_BLOCK_ORANGE_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_TWO|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3928|3949|BlockFactoryOrangeTwo|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryOrangeTwo
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3974|3979|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3974|3979|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|3980|4006|FACTORY_BLOCK_ORANGE_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_THREE|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4014|4037|BlockFactoryOrangeThree|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryOrangeThree
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4062|4067|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4062|4067|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4068|4085|FACTORY_BLOCK_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ONE|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4093|4108|BlockFactoryOne|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryOne
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4133|4138|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4133|4138|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4139|4156|FACTORY_BLOCK_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_TWO|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4164|4179|BlockFactoryTwo|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryTwo
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4204|4209|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4204|4209|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4210|4229|FACTORY_BLOCK_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_THREE|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4237|4254|BlockFactoryThree|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryThree
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4279|4284|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4279|4284|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4285|4303|FACTORY_BLOCK_VENT|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_VENT|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4311|4327|BlockFactoryVent|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryVent
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4353|4358|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4353|4358|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4359|4384|FACTORY_BLOCK_ORANGE_LAMP|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_LAMP|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4392|4414|BlockFactoryOrangeLamp|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryOrangeLamp
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4440|4445|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4440|4445|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4446|4468|FACTORY_BLOCK_LAMP_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_LAMP_ONE|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4476|4495|BlockFactoryLampOne|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryLampOne
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4521|4526|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4521|4526|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4527|4549|FACTORY_BLOCK_LAMP_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_LAMP_TWO|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4557|4576|BlockFactoryLampTwo|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryLampTwo
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4602|4607|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4602|4607|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4608|4633|FACTORY_BLOCK_ORANGE_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_FOUR|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4641|4663|BlockFactoryOrangeFour|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryOrangeFour
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4688|4693|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4688|4693|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4694|4717|FACTORY_BLOCK_VENT_WALL|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_VENT_WALL|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4725|4745|BlockFactoryVentWall|class|com.maxfreemen.extendedblocks.common.blocks.BlockFactoryVentWall
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4770|4775|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4770|4775|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4776|4791|ROAD_YELLOW_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_ONE|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4798|4816|BlockRoadYellowOne|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowOne
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4841|4846|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4841|4846|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4847|4862|ROAD_YELLOW_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_TWO|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4869|4887|BlockRoadYellowTwo|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowTwo
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4912|4917|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4912|4917|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4918|4935|ROAD_YELLOW_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_THREE|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4942|4962|BlockRoadYellowThree|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowThree
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4987|4992|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4987|4992|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|4993|5009|ROAD_YELLOW_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_FOUR|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5016|5035|BlockRoadYellowFour|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowFour
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5060|5065|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5060|5065|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5066|5082|ROAD_BLOCK_BASIC|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_BLOCK_BASIC|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5089|5103|BlockRoadBasic|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadBasic
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5128|5133|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5128|5133|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5134|5148|ROAD_WHITE_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_ONE|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5155|5172|BlockRoadWhiteOne|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteOne
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5197|5202|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5197|5202|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5203|5217|ROAD_WHITE_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_TWO|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5224|5241|BlockRoadWhiteTwo|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteTwo
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5266|5271|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5266|5271|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5272|5288|ROAD_WHITE_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_THREE|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5295|5314|BlockRoadWhiteThree|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteThree
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5339|5344|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5339|5344|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5345|5360|ROAD_WHITE_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_FOUR|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5367|5385|BlockRoadWhiteFour|class|com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteFour
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5410|5415|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5410|5415|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5416|5428|CEMENT_MIXER|field|com.maxfreemen.extendedblocks.init.BlocksInit|CEMENT_MIXER|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5435|5451|BlockCementmixer|class|com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5476|5481|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5476|5481|Block|class|net.minecraft.block.Block
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5482|5493|BENCH_BLOCK|field|com.maxfreemen.extendedblocks.init.BlocksInit|BENCH_BLOCK|
+   @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5500|5510|BlockBench|class|com.maxfreemen.extendedblocks.common.blocks.BlockBench
    Method Start: registerBlocks()V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5413|5427|registerBlocks|method|com.maxfreemen.extendedblocks.init.BlocksInit|registerBlocks|()V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5443|5454|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5455|5459|LAMP|field|com.maxfreemen.extendedblocks.init.BlocksInit|LAMP
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5470|5481|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5482|5498|LABORATORY_BLOCK|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5509|5520|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5521|5548|LABORATORY_BLOCK_DARK_CLEAN|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_CLEAN
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5559|5570|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5571|5597|LABORATORY_BLOCK_DARK_PIPE|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_PIPE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5608|5619|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5620|5640|LABORATORY_BLOCK_TOP|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_TOP
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5651|5662|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5663|5685|LABORATORY_BLOCK_LIGHT|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5696|5707|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5708|5735|LABORATORY_BLOCK_LIGHT_PIPE|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT_PIPE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5746|5757|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5758|5787|LABORATORY_BLOCK_HAZARD_LIGHT|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_LIGHT
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5798|5809|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5810|5838|LABORATORY_BLOCK_HAZARD_DARK|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_DARK
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5849|5860|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5861|5884|LABORATORY_BLOCK_VENT_A|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_A
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5895|5906|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5907|5930|LABORATORY_BLOCK_VENT_B|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_B
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5941|5952|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5953|5977|FACTORY_BLOCK_ORANGE_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_ONE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5988|5999|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6000|6024|FACTORY_BLOCK_ORANGE_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_TWO
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6035|6046|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6047|6073|FACTORY_BLOCK_ORANGE_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_THREE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6084|6095|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6096|6113|FACTORY_BLOCK_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ONE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6124|6135|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6136|6153|FACTORY_BLOCK_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_TWO
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6164|6175|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6176|6195|FACTORY_BLOCK_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_THREE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6206|6217|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6218|6236|FACTORY_BLOCK_VENT|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_VENT
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6247|6258|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6259|6284|FACTORY_BLOCK_ORANGE_LAMP|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_LAMP
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6295|6306|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6307|6329|FACTORY_BLOCK_LAMP_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_LAMP_ONE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6340|6351|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6352|6374|FACTORY_BLOCK_LAMP_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_LAMP_TWO
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6385|6396|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6397|6422|FACTORY_BLOCK_ORANGE_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_FOUR
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6433|6444|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6445|6468|FACTORY_BLOCK_VENT_WALL|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_VENT_WALL
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6479|6490|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6491|6506|ROAD_YELLOW_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_ONE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6517|6528|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6529|6544|ROAD_YELLOW_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_TWO
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6555|6566|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6567|6584|ROAD_YELLOW_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_THREE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6595|6606|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6607|6623|ROAD_YELLOW_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_FOUR
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6634|6645|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6646|6662|ROAD_BLOCK_BASIC|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_BLOCK_BASIC
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6673|6684|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6685|6699|ROAD_WHITE_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_ONE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6710|6721|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6722|6736|ROAD_WHITE_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_TWO
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6747|6758|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6759|6775|ROAD_WHITE_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_THREE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6786|6797|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6798|6813|ROAD_WHITE_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_FOUR
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6824|6835|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6836|6847|CEMENTMIXER|field|com.maxfreemen.extendedblocks.init.BlocksInit|CEMENTMIXER
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5537|5551|registerBlocks|method|com.maxfreemen.extendedblocks.init.BlocksInit|registerBlocks|()V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5567|5578|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5579|5583|LAMP|field|com.maxfreemen.extendedblocks.init.BlocksInit|LAMP
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5594|5605|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5606|5622|LABORATORY_BLOCK|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5633|5644|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5645|5672|LABORATORY_BLOCK_DARK_CLEAN|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_CLEAN
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5683|5694|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5695|5721|LABORATORY_BLOCK_DARK_PIPE|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_PIPE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5732|5743|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5744|5764|LABORATORY_BLOCK_TOP|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_TOP
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5775|5786|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5787|5809|LABORATORY_BLOCK_LIGHT|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5820|5831|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5832|5859|LABORATORY_BLOCK_LIGHT_PIPE|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT_PIPE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5870|5881|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5882|5911|LABORATORY_BLOCK_HAZARD_LIGHT|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_LIGHT
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5922|5933|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5934|5962|LABORATORY_BLOCK_HAZARD_DARK|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_DARK
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5973|5984|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|5985|6008|LABORATORY_BLOCK_VENT_A|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_A
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6019|6030|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6031|6054|LABORATORY_BLOCK_VENT_B|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_B
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6065|6076|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6077|6101|FACTORY_BLOCK_ORANGE_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_ONE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6112|6123|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6124|6148|FACTORY_BLOCK_ORANGE_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_TWO
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6159|6170|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6171|6197|FACTORY_BLOCK_ORANGE_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_THREE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6208|6219|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6220|6237|FACTORY_BLOCK_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ONE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6248|6259|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6260|6277|FACTORY_BLOCK_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_TWO
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6288|6299|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6300|6319|FACTORY_BLOCK_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_THREE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6330|6341|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6342|6360|FACTORY_BLOCK_VENT|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_VENT
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6371|6382|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6383|6408|FACTORY_BLOCK_ORANGE_LAMP|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_LAMP
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6419|6430|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6431|6453|FACTORY_BLOCK_LAMP_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_LAMP_ONE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6464|6475|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6476|6498|FACTORY_BLOCK_LAMP_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_LAMP_TWO
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6509|6520|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6521|6546|FACTORY_BLOCK_ORANGE_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_FOUR
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6557|6568|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6569|6592|FACTORY_BLOCK_VENT_WALL|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_VENT_WALL
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6603|6614|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6615|6630|ROAD_YELLOW_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_ONE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6641|6652|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6653|6668|ROAD_YELLOW_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_TWO
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6679|6690|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6691|6708|ROAD_YELLOW_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_THREE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6719|6730|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6731|6747|ROAD_YELLOW_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_FOUR
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6758|6769|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6770|6786|ROAD_BLOCK_BASIC|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_BLOCK_BASIC
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6797|6808|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6809|6823|ROAD_WHITE_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_ONE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6834|6845|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6846|6860|ROAD_WHITE_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_TWO
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6871|6882|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6883|6899|ROAD_WHITE_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_THREE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6910|6921|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6922|6937|ROAD_WHITE_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_FOUR
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6948|6959|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6960|6972|CEMENT_MIXER|field|com.maxfreemen.extendedblocks.init.BlocksInit|CEMENT_MIXER
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6983|6994|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6995|7006|BENCH_BLOCK|field|com.maxfreemen.extendedblocks.init.BlocksInit|BENCH_BLOCK
    Method End: registerBlocks()V
    Method Start: registerBlockRenders()V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6880|6888|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6889|6893|Side|class|net.minecraftforge.fml.relauncher.Side
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6894|6900|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6925|6945|registerBlockRenders|method|com.maxfreemen.extendedblocks.init.BlocksInit|registerBlockRenders|()V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6964|6973|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6974|6978|LAMP|field|com.maxfreemen.extendedblocks.init.BlocksInit|LAMP
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6989|6998|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|6999|7015|LABORATORY_BLOCK|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7026|7035|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7036|7063|LABORATORY_BLOCK_DARK_CLEAN|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_CLEAN
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7074|7083|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7084|7110|LABORATORY_BLOCK_DARK_PIPE|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_PIPE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7121|7130|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7131|7151|LABORATORY_BLOCK_TOP|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_TOP
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7162|7171|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7172|7194|LABORATORY_BLOCK_LIGHT|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7205|7214|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7215|7242|LABORATORY_BLOCK_LIGHT_PIPE|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT_PIPE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7253|7262|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7263|7292|LABORATORY_BLOCK_HAZARD_LIGHT|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_LIGHT
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7303|7312|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7313|7341|LABORATORY_BLOCK_HAZARD_DARK|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_DARK
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7352|7361|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7362|7385|LABORATORY_BLOCK_VENT_A|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_A
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7396|7405|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7406|7429|LABORATORY_BLOCK_VENT_B|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_B
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7440|7449|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7450|7474|FACTORY_BLOCK_ORANGE_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_ONE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7485|7494|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7495|7519|FACTORY_BLOCK_ORANGE_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_TWO
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7530|7539|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7540|7566|FACTORY_BLOCK_ORANGE_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_THREE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7577|7586|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7587|7604|FACTORY_BLOCK_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ONE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7615|7624|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7625|7642|FACTORY_BLOCK_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_TWO
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7653|7662|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7663|7682|FACTORY_BLOCK_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_THREE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7693|7702|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7703|7721|FACTORY_BLOCK_VENT|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_VENT
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7732|7741|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7742|7767|FACTORY_BLOCK_ORANGE_LAMP|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_LAMP
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7778|7787|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7788|7810|FACTORY_BLOCK_LAMP_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_LAMP_ONE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7821|7830|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7831|7853|FACTORY_BLOCK_LAMP_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_LAMP_TWO
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7864|7873|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7874|7899|FACTORY_BLOCK_ORANGE_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_FOUR
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7910|7919|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7920|7943|FACTORY_BLOCK_VENT_WALL|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_VENT_WALL
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7954|7963|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7964|7979|ROAD_YELLOW_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_ONE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7990|7999|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8000|8015|ROAD_YELLOW_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_TWO
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8026|8035|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8036|8053|ROAD_YELLOW_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_THREE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8064|8073|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8074|8090|ROAD_YELLOW_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_FOUR
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8101|8110|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8111|8127|ROAD_BLOCK_BASIC|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_BLOCK_BASIC
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8138|8147|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8148|8162|ROAD_WHITE_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_ONE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8173|8182|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8183|8197|ROAD_WHITE_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_TWO
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8208|8217|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8218|8234|ROAD_WHITE_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_THREE
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8245|8254|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8255|8270|ROAD_WHITE_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_FOUR
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8281|8290|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8291|8302|CEMENTMIXER|field|com.maxfreemen.extendedblocks.init.BlocksInit|CEMENTMIXER
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7039|7047|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7048|7052|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7053|7059|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7084|7104|registerBlockRenders|method|com.maxfreemen.extendedblocks.init.BlocksInit|registerBlockRenders|()V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7123|7132|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7133|7137|LAMP|field|com.maxfreemen.extendedblocks.init.BlocksInit|LAMP
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7148|7157|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7158|7174|LABORATORY_BLOCK|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7185|7194|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7195|7222|LABORATORY_BLOCK_DARK_CLEAN|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_CLEAN
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7233|7242|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7243|7269|LABORATORY_BLOCK_DARK_PIPE|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_DARK_PIPE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7280|7289|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7290|7310|LABORATORY_BLOCK_TOP|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_TOP
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7321|7330|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7331|7353|LABORATORY_BLOCK_LIGHT|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7364|7373|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7374|7401|LABORATORY_BLOCK_LIGHT_PIPE|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_LIGHT_PIPE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7412|7421|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7422|7451|LABORATORY_BLOCK_HAZARD_LIGHT|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_LIGHT
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7462|7471|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7472|7500|LABORATORY_BLOCK_HAZARD_DARK|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_HAZARD_DARK
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7511|7520|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7521|7544|LABORATORY_BLOCK_VENT_A|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_A
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7555|7564|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7565|7588|LABORATORY_BLOCK_VENT_B|field|com.maxfreemen.extendedblocks.init.BlocksInit|LABORATORY_BLOCK_VENT_B
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7599|7608|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7609|7633|FACTORY_BLOCK_ORANGE_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_ONE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7644|7653|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7654|7678|FACTORY_BLOCK_ORANGE_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_TWO
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7689|7698|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7699|7725|FACTORY_BLOCK_ORANGE_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_THREE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7736|7745|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7746|7763|FACTORY_BLOCK_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ONE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7774|7783|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7784|7801|FACTORY_BLOCK_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_TWO
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7812|7821|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7822|7841|FACTORY_BLOCK_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_THREE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7852|7861|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7862|7880|FACTORY_BLOCK_VENT|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_VENT
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7891|7900|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7901|7926|FACTORY_BLOCK_ORANGE_LAMP|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_LAMP
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7937|7946|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7947|7969|FACTORY_BLOCK_LAMP_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_LAMP_ONE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7980|7989|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|7990|8012|FACTORY_BLOCK_LAMP_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_LAMP_TWO
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8023|8032|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8033|8058|FACTORY_BLOCK_ORANGE_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_ORANGE_FOUR
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8069|8078|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8079|8102|FACTORY_BLOCK_VENT_WALL|field|com.maxfreemen.extendedblocks.init.BlocksInit|FACTORY_BLOCK_VENT_WALL
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8113|8122|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8123|8138|ROAD_YELLOW_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_ONE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8149|8158|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8159|8174|ROAD_YELLOW_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_TWO
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8185|8194|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8195|8212|ROAD_YELLOW_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_THREE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8223|8232|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8233|8249|ROAD_YELLOW_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_YELLOW_FOUR
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8260|8269|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8270|8286|ROAD_BLOCK_BASIC|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_BLOCK_BASIC
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8297|8306|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8307|8321|ROAD_WHITE_ONE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_ONE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8332|8341|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8342|8356|ROAD_WHITE_TWO|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_TWO
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8367|8376|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8377|8393|ROAD_WHITE_THREE|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_THREE
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8404|8413|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8414|8429|ROAD_WHITE_FOUR|field|com.maxfreemen.extendedblocks.init.BlocksInit|ROAD_WHITE_FOUR
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8440|8449|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8450|8462|CEMENT_MIXER|field|com.maxfreemen.extendedblocks.init.BlocksInit|CEMENT_MIXER
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8473|8482|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8483|8494|BENCH_BLOCK|field|com.maxfreemen.extendedblocks.init.BlocksInit|BENCH_BLOCK
    Method End: registerBlockRenders()V
    Method Start: setRegister(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8363|8368|block|param|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V|block|0
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8345|8356|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8357|8362|Block|class|net.minecraft.block.Block
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8386|8401|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8402|8408|BLOCKS|field|net.minecraftforge.fml.common.registry.ForgeRegistries|BLOCKS
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8409|8417|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8418|8423|block|param|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V|block|0
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8434|8449|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8450|8455|ITEMS|field|net.minecraftforge.fml.common.registry.ForgeRegistries|ITEMS
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8456|8464|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8469|8478|ItemBlock|class|net.minecraft.item.ItemBlock
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8479|8484|block|param|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V|block|0
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8486|8501|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8502|8507|block|param|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V|block|0
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8508|8523|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8555|8560|block|param|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8537|8548|setRegister|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8549|8554|Block|class|net.minecraft.block.Block
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8578|8593|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8594|8600|BLOCKS|field|net.minecraftforge.fml.common.registry.ForgeRegistries|BLOCKS
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8601|8609|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8610|8615|block|param|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8626|8641|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8642|8647|ITEMS|field|net.minecraftforge.fml.common.registry.ForgeRegistries|ITEMS
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8648|8656|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8661|8670|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8671|8676|block|param|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8678|8693|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8694|8699|block|param|com.maxfreemen.extendedblocks.init.BlocksInit|setRegister|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8700|8715|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
    Method End: setRegister(Lnet/minecraft/block/Block;)V
    Method Start: setRender(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8612|8617|block|param|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V|block|0
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8550|8558|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8559|8563|Side|class|net.minecraftforge.fml.relauncher.Side
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8564|8570|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8596|8605|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8606|8611|Block|class|net.minecraft.block.Block
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8632|8641|Minecraft|class|net.minecraft.client.Minecraft
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8642|8654|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8657|8670|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8673|8691|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8694|8702|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8703|8707|Item|class|net.minecraft.item.Item
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8708|8724|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8725|8730|block|param|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V|block|0
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8740|8761|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8762|8767|block|param|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V|block|0
-      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8768|8783|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8804|8809|block|param|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8742|8750|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8751|8755|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8756|8762|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8788|8797|setRender|method|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8798|8803|Block|class|net.minecraft.block.Block
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8824|8833|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8834|8846|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8849|8862|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8865|8883|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8886|8894|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8895|8899|Item|class|net.minecraft.item.Item
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8900|8916|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8917|8922|block|param|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8932|8953|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8954|8959|block|param|com.maxfreemen.extendedblocks.init.BlocksInit|setRender|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\maxfreemen\extendedblocks\init\BlocksInit.java|8960|8975|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
    Method End: setRender(Lnet/minecraft/block/Block;)V
 Class End  : com.maxfreemen.extendedblocks.init.BlocksInit
 endProcessing "com\maxfreemen\extendedblocks\init\BlocksInit.java"
 
-startProcessing "com\maxfreemen\extendedblocks\init\ItemsInit.java" md5: 70a5e6ad6414a736470885544fdae845
-Cache Hit!
+startProcessing "com\maxfreemen\extendedblocks\init\ItemsInit.java" md5: 68f82b3ef3f4bb54510fe1855ca34598
 @|com\maxfreemen\extendedblocks\init\ItemsInit.java|8|42|com.maxfreemen.extendedblocks.init|package|com.maxfreemen.extendedblocks.init|(file)
 Class Start: com.maxfreemen.extendedblocks.init.ItemsInit
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|849|858|ItemsInit|class|com.maxfreemen.extendedblocks.init.ItemsInit
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|878|890|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|878|890|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|891|909|TEST_TOOL_MATERIAL|field|com.maxfreemen.extendedblocks.init.ItemsInit|TEST_TOOL_MATERIAL|
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|912|922|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|923|938|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1001|1014|setRepairItem|method|net.minecraft.item.Item.ToolMaterial|setRepairItem|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/Item$ToolMaterial;
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1019|1028|ItemStack|class|net.minecraft.item.ItemStack
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1029|1034|Items|class|net.minecraft.init.Items
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1035|1040|FLINT|field|net.minecraft.init.Items|FLINT
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1060|1070|EnumRarity|class|net.minecraft.item.EnumRarity
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1060|1070|EnumRarity|class|net.minecraft.item.EnumRarity
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1071|1077|COMMON|field|com.maxfreemen.extendedblocks.init.ItemsInit|COMMON|
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1080|1090|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1091|1100|addRarity|method|net.minecraftforge.common.util.EnumHelper|addRarity|(Ljava/lang/String;Lnet/minecraft/util/text/TextFormatting;Ljava/lang/String;)Lnet/minecraft/item/EnumRarity;
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1118|1132|TextFormatting|class|net.minecraft.util.text.TextFormatting
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1133|1137|GOLD|field|net.minecraft.util.text.TextFormatting|GOLD
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1167|1176|ItemSword|class|net.minecraft.item.ItemSword
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1167|1176|ItemSword|class|net.minecraft.item.ItemSword
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1177|1187|TEST_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|TEST_SWORD|
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1194|1207|ItemTestSword|class|com.maxfreemen.extendedblocks.common.items.ItemTestSword
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1232|1241|ItemSword|class|net.minecraft.item.ItemSword
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1232|1241|ItemSword|class|net.minecraft.item.ItemSword
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1242|1255|FACTORY_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|FACTORY_SWORD|
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1262|1278|ItemFactorySword|class|com.maxfreemen.extendedblocks.common.items.ItemFactorySword
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1303|1312|ItemSword|class|net.minecraft.item.ItemSword
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1303|1312|ItemSword|class|net.minecraft.item.ItemSword
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1313|1323|ROAD_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|ROAD_SWORD|
-   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1330|1343|ItemRoadSword|class|com.maxfreemen.extendedblocks.common.items.ItemRoadSword
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|919|928|ItemsInit|class|com.maxfreemen.extendedblocks.init.ItemsInit
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|948|960|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|948|960|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|961|979|TEST_TOOL_MATERIAL|field|com.maxfreemen.extendedblocks.init.ItemsInit|TEST_TOOL_MATERIAL|
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|982|992|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|993|1008|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1071|1084|setRepairItem|method|net.minecraft.item.Item.ToolMaterial|setRepairItem|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/Item$ToolMaterial;
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1089|1098|ItemStack|class|net.minecraft.item.ItemStack
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1099|1104|Items|class|net.minecraft.init.Items
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1105|1110|FLINT|field|net.minecraft.init.Items|FLINT
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1130|1140|EnumRarity|class|net.minecraft.item.EnumRarity
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1130|1140|EnumRarity|class|net.minecraft.item.EnumRarity
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1141|1147|COMMON|field|com.maxfreemen.extendedblocks.init.ItemsInit|COMMON|
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1150|1160|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1161|1170|addRarity|method|net.minecraftforge.common.util.EnumHelper|addRarity|(Ljava/lang/String;Lnet/minecraft/util/text/TextFormatting;Ljava/lang/String;)Lnet/minecraft/item/EnumRarity;
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1188|1202|TextFormatting|class|net.minecraft.util.text.TextFormatting
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1203|1207|GOLD|field|net.minecraft.util.text.TextFormatting|GOLD
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1237|1246|ItemSword|class|net.minecraft.item.ItemSword
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1237|1246|ItemSword|class|net.minecraft.item.ItemSword
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1247|1257|TEST_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|TEST_SWORD|
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1264|1277|ItemTestSword|class|com.maxfreemen.extendedblocks.common.items.ItemTestSword
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1302|1311|ItemSword|class|net.minecraft.item.ItemSword
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1302|1311|ItemSword|class|net.minecraft.item.ItemSword
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1312|1325|FACTORY_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|FACTORY_SWORD|
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1332|1348|ItemFactorySword|class|com.maxfreemen.extendedblocks.common.items.ItemFactorySword
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1373|1382|ItemSword|class|net.minecraft.item.ItemSword
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1373|1382|ItemSword|class|net.minecraft.item.ItemSword
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1383|1393|ROAD_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|ROAD_SWORD|
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1400|1413|ItemRoadSword|class|com.maxfreemen.extendedblocks.common.items.ItemRoadSword
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1438|1447|ItemSword|class|net.minecraft.item.ItemSword
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1438|1447|ItemSword|class|net.minecraft.item.ItemSword
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1448|1459|HAMMER_ITEM|field|com.maxfreemen.extendedblocks.init.ItemsInit|HAMMER_ITEM|
+   @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1466|1484|ItemCraftingHammer|class|com.maxfreemen.extendedblocks.common.items.ItemCraftingHammer
    Method Start: registerItems()V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1368|1381|registerItems|method|com.maxfreemen.extendedblocks.init.ItemsInit|registerItems|()V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1397|1408|setRegister|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1409|1419|TEST_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|TEST_SWORD
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1430|1441|setRegister|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1442|1455|FACTORY_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|FACTORY_SWORD
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1466|1477|setRegister|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1478|1488|ROAD_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|ROAD_SWORD
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1509|1522|registerItems|method|com.maxfreemen.extendedblocks.init.ItemsInit|registerItems|()V
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1538|1549|setRegister|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1550|1560|TEST_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|TEST_SWORD
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1571|1582|setRegister|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1583|1596|FACTORY_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|FACTORY_SWORD
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1607|1618|setRegister|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1619|1629|ROAD_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|ROAD_SWORD
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1640|1651|setRegister|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1652|1663|HAMMER_ITEM|field|com.maxfreemen.extendedblocks.init.ItemsInit|HAMMER_ITEM
    Method End: registerItems()V
    Method Start: registerItemRenders()V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1512|1520|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1521|1525|Side|class|net.minecraftforge.fml.relauncher.Side
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1526|1532|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1557|1576|registerItemRenders|method|com.maxfreemen.extendedblocks.init.ItemsInit|registerItemRenders|()V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1595|1604|setRender|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1605|1615|TEST_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|TEST_SWORD
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1626|1635|setRender|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1636|1649|FACTORY_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|FACTORY_SWORD
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1660|1669|setRender|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1670|1680|ROAD_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|ROAD_SWORD
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1687|1695|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1696|1700|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1701|1707|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1732|1751|registerItemRenders|method|com.maxfreemen.extendedblocks.init.ItemsInit|registerItemRenders|()V
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1770|1779|setRender|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1780|1790|TEST_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|TEST_SWORD
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1801|1810|setRender|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1811|1824|FACTORY_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|FACTORY_SWORD
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1835|1844|setRender|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1845|1855|ROAD_SWORD|field|com.maxfreemen.extendedblocks.init.ItemsInit|ROAD_SWORD
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1866|1875|setRender|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1876|1887|HAMMER_ITEM|field|com.maxfreemen.extendedblocks.init.ItemsInit|HAMMER_ITEM
    Method End: registerItemRenders()V
    Method Start: setRegister(Lnet/minecraft/item/Item;)V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1740|1744|item|param|com.maxfreemen.extendedblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V|item|0
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1723|1734|setRegister|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1735|1739|Item|class|net.minecraft.item.Item
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1762|1777|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1778|1783|ITEMS|field|net.minecraftforge.fml.common.registry.ForgeRegistries|ITEMS
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1784|1792|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1793|1797|item|param|com.maxfreemen.extendedblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1947|1951|item|param|com.maxfreemen.extendedblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1930|1941|setRegister|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1942|1946|Item|class|net.minecraft.item.Item
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1969|1984|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1985|1990|ITEMS|field|net.minecraftforge.fml.common.registry.ForgeRegistries|ITEMS
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1991|1999|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2000|2004|item|param|com.maxfreemen.extendedblocks.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V|item|0
    Method End: setRegister(Lnet/minecraft/item/Item;)V
    Method Start: setRender(Lnet/minecraft/item/Item;)V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1882|1886|item|param|com.maxfreemen.extendedblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V|item|0
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1821|1829|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1830|1834|Side|class|net.minecraftforge.fml.relauncher.Side
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1835|1841|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1867|1876|setRender|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1877|1881|Item|class|net.minecraft.item.Item
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1901|1910|Minecraft|class|net.minecraft.client.Minecraft
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1911|1923|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1926|1939|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1942|1960|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1963|1971|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1972|1976|item|param|com.maxfreemen.extendedblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V|item|0
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|1985|2006|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2007|2011|item|param|com.maxfreemen.extendedblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V|item|0
-      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2012|2027|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2089|2093|item|param|com.maxfreemen.extendedblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2028|2036|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2037|2041|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2042|2048|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2074|2083|setRender|method|com.maxfreemen.extendedblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2084|2088|Item|class|net.minecraft.item.Item
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2108|2117|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2118|2130|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2133|2146|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2149|2167|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2170|2178|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2179|2183|item|param|com.maxfreemen.extendedblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2192|2213|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2214|2218|item|param|com.maxfreemen.extendedblocks.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\maxfreemen\extendedblocks\init\ItemsInit.java|2219|2234|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
    Method End: setRender(Lnet/minecraft/item/Item;)V
 Class End  : com.maxfreemen.extendedblocks.init.ItemsInit
 endProcessing "com\maxfreemen\extendedblocks\init\ItemsInit.java"
 
-startProcessing "com\maxfreemen\extendedblocks\init\TabsInit.java" md5: bea0a89de35f946c4b40cbc70ef45244
-Cache Hit!
+startProcessing "com\maxfreemen\extendedblocks\init\TabsInit.java" md5: 3ae4ed1aa0c672da3e2dc3c80c512e3f
 @|com\maxfreemen\extendedblocks\init\TabsInit.java|8|42|com.maxfreemen.extendedblocks.init|package|com.maxfreemen.extendedblocks.init|(file)
 Class Start: com.maxfreemen.extendedblocks.init.TabsInit
-   @|com\maxfreemen\extendedblocks\init\TabsInit.java|311|319|TabsInit|class|com.maxfreemen.extendedblocks.init.TabsInit
-   @|com\maxfreemen\extendedblocks\init\TabsInit.java|345|357|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
-   @|com\maxfreemen\extendedblocks\init\TabsInit.java|345|357|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
-   @|com\maxfreemen\extendedblocks\init\TabsInit.java|358|375|LABORATORY_BLOCKS|field|com.maxfreemen.extendedblocks.init.TabsInit|LABORATORY_BLOCKS|
-   @|com\maxfreemen\extendedblocks\init\TabsInit.java|382|401|LaboratoryBlocksTab|class|com.maxfreemen.extendedblocks.creativetabs.LaboratoryBlocksTab
-   @|com\maxfreemen\extendedblocks\init\TabsInit.java|426|438|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
-   @|com\maxfreemen\extendedblocks\init\TabsInit.java|426|438|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
-   @|com\maxfreemen\extendedblocks\init\TabsInit.java|439|453|FACTORY_BLOCKS|field|com.maxfreemen.extendedblocks.init.TabsInit|FACTORY_BLOCKS|
-   @|com\maxfreemen\extendedblocks\init\TabsInit.java|460|476|FactoryBlocksTab|class|com.maxfreemen.extendedblocks.creativetabs.FactoryBlocksTab
-   @|com\maxfreemen\extendedblocks\init\TabsInit.java|501|513|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
-   @|com\maxfreemen\extendedblocks\init\TabsInit.java|501|513|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
-   @|com\maxfreemen\extendedblocks\init\TabsInit.java|514|525|ROAD_BLOCKS|field|com.maxfreemen.extendedblocks.init.TabsInit|ROAD_BLOCKS|
-   @|com\maxfreemen\extendedblocks\init\TabsInit.java|532|545|RoadBlocksTab|class|com.maxfreemen.extendedblocks.creativetabs.RoadBlocksTab
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|380|388|TabsInit|class|com.maxfreemen.extendedblocks.init.TabsInit
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|414|426|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|414|426|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|427|444|LABORATORY_BLOCKS|field|com.maxfreemen.extendedblocks.init.TabsInit|LABORATORY_BLOCKS|
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|451|470|LaboratoryBlocksTab|class|com.maxfreemen.extendedblocks.creativetabs.LaboratoryBlocksTab
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|495|507|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|495|507|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|508|522|FACTORY_BLOCKS|field|com.maxfreemen.extendedblocks.init.TabsInit|FACTORY_BLOCKS|
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|529|545|FactoryBlocksTab|class|com.maxfreemen.extendedblocks.creativetabs.FactoryBlocksTab
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|570|582|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|570|582|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|583|594|ROAD_BLOCKS|field|com.maxfreemen.extendedblocks.init.TabsInit|ROAD_BLOCKS|
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|601|614|RoadBlocksTab|class|com.maxfreemen.extendedblocks.creativetabs.RoadBlocksTab
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|639|651|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|639|651|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|652|667|CRAFTING_BLOCKS|field|com.maxfreemen.extendedblocks.init.TabsInit|CRAFTING_BLOCKS|
+   @|com\maxfreemen\extendedblocks\init\TabsInit.java|674|691|CraftingBlocksTab|class|com.maxfreemen.extendedblocks.creativetabs.CraftingBlocksTab
 Class End  : com.maxfreemen.extendedblocks.init.TabsInit
 endProcessing "com\maxfreemen\extendedblocks\init\TabsInit.java"
 
