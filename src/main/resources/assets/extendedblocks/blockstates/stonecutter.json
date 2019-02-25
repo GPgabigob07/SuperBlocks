@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "extendedblocks:stonecutter" },
+        "facing=west": { "model": "extendedblocks:stonecutter", "y": 90 },
+        "facing=north": { "model": "extendedblocks:stonecutter", "y": 180 },
+        "facing=east": { "model": "extendedblocks:stonecutter", "y": 270 }
+    }
+}

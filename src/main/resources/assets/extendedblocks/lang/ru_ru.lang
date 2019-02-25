@@ -36,5 +36,7 @@ tile.extendedblocks.road_white_one.name=Блок дороги с белой ра
 tile.extendedblocks.road_white_two.name=Блок дороги с белой разметкой Б
 tile.extendedblocks.road_white_three.name=Блок дороги с белой разметкой С
 tile.extendedblocks.road_white_four.name=Блок дороги с белой разметкой Д
+
 tile.extendedblocks.cement_mixer.name=Бетономешалка (WIP)
 tile.extendedblocks.bench_block.name=Верстак инженера (WIP)
+tile.extendedblocks.stonecutter.name=Камнерезка (WIP)
