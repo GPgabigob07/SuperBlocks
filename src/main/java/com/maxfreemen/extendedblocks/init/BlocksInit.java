@@ -23,6 +23,7 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryLight;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryLightPipe;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryTop;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLamp;
+import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryBench;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadBasic;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteFour;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteOne;
@@ -82,6 +83,8 @@ public class BlocksInit {
 	public static final Block CEMENT_MIXER = new BlockCementmixer();
 	public static final Block BENCH_BLOCK = new BlockBench();
 	public static final Block STONECUTTER = new BlockStonecutter();
+	public static final Block BENCH_MILITARY_BLOCK = new BlockMilitaryBench();
+
 
 	
 	public static void registerBlocks() {
@@ -121,6 +124,7 @@ public class BlocksInit {
         setRegister(CEMENT_MIXER);
         setRegister(BENCH_BLOCK);
         setRegister(STONECUTTER);
+        setRegister(BENCH_MILITARY_BLOCK);
         
         
     }
@@ -163,6 +167,7 @@ public class BlocksInit {
         setRender(CEMENT_MIXER);
         setRender(BENCH_BLOCK);
         setRender(STONECUTTER);
+        setRender(BENCH_MILITARY_BLOCK);
         
     }
 
