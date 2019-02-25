@@ -32,6 +32,7 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowFour;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowThree;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowTwo;
+import com.maxfreemen.extendedblocks.common.blocks.BlockStonecutter;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentA;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentB;
 
@@ -80,6 +81,7 @@ public class BlocksInit {
 	public static final Block ROAD_WHITE_FOUR = new BlockRoadWhiteFour();
 	public static final Block CEMENT_MIXER = new BlockCementmixer();
 	public static final Block BENCH_BLOCK = new BlockBench();
+	public static final Block STONECUTTER = new BlockStonecutter();
 
 	
 	public static void registerBlocks() {
@@ -118,6 +120,7 @@ public class BlocksInit {
         setRegister(ROAD_WHITE_FOUR);
         setRegister(CEMENT_MIXER);
         setRegister(BENCH_BLOCK);
+        setRegister(STONECUTTER);
         
         
     }
@@ -159,6 +162,7 @@ public class BlocksInit {
         setRender(ROAD_WHITE_FOUR);
         setRender(CEMENT_MIXER);
         setRender(BENCH_BLOCK);
+        setRender(STONECUTTER);
         
     }
 
