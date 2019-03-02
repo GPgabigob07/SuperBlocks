@@ -34,6 +34,8 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowThree;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeOne;
+import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeThree;
+import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockStonecutter;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentA;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentB;
@@ -86,6 +88,8 @@ public class BlocksInit {
 	public static final Block STONECUTTER = new BlockStonecutter();
 	public static final Block BENCH_MILITARY_BLOCK = new BlockMilitaryBench();
 	public static final Block SPIKE_ONE_BLOCK = new BlockSpikeOne();
+	public static final Block SPIKE_TWO_BLOCK = new BlockSpikeTwo();
+	public static final Block SPIKE_THREE_BLOCK = new BlockSpikeThree();
 
 
 	
@@ -128,6 +132,8 @@ public class BlocksInit {
         setRegister(STONECUTTER);
         setRegister(BENCH_MILITARY_BLOCK);
         setRegister(SPIKE_ONE_BLOCK);
+        setRegister(SPIKE_TWO_BLOCK);
+        setRegister(SPIKE_THREE_BLOCK);
         
         
     }
@@ -172,6 +178,8 @@ public class BlocksInit {
         setRender(STONECUTTER);
         setRender(BENCH_MILITARY_BLOCK);
         setRender(SPIKE_ONE_BLOCK);
+        setRender(SPIKE_TWO_BLOCK);
+        setRender(SPIKE_THREE_BLOCK);
         
     }
 
