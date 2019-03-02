@@ -33,6 +33,7 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowFour;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowThree;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowTwo;
+import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockStonecutter;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentA;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentB;
@@ -84,6 +85,7 @@ public class BlocksInit {
 	public static final Block BENCH_BLOCK = new BlockBench();
 	public static final Block STONECUTTER = new BlockStonecutter();
 	public static final Block BENCH_MILITARY_BLOCK = new BlockMilitaryBench();
+	public static final Block SPIKE_ONE_BLOCK = new BlockSpikeOne();
 
 
 	
@@ -125,6 +127,7 @@ public class BlocksInit {
         setRegister(BENCH_BLOCK);
         setRegister(STONECUTTER);
         setRegister(BENCH_MILITARY_BLOCK);
+        setRegister(SPIKE_ONE_BLOCK);
         
         
     }
@@ -168,6 +171,7 @@ public class BlocksInit {
         setRender(BENCH_BLOCK);
         setRender(STONECUTTER);
         setRender(BENCH_MILITARY_BLOCK);
+        setRender(SPIKE_ONE_BLOCK);
         
     }
 
