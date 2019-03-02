@@ -39,6 +39,7 @@ tile.extendedblocks.road_white_four.name=Road block with white markings D
 tile.extendedblocks.spike_one.name=Barbed wire
 tile.extendedblocks.spike_two.name=Spike A
 tile.extendedblocks.spike_three.name=Spike B
+tile.extendedblocks.sand_bag.name=Sandbag
 
 tile.extendedblocks.cement_mixer.name=Ñoncrete mixer (WIP)
 tile.extendedblocks.bench_block.name=Engineer's Workbench (WIP)

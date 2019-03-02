@@ -33,6 +33,7 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowFour;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowThree;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowTwo;
+import com.maxfreemen.extendedblocks.common.blocks.BlockSandBag;
 import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeThree;
 import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeTwo;
@@ -90,6 +91,8 @@ public class BlocksInit {
 	public static final Block SPIKE_ONE_BLOCK = new BlockSpikeOne();
 	public static final Block SPIKE_TWO_BLOCK = new BlockSpikeTwo();
 	public static final Block SPIKE_THREE_BLOCK = new BlockSpikeThree();
+	public static final Block SAND_BAG = new BlockSandBag();
+
 
 
 	
@@ -134,6 +137,7 @@ public class BlocksInit {
         setRegister(SPIKE_ONE_BLOCK);
         setRegister(SPIKE_TWO_BLOCK);
         setRegister(SPIKE_THREE_BLOCK);
+        setRegister(SAND_BAG);
         
         
     }
@@ -180,6 +184,7 @@ public class BlocksInit {
         setRender(SPIKE_ONE_BLOCK);
         setRender(SPIKE_TWO_BLOCK);
         setRender(SPIKE_THREE_BLOCK);
+        setRender(SAND_BAG);
         
     }
 
