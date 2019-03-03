@@ -2,6 +2,7 @@ itemGroup.laboratory=Blocks for laboratory
 itemGroup.factory=Blocks for factory
 itemGroup.road=Road blocks
 itemGroup.crafting=Crafting stations
+itemGroup.military=Military blocks
 
 tile.extendedblocks.laboratory_block.name=Laboratory block
 tile.extendedblocks.lamp.name=Lamp
@@ -41,6 +42,7 @@ tile.extendedblocks.spike_two.name=Spike A
 tile.extendedblocks.spike_three.name=Spike B
 tile.extendedblocks.sand_bag.name=Sandbag
 tile.extendedblocks.military_box.name=Crate
+tile.extendedblocks.military_barricade.name=Barricade
 
 tile.extendedblocks.cement_mixer.name=Ñoncrete mixer (WIP)
 tile.extendedblocks.bench_block.name=Engineer's Workbench (WIP)

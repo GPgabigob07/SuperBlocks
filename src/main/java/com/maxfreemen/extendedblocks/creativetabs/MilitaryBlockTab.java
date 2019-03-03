@@ -1,6 +1,6 @@
 package com.maxfreemen.extendedblocks.creativetabs;
 
-import com.maxfreemen.extendedblocks.init.BlocksInit;
+import com.maxfreemen.extendedblocks.init.ItemsInit;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
@@ -16,7 +16,7 @@ public class MilitaryBlockTab extends CreativeTabs{
 	@Override
     public ItemStack getTabIconItem() {
 		
-        return new ItemStack(BlocksInit.SPIKE_ONE_BLOCK);
+        return new ItemStack(ItemsInit.MILITARY_SHOVEL);
         
     }
 

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "extendedblocks:military_barricade" },
+        "facing=west": { "model": "extendedblocks:military_barricade", "y": 90 },
+        "facing=north": { "model": "extendedblocks:military_barricade", "y": 180 },
+        "facing=east": { "model": "extendedblocks:military_barricade", "y": 270 }
+    }
+}

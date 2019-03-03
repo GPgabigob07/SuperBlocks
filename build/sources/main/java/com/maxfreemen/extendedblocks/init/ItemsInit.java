@@ -2,6 +2,7 @@ package com.maxfreemen.extendedblocks.init;
 
 import com.maxfreemen.extendedblocks.common.items.ItemCraftingHammer;
 import com.maxfreemen.extendedblocks.common.items.ItemFactorySword;
+import com.maxfreemen.extendedblocks.common.items.ItemMilitaryShovel;
 import com.maxfreemen.extendedblocks.common.items.ItemRoadSword;
 import com.maxfreemen.extendedblocks.common.items.ItemTestSword;
 
@@ -28,6 +29,7 @@ public class ItemsInit {
 	public static final ItemSword FACTORY_SWORD = new ItemFactorySword();
 	public static final ItemSword ROAD_SWORD = new ItemRoadSword();
 	public static final ItemSword HAMMER_ITEM = new ItemCraftingHammer();
+	public static final ItemSword MILITARY_SHOVEL = new ItemMilitaryShovel();
 
 	public static void registerItems() {
 		
@@ -35,6 +37,7 @@ public class ItemsInit {
         setRegister(FACTORY_SWORD);
         setRegister(ROAD_SWORD);
         setRegister(HAMMER_ITEM);
+        setRegister(MILITARY_SHOVEL);
         
     }
 
@@ -45,6 +48,7 @@ public class ItemsInit {
         setRender(FACTORY_SWORD);
         setRender(ROAD_SWORD);
         setRender(HAMMER_ITEM);
+        setRender(MILITARY_SHOVEL);
         
     }
 

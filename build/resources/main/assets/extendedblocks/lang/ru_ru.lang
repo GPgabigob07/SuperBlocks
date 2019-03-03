@@ -2,6 +2,7 @@ itemGroup.laboratory=Блоки лаборатории
 itemGroup.factory=Блоки фабрики
 itemGroup.road=Блоки дороги
 itemGroup.crafting=Станции для крафта
+itemGroup.military=Военные блоки
 
 tile.extendedblocks.laboratory_block.name=Блок лаборатории
 tile.extendedblocks.lamp.name=Лампа
@@ -40,6 +41,8 @@ tile.extendedblocks.spike_one.name=Колючая проволока
 tile.extendedblocks.spike_two.name=Шипы А
 tile.extendedblocks.spike_three.name=Шипы Б
 tile.extendedblocks.sand_bag.name=Мешок с песком
+tile.extendedblocks.military_box.name=Ящик0
+tile.extendedblocks.military_barricade.name=Баррикада
 
 tile.extendedblocks.cement_mixer.name=Бетономешалка (WIP)
 tile.extendedblocks.bench_block.name=Верстак инженера (WIP)
