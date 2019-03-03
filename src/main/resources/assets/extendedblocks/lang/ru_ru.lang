@@ -40,6 +40,7 @@ tile.extendedblocks.spike_one.name=Колючая проволока
 tile.extendedblocks.spike_two.name=Шипы А
 tile.extendedblocks.spike_three.name=Шипы Б
 tile.extendedblocks.sand_bag.name=Мешок с песком
+tile.extendedblocks.military_box.name=Ящик
 
 tile.extendedblocks.cement_mixer.name=Бетономешалка (WIP)
 tile.extendedblocks.bench_block.name=Верстак инженера (WIP)
