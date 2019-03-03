@@ -24,6 +24,7 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryLightPipe;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryTop;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLamp;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryBench;
+import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryBox;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadBasic;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteFour;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteOne;
@@ -92,6 +93,8 @@ public class BlocksInit {
 	public static final Block SPIKE_TWO_BLOCK = new BlockSpikeTwo();
 	public static final Block SPIKE_THREE_BLOCK = new BlockSpikeThree();
 	public static final Block SAND_BAG = new BlockSandBag();
+	public static final Block MILITARY_BOX = new BlockMilitaryBox();
+
 
 
 
@@ -138,7 +141,7 @@ public class BlocksInit {
         setRegister(SPIKE_TWO_BLOCK);
         setRegister(SPIKE_THREE_BLOCK);
         setRegister(SAND_BAG);
-        
+        setRegister(MILITARY_BOX);
         
     }
 
@@ -185,6 +188,7 @@ public class BlocksInit {
         setRender(SPIKE_TWO_BLOCK);
         setRender(SPIKE_THREE_BLOCK);
         setRender(SAND_BAG);
+        setRender(MILITARY_BOX);
         
     }
 
