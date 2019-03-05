@@ -26,6 +26,8 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockLamp;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryBarricade;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryBench;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryBox;
+import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryCanvasGreen;
+import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryCanvasYellow;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadBasic;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteFour;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteOne;
@@ -96,6 +98,8 @@ public class BlocksInit {
 	public static final Block SAND_BAG = new BlockSandBag();
 	public static final Block MILITARY_BOX = new BlockMilitaryBox();
 	public static final Block MILITARY_BARRICADE = new BlockMilitaryBarricade();
+	public static final Block CANVAS_GREEN = new BlockMilitaryCanvasGreen();
+	public static final Block CANVAS_YELLOW = new BlockMilitaryCanvasYellow();
 
 
 
@@ -144,6 +148,8 @@ public class BlocksInit {
         setRegister(SAND_BAG);
         setRegister(MILITARY_BOX);
         setRegister(MILITARY_BARRICADE);
+        setRegister(CANVAS_GREEN);
+        setRegister(CANVAS_YELLOW);
         
     }
 
@@ -192,6 +198,8 @@ public class BlocksInit {
         setRender(SAND_BAG);
         setRender(MILITARY_BOX);
         setRender(MILITARY_BARRICADE);
+        setRender(CANVAS_GREEN);
+        setRender(CANVAS_YELLOW);
         
     }
 

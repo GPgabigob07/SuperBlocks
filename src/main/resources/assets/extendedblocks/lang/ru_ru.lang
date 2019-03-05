@@ -43,6 +43,9 @@ tile.extendedblocks.spike_three.name=Шипы Б
 tile.extendedblocks.sand_bag.name=Мешок с песком
 tile.extendedblocks.military_box.name=Ящик0
 tile.extendedblocks.military_barricade.name=Баррикада
+tile.extendedblocks.canvas_green.name=Зеленый блок палатки
+tile.extendedblocks.canvas_yellow.name=Желтый блок палатки
+
 
 tile.extendedblocks.cement_mixer.name=Бетономешалка (WIP)
 tile.extendedblocks.bench_block.name=Верстак инженера (WIP)

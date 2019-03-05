@@ -43,6 +43,8 @@ tile.extendedblocks.spike_three.name=Spike B
 tile.extendedblocks.sand_bag.name=Sandbag
 tile.extendedblocks.military_box.name=Crate
 tile.extendedblocks.military_barricade.name=Barricade
+tile.extendedblocks.canvas_green.name=Green canvas
+tile.extendedblocks.canvas_yellow.name=Yellow canvas
 
 tile.extendedblocks.cement_mixer.name=Ñoncrete mixer (WIP)
 tile.extendedblocks.bench_block.name=Engineer's Workbench (WIP)
