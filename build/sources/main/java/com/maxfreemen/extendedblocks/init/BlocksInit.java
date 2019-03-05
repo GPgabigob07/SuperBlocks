@@ -29,6 +29,7 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryBox;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryCanvasGreen;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryCanvasYellow;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryGlass;
+import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryWallOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadBasic;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteFour;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteOne;
@@ -102,7 +103,7 @@ public class BlocksInit {
 	public static final Block CANVAS_GREEN = new BlockMilitaryCanvasGreen();
 	public static final Block CANVAS_YELLOW = new BlockMilitaryCanvasYellow();
 	public static final Block MILITARY_GLASS = new BlockMilitaryGlass();
-
+	public static final Block MILITARY_WALL_ONE = new BlockMilitaryWallOne();
 
 
 	
@@ -153,6 +154,7 @@ public class BlocksInit {
         setRegister(CANVAS_GREEN);
         setRegister(CANVAS_YELLOW);
         setRegister(MILITARY_GLASS);
+        setRegister(MILITARY_WALL_ONE);
         
     }
 
@@ -204,6 +206,7 @@ public class BlocksInit {
         setRender(CANVAS_GREEN);
         setRender(CANVAS_YELLOW);
         setRender(MILITARY_GLASS);
+        setRender(MILITARY_WALL_ONE);
         
     }
 
