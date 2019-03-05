@@ -3,6 +3,7 @@ package com.maxfreemen.extendedblocks.common.blocks;
 import com.maxfreemen.extendedblocks.init.TabsInit;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.util.BlockRenderLayer;
 
 
 public class BlockMilitaryGlass extends Block {
@@ -18,5 +19,12 @@ public class BlockMilitaryGlass extends Block {
 		this.setResistance(30.0F);
 		this.setUnlocalizedName("extendedblocks.military_glass");
 
+		
 	}
+	
+	@Override
+	public BlockRenderLayer getBlockLayer() { 
+	return BlockRenderLayer.TRANSLUCENT; 
+	}
+	
 }
