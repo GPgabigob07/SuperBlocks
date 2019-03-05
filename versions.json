@@ -1,10 +1,10 @@
 {
   "homepage": "https://github.com/MaxFreemen/SuperBlocks",
   "1.12.2": {
-    "alfa-0.5": "Added new tab."
+    "alfa-0.6": " Military update."
   },
   "promos": {
-    "1.12.2-latest": "alfa-0.5",
-    "1.12.2-recommended": "alfa-0.5"
+    "1.12.2-latest": "alfa-0.6",
+    "1.12.2-recommended": "alfa-0.6"
   }
 }
