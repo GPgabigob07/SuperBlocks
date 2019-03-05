@@ -28,8 +28,11 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryBench;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryBox;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryCanvasGreen;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryCanvasYellow;
+import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryFloorOne;
+import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryFloorTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryGlass;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryWallOne;
+import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryWallTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadBasic;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteFour;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteOne;
@@ -104,6 +107,9 @@ public class BlocksInit {
 	public static final Block CANVAS_YELLOW = new BlockMilitaryCanvasYellow();
 	public static final Block MILITARY_GLASS = new BlockMilitaryGlass();
 	public static final Block MILITARY_WALL_ONE = new BlockMilitaryWallOne();
+	public static final Block MILITARY_WALL_TWO = new BlockMilitaryWallTwo();
+	public static final Block MILITARY_FLOOR_ONE = new BlockMilitaryFloorOne();
+	public static final Block MILITARY_FLOOR_TWO = new BlockMilitaryFloorTwo();
 
 
 	
@@ -155,6 +161,9 @@ public class BlocksInit {
         setRegister(CANVAS_YELLOW);
         setRegister(MILITARY_GLASS);
         setRegister(MILITARY_WALL_ONE);
+        setRegister(MILITARY_WALL_TWO);
+        setRegister(MILITARY_FLOOR_ONE);
+        setRegister(MILITARY_FLOOR_TWO);
         
     }
 
@@ -207,6 +216,9 @@ public class BlocksInit {
         setRender(CANVAS_YELLOW);
         setRender(MILITARY_GLASS);
         setRender(MILITARY_WALL_ONE);
+        setRender(MILITARY_WALL_TWO);
+        setRender(MILITARY_FLOOR_ONE);
+        setRender(MILITARY_FLOOR_TWO);
         
     }
 
