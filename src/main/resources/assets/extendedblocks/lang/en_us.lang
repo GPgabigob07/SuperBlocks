@@ -45,6 +45,12 @@ tile.extendedblocks.military_box.name=Crate
 tile.extendedblocks.military_barricade.name=Barricade
 tile.extendedblocks.canvas_green.name=Green canvas
 tile.extendedblocks.canvas_yellow.name=Yellow canvas
+tile.extendedblocks.military_wall_one.name= Bunker wall
+tile.extendedblocks.military_wall_two.name= Bunker wall with pipes
+tile.extendedblocks.military_floor_one.name= Bunker floor 
+tile.extendedblocks.military_floor_two.name=  Damaged bunker floor 
+tile.extendedblocks.military_glass.name=Bunker glass
+
 
 tile.extendedblocks.cement_mixer.name=Ñoncrete mixer (WIP)
 tile.extendedblocks.bench_block.name=Engineer's Workbench (WIP)

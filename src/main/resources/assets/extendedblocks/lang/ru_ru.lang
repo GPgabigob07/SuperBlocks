@@ -45,6 +45,12 @@ tile.extendedblocks.military_box.name=Ящик0
 tile.extendedblocks.military_barricade.name=Баррикада
 tile.extendedblocks.canvas_green.name=Зеленый блок палатки
 tile.extendedblocks.canvas_yellow.name=Желтый блок палатки
+tile.extendedblocks.military_wall_one.name= Стена бункера
+tile.extendedblocks.military_wall_two.name= Стена бункера с трубами
+tile.extendedblocks.military_floor_one.name= Пол бункера
+tile.extendedblocks.military_floor_two.name=  Поврежденный пол бункера
+tile.extendedblocks.military_glass.name=Стекло бункера
+
 
 
 tile.extendedblocks.cement_mixer.name=Бетономешалка (WIP)
