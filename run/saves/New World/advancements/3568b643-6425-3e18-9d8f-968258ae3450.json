@@ -1,7 +1,59 @@
 {
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2019-03-05 22:41:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2019-03-01 22:52:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2019-03-05 22:42:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "slime": "2019-02-10 17:44:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "slime": "2019-02-10 17:44:03 +0300",
+      "skeleton": "2019-02-10 17:44:17 +0300",
+      "zombie": "2019-02-10 17:44:18 +0300",
+      "spider": "2019-02-10 19:43:52 +0300",
+      "creeper": "2019-02-10 17:44:24 +0300"
+    },
+    "done": false
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2019-03-05 22:41:14 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2019-02-20 22:28:08 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/slime_ball": {
     "criteria": {
       "has_the_recipe": "2019-02-10 17:44:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2019-03-05 22:41:14 +0300"
     },
     "done": true
   },
@@ -17,33 +69,11 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2019-03-01 22:52:16 +0300"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "slime": "2019-02-10 17:44:03 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/lead": {
     "criteria": {
       "has_slime_ball": "2019-02-10 17:44:08 +0300"
     },
     "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "slime": "2019-02-10 17:44:03 +0300",
-      "skeleton": "2019-02-10 17:44:17 +0300",
-      "zombie": "2019-02-10 17:44:18 +0300",
-      "spider": "2019-02-10 19:43:52 +0300",
-      "creeper": "2019-02-10 17:44:24 +0300"
-    },
-    "done": false
   },
   "minecraft:recipes/decorations/slime": {
     "criteria": {
@@ -56,11 +86,5 @@
       "plains": "2019-02-10 16:21:51 +0300"
     },
     "done": false
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2019-02-20 22:28:08 +0300"
-    },
-    "done": true
   }
 }
