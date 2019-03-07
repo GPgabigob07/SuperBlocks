@@ -1,8 +1,6 @@
 package com.maxfreemen.extendedblocks.common;
 
 import com.maxfreemen.extendedblocks.init.BlocksInit;
-import com.maxfreemen.extendedblocks.init.ItemsInit;
-
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
