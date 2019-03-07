@@ -2,7 +2,6 @@ package com.maxfreemen.extendedblocks.client;
 
 import com.maxfreemen.extendedblocks.common.CommonProxy;
 import com.maxfreemen.extendedblocks.init.BlocksInit;
-import com.maxfreemen.extendedblocks.init.ItemsInit;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -23,7 +22,6 @@ public class ClientProxy extends CommonProxy {
         super.init(event);
         
         BlocksInit.registerBlockRenders();
-        ItemsInit.registerItemRenders();
         
     }
 
