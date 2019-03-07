@@ -1,6 +1,10 @@
 package com.maxfreemen.extendedblocks.init;
 
 import com.maxfreemen.extendedblocks.common.blocks.BlockBench;
+import com.maxfreemen.extendedblocks.common.blocks.BlockBricksBasic;
+import com.maxfreemen.extendedblocks.common.blocks.BlockBricksCrashed;
+import com.maxfreemen.extendedblocks.common.blocks.BlockBricksOvergrown;
+import com.maxfreemen.extendedblocks.common.blocks.BlockBricksPaper;
 import com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryLampOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryLampTwo;
@@ -110,6 +114,11 @@ public class BlocksInit {
 	public static final Block MILITARY_WALL_TWO = new BlockMilitaryWallTwo();
 	public static final Block MILITARY_FLOOR_ONE = new BlockMilitaryFloorOne();
 	public static final Block MILITARY_FLOOR_TWO = new BlockMilitaryFloorTwo();
+	public static final Block BRICKS_BASIC = new BlockBricksBasic();
+	public static final Block BRICKS_CRASHED = new BlockBricksCrashed();
+	public static final Block BRICKS_OVERGROWN = new BlockBricksOvergrown();
+	public static final Block BRICKS_PAPER = new BlockBricksPaper();
+
 
 
 	
@@ -164,6 +173,10 @@ public class BlocksInit {
         setRegister(MILITARY_WALL_TWO);
         setRegister(MILITARY_FLOOR_ONE);
         setRegister(MILITARY_FLOOR_TWO);
+        setRegister(BRICKS_BASIC);
+        setRegister(BRICKS_CRASHED);
+        setRegister(BRICKS_OVERGROWN);
+        setRegister(BRICKS_PAPER);
         
     }
 
@@ -219,6 +232,10 @@ public class BlocksInit {
         setRender(MILITARY_WALL_TWO);
         setRender(MILITARY_FLOOR_ONE);
         setRender(MILITARY_FLOOR_TWO);
+        setRender(BRICKS_BASIC);
+        setRender(BRICKS_CRASHED);
+        setRender(BRICKS_OVERGROWN);
+        setRender(BRICKS_PAPER);
         
     }
 
