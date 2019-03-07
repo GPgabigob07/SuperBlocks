@@ -16,7 +16,7 @@ public class MedievalBlocksTab extends CreativeTabs {
 	@Override
     public ItemStack getTabIconItem() {
 		
-        return new ItemStack(BlocksInit.BENCH_BLOCK);
+        return new ItemStack(BlocksInit.BRICKS_BASIC);
         
     }
 }
