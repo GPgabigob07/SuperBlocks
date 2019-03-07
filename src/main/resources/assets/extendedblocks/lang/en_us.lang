@@ -3,6 +3,8 @@ itemGroup.factory=Blocks for factory
 itemGroup.road=Road blocks
 itemGroup.crafting=Crafting stations
 itemGroup.military=Military blocks
+itemGroup.medieval=Medieval blocks
+
 
 tile.extendedblocks.laboratory_block.name=Laboratory block
 tile.extendedblocks.lamp.name=Lamp
@@ -50,6 +52,10 @@ tile.extendedblocks.military_wall_two.name= Bunker wall with pipes
 tile.extendedblocks.military_floor_one.name= Bunker floor 
 tile.extendedblocks.military_floor_two.name=  Damaged bunker floor 
 tile.extendedblocks.military_glass.name=Bunker glass
+tile.extendedblocks.bricks_crashed.name=Crashed bricks
+tile.extendedblocks.bricks_overgrown.name=Overgrown bricks
+tile.extendedblocks.bricks_paper.name=Bricks with paper sheets
+tile.extendedblocks.bricks_basic.name=Basic bricks
 
 
 tile.extendedblocks.cement_mixer.name=Ñoncrete mixer (WIP)
