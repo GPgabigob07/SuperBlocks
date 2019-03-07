@@ -3,6 +3,7 @@ itemGroup.factory=Блоки фабрики
 itemGroup.road=Блоки дороги
 itemGroup.crafting=Станции для крафта
 itemGroup.military=Военные блоки
+itemGroup.medieval=Средневековые блоки
 
 tile.extendedblocks.laboratory_block.name=Блок лаборатории
 tile.extendedblocks.lamp.name=Лампа
@@ -50,6 +51,10 @@ tile.extendedblocks.military_wall_two.name= Стена бункера с тру�
 tile.extendedblocks.military_floor_one.name= Пол бункера
 tile.extendedblocks.military_floor_two.name=  Поврежденный пол бункера
 tile.extendedblocks.military_glass.name=Стекло бункера
+tile.extendedblocks.bricks_crashed.name=Потрескавшиеся кирпичи
+tile.extendedblocks.bricks_overgrown.name=Заросшие кирпичи
+tile.extendedblocks.bricks_paper.name=Кирпичи с объявлениями
+tile.extendedblocks.bricks_basic.name=Обычные кирпичи
 
 
 
