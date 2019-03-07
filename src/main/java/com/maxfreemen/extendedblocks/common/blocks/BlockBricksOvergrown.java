@@ -10,7 +10,7 @@ public class BlockBricksOvergrown extends Block {
 		
 		super(Material.ROCK);
 		
-		this.setCreativeTab(TabsInit.FACTORY_BLOCKS);
+		this.setCreativeTab(TabsInit.MEDIEVAL_BLOCKS);
 		this.setHardness(2.0F); //Скорость добычи как у большинства блоков
 		this.setHarvestLevel("pickaxe", 2); //добыча железной киркой
 		this.setRegistryName("bricks_overgrown");
