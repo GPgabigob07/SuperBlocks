@@ -12,7 +12,6 @@ public class CommonProxy {
 	public void preInit(FMLPreInitializationEvent event) {
 		
 		BlocksInit.registerBlocks();
-		ItemsInit.registerItems();
 
     }
 

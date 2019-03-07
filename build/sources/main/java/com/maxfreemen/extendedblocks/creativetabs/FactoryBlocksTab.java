@@ -1,7 +1,6 @@
 package com.maxfreemen.extendedblocks.creativetabs;
 
-import com.maxfreemen.extendedblocks.init.ItemsInit;
-
+import com.maxfreemen.extendedblocks.init.BlocksInit;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 
@@ -16,7 +15,7 @@ public class FactoryBlocksTab extends CreativeTabs{
 	@Override
     public ItemStack getTabIconItem() {
 		
-        return new ItemStack(ItemsInit.FACTORY_SWORD);
+        return new ItemStack(BlocksInit.FACTORY_BLOCK_ONE);
         
     }
 }
