@@ -1,10 +1,10 @@
 {
   "homepage": "https://github.com/MaxFreemen/SuperBlocks",
   "1.12.2": {
-    "alfa-0.6": " Military update."
+    "alfa-0.6": " Medieval uodate is out!"
   },
   "promos": {
-    "1.12.2-latest": "alfa-0.6",
-    "1.12.2-recommended": "alfa-0.6"
+    "1.12.2-latest": "alfa-0.7",
+    "1.12.2-recommended": "alfa-0.7"
   }
 }
