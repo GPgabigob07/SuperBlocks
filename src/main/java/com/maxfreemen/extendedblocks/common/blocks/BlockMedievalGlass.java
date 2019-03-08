@@ -13,7 +13,7 @@ public class BlockMedievalGlass extends Block{
 		
 		super(Material.GLASS);
 		
-		this.setCreativeTab(TabsInit.MILITARY_BLOCKS);
+		this.setCreativeTab(TabsInit.MEDIEVAL_BLOCKS);
 		this.setHardness(2.0F);
 		this.setHarvestLevel("pickaxe", 3);
 		this.setRegistryName("medieval_glass");
