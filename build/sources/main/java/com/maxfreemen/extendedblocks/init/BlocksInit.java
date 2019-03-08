@@ -38,6 +38,12 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryFloorTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryGlass;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryWallOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryWallTwo;
+import com.maxfreemen.extendedblocks.common.blocks.BlockPlanksAcaciaVertical;
+import com.maxfreemen.extendedblocks.common.blocks.BlockPlanksBigOakVertical;
+import com.maxfreemen.extendedblocks.common.blocks.BlockPlanksBirchVertical;
+import com.maxfreemen.extendedblocks.common.blocks.BlockPlanksJungleVertical;
+import com.maxfreemen.extendedblocks.common.blocks.BlockPlanksOakVertical;
+import com.maxfreemen.extendedblocks.common.blocks.BlockPlanksSpruceVertical;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadBasic;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteFour;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadWhiteOne;
@@ -128,6 +134,12 @@ public class BlocksInit {
 	public static final Block ROOF_TWO = new BlockRoofTwo();
 	public static final Block ROOF_THREE = new BlockRoofThree();
 	public static final Block MEDIEVAL_GLASS = new BlockMedievalGlass();
+	public static final Block PLANKS_ACACIA_VERTICAL = new BlockPlanksAcaciaVertical();
+	public static final Block PLANKS_OAK_VERTICAL = new BlockPlanksOakVertical();
+	public static final Block PLANKS_BIG_OAK_VERTICAL = new BlockPlanksBigOakVertical();
+	public static final Block PLANKS_BIRCH_VERTICAL = new BlockPlanksBirchVertical();
+	public static final Block PLANKS_SPRUCE_VERTICAL = new BlockPlanksSpruceVertical();
+	public static final Block PLANKS_JUNGLE_VERTICAL = new BlockPlanksJungleVertical();
 
 
 	
@@ -191,6 +203,12 @@ public class BlocksInit {
         setRegister(ROOF_TWO);
         setRegister(ROOF_THREE);
         setRegister(MEDIEVAL_GLASS);
+        setRegister(PLANKS_ACACIA_VERTICAL);
+        setRegister(PLANKS_OAK_VERTICAL);
+        setRegister(PLANKS_BIG_OAK_VERTICAL);
+        setRegister(PLANKS_BIRCH_VERTICAL);
+        setRegister(PLANKS_SPRUCE_VERTICAL);
+        setRegister(PLANKS_JUNGLE_VERTICAL);
         
     }
 
@@ -255,6 +273,12 @@ public class BlocksInit {
         setRender(ROOF_TWO);
         setRender(ROOF_THREE);
         setRender(MEDIEVAL_GLASS);
+        setRender(PLANKS_ACACIA_VERTICAL);
+        setRender(PLANKS_OAK_VERTICAL);
+        setRender(PLANKS_BIG_OAK_VERTICAL);
+        setRender(PLANKS_BIRCH_VERTICAL);
+        setRender(PLANKS_SPRUCE_VERTICAL);
+        setRender(PLANKS_JUNGLE_VERTICAL);
         
     }
 
