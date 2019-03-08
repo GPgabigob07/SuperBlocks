@@ -50,6 +50,7 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockSandBag;
 import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeThree;
 import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeTwo;
+import com.maxfreemen.extendedblocks.common.blocks.BlockStoneNew;
 import com.maxfreemen.extendedblocks.common.blocks.BlockStonecutter;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentA;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentB;
@@ -118,7 +119,7 @@ public class BlocksInit {
 	public static final Block BRICKS_CRASHED = new BlockBricksCrashed();
 	public static final Block BRICKS_OVERGROWN = new BlockBricksOvergrown();
 	public static final Block BRICKS_PAPER = new BlockBricksPaper();
-
+	public static final Block STONE_NEW = new BlockStoneNew();
 
 
 	
@@ -177,6 +178,7 @@ public class BlocksInit {
         setRegister(BRICKS_CRASHED);
         setRegister(BRICKS_OVERGROWN);
         setRegister(BRICKS_PAPER);
+        setRegister(STONE_NEW);
         
     }
 
@@ -236,6 +238,7 @@ public class BlocksInit {
         setRender(BRICKS_CRASHED);
         setRender(BRICKS_OVERGROWN);
         setRender(BRICKS_PAPER);
+        setRender(STONE_NEW);
         
     }
 
