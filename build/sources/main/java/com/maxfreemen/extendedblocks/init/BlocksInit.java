@@ -46,6 +46,9 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowFour;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowThree;
 import com.maxfreemen.extendedblocks.common.blocks.BlockRoadYellowTwo;
+import com.maxfreemen.extendedblocks.common.blocks.BlockRoofOne;
+import com.maxfreemen.extendedblocks.common.blocks.BlockRoofThree;
+import com.maxfreemen.extendedblocks.common.blocks.BlockRoofTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockSandBag;
 import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeThree;
@@ -120,6 +123,9 @@ public class BlocksInit {
 	public static final Block BRICKS_OVERGROWN = new BlockBricksOvergrown();
 	public static final Block BRICKS_PAPER = new BlockBricksPaper();
 	public static final Block STONE_NEW = new BlockStoneNew();
+	public static final Block ROOF_ONE = new BlockRoofOne();
+	public static final Block ROOF_TWO = new BlockRoofTwo();
+	public static final Block ROOF_THREE = new BlockRoofThree();
 
 
 	
@@ -179,6 +185,9 @@ public class BlocksInit {
         setRegister(BRICKS_OVERGROWN);
         setRegister(BRICKS_PAPER);
         setRegister(STONE_NEW);
+        setRegister(ROOF_ONE);
+        setRegister(ROOF_TWO);
+        setRegister(ROOF_THREE);
         
     }
 
@@ -239,6 +248,9 @@ public class BlocksInit {
         setRender(BRICKS_OVERGROWN);
         setRender(BRICKS_PAPER);
         setRender(STONE_NEW);
+        setRender(ROOF_ONE);
+        setRender(ROOF_TWO);
+        setRender(ROOF_THREE);
         
     }
 
