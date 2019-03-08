@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "extendedblocks:blocks/planks_spruce_vertical"
+    }
+}
