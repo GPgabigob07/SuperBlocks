@@ -27,6 +27,7 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryLight;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryLightPipe;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryTop;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLamp;
+import com.maxfreemen.extendedblocks.common.blocks.BlockMedievalGlass;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryBarricade;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryBench;
 import com.maxfreemen.extendedblocks.common.blocks.BlockMilitaryBox;
@@ -126,6 +127,7 @@ public class BlocksInit {
 	public static final Block ROOF_ONE = new BlockRoofOne();
 	public static final Block ROOF_TWO = new BlockRoofTwo();
 	public static final Block ROOF_THREE = new BlockRoofThree();
+	public static final Block MEDIEVAL_GLASS = new BlockMedievalGlass();
 
 
 	
@@ -188,6 +190,7 @@ public class BlocksInit {
         setRegister(ROOF_ONE);
         setRegister(ROOF_TWO);
         setRegister(ROOF_THREE);
+        setRegister(MEDIEVAL_GLASS);
         
     }
 
@@ -251,6 +254,7 @@ public class BlocksInit {
         setRender(ROOF_ONE);
         setRender(ROOF_TWO);
         setRender(ROOF_THREE);
+        setRender(MEDIEVAL_GLASS);
         
     }
 
