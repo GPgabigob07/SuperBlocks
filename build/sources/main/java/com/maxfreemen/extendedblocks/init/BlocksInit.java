@@ -6,6 +6,9 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockBricksCrashed;
 import com.maxfreemen.extendedblocks.common.blocks.BlockBricksOvergrown;
 import com.maxfreemen.extendedblocks.common.blocks.BlockBricksPaper;
 import com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer;
+import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryDarkLight;
+import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryDarkOne;
+import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryDarkTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryLampOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryLampTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryOne;
@@ -140,6 +143,9 @@ public class BlocksInit {
 	public static final Block PLANKS_BIRCH_VERTICAL = new BlockPlanksBirchVertical();
 	public static final Block PLANKS_SPRUCE_VERTICAL = new BlockPlanksSpruceVertical();
 	public static final Block PLANKS_JUNGLE_VERTICAL = new BlockPlanksJungleVertical();
+	public static final Block DARK_FACTORY_ONE = new BlockFactoryDarkOne();
+	public static final Block DARK_FACTORY_TWO = new BlockFactoryDarkTwo();
+	public static final Block DARK_FACTORY_LIGHT = new BlockFactoryDarkLight();
 
 
 	
@@ -209,6 +215,9 @@ public class BlocksInit {
         setRegister(PLANKS_BIRCH_VERTICAL);
         setRegister(PLANKS_SPRUCE_VERTICAL);
         setRegister(PLANKS_JUNGLE_VERTICAL);
+        setRegister(DARK_FACTORY_ONE);
+        setRegister(DARK_FACTORY_TWO);
+        setRegister(DARK_FACTORY_LIGHT);
         
     }
 
@@ -279,6 +288,9 @@ public class BlocksInit {
         setRender(PLANKS_BIRCH_VERTICAL);
         setRender(PLANKS_SPRUCE_VERTICAL);
         setRender(PLANKS_JUNGLE_VERTICAL);
+        setRender(DARK_FACTORY_ONE);
+        setRender(DARK_FACTORY_TWO);
+        setRender(DARK_FACTORY_LIGHT);
         
     }
 
