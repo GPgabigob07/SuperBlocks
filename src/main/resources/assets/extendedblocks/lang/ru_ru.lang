@@ -7,7 +7,6 @@ itemGroup.medieval=Средневековые блоки
 
 tile.extendedblocks.laboratory_block.name=Блок лаборатории
 tile.extendedblocks.lamp.name=Лампа
-item.extendedblocks.test_sword.name=Тестовый меч
 tile.extendedblocks.laboratory_block_dark_clean.name=Темный блок лаборатории
 tile.extendedblocks.laboratory_block_dark_pipe.name=Темный блок лаборатории с трубами
 tile.extendedblocks.laboratory_block_top.name=Потолок лаборатории
@@ -17,6 +16,7 @@ tile.extendedblocks.laboratory_block_hazard_light.name=Светлая линия
 tile.extendedblocks.laboratory_block_hazard_dark.name=Темная линия
 tile.extendedblocks.laboratory_block_vent_a.name=Блок вентиляции А
 tile.extendedblocks.laboratory_block_vent_b.name=Блок вентиляции Б
+
 tile.extendedblocks.factory_block_orange_one.name=Оранжевая стена фабрики А
 tile.extendedblocks.factory_block_orange_two.name=Оранжевая стена фабрики Б
 tile.extendedblocks.factory_block_orange_three.name=Оранжевая стена фабрики С
@@ -29,6 +29,10 @@ tile.extendedblocks.factory_block_orange_lamp.name=Оранжевая фабри
 tile.extendedblocks.factory_block_lamp_one.name=Фабричная лампа А
 tile.extendedblocks.factory_block_lamp_two.name=Фабричная лампа Б
 tile.extendedblocks.factory_block_orange_four.name=Оранжевый потолок фабрики
+tile.extendedblocks.dark_factory_light.name=Темная лампа фабрики
+tile.extendedblocks.dark_factory_one.name=Темный блок фабрики А
+tile.extendedblocks.dark_factory_one.name=Темный блок фабрики Б
+
 tile.extendedblocks.road_block_basic.name=Блок дороги
 tile.extendedblocks.road_yellow_one.name=Блок дороги с жёлтой разметкой А
 tile.extendedblocks.road_yellow_two.name=Блок дороги с жёлтой разметкой Б
@@ -38,6 +42,7 @@ tile.extendedblocks.road_white_one.name=Блок дороги с белой ра
 tile.extendedblocks.road_white_two.name=Блок дороги с белой разметкой Б
 tile.extendedblocks.road_white_three.name=Блок дороги с белой разметкой С
 tile.extendedblocks.road_white_four.name=Блок дороги с белой разметкой Д
+
 tile.extendedblocks.spike_one.name=Колючая проволока
 tile.extendedblocks.spike_two.name=Шипы А
 tile.extendedblocks.spike_three.name=Шипы Б
@@ -51,11 +56,21 @@ tile.extendedblocks.military_wall_two.name= Стена бункера с тру�
 tile.extendedblocks.military_floor_one.name= Пол бункера
 tile.extendedblocks.military_floor_two.name=  Поврежденный пол бункера
 tile.extendedblocks.military_glass.name=Стекло бункера
+
 tile.extendedblocks.bricks_crashed.name=Потрескавшиеся кирпичи
 tile.extendedblocks.bricks_overgrown.name=Заросшие кирпичи
 tile.extendedblocks.bricks_paper.name=Кирпичи с объявлениями
 tile.extendedblocks.bricks_basic.name=Обычные кирпичи
-
+tile.extendedblocks.planks_jungle_vertical.name=Вертикальные доски джунглей
+tile.extendedblocks.planks_oak_vertical.name=Вертикальные доски дуба
+tile.extendedblocks.planks_spruce_vertical.name=Вертикальные доски ели
+tile.extendedblocks.planks_acacia_vertical.name=Вертикальные доски акации
+tile.extendedblocks.planks_big_oak_vertical.name=Вертикальные доски большого дуба
+tile.extendedblocks.planks_birch_vertical.name=Вертикальные доски березы
+tile.extendedblocks.medieval_glass.name=Средневековое стекло
+tile.extendedblocks.roof_one.name=Глиняная крыша А
+tile.extendedblocks.roof_two.name=Глиняная крыша Б
+tile.extendedblocks.roof_three.name=Глиняная крыша С
 
 
 tile.extendedblocks.cement_mixer.name=Бетономешалка (WIP)
