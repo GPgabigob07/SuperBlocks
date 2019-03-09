@@ -8,7 +8,6 @@ itemGroup.medieval=Medieval blocks
 
 tile.extendedblocks.laboratory_block.name=Laboratory block
 tile.extendedblocks.lamp.name=Lamp
-item.extendedblocks.test_sword.name=Test sword
 tile.extendedblocks.laboratory_block_dark_clean.name=Dark laboratory block
 tile.extendedblocks.laboratory_block_dark_pipe.name=Dark laboratory block with pipes
 tile.extendedblocks.laboratory_block_top.name=Laboratory ceiling
@@ -18,6 +17,7 @@ tile.extendedblocks.laboratory_block_hazard_light.name=Light hazard line
 tile.extendedblocks.laboratory_block_hazard_dark.name=Dark hazard line
 tile.extendedblocks.laboratory_block_vent_a.name=Vent block A
 tile.extendedblocks.laboratory_block_vent_b.name=Vent block B
+
 tile.extendedblocks.factory_block_orange_one.name=Orange factory wall A
 tile.extendedblocks.factory_block_orange_two.name=Orange factory wall B
 tile.extendedblocks.factory_block_orange_three.name=Orange factory wall C
@@ -30,6 +30,10 @@ tile.extendedblocks.factory_block_orange_lamp.name=Orange factory lamp
 tile.extendedblocks.factory_block_lamp_one.name=Factory lamp A
 tile.extendedblocks.factory_block_lamp_two.name=Factory lamp B
 tile.extendedblocks.factory_block_orange_four.name=Orange factory ceiling
+tile.extendedblocks.dark_factory_light.name=Dark factory light
+tile.extendedblocks.dark_factory_one.name=Dark factory  block A
+tile.extendedblocks.dark_factory_one.name=Dark factory  block B
+
 tile.extendedblocks.road_block_basic.name=Road block
 tile.extendedblocks.road_yellow_one.name=Road block with yellow markings A
 tile.extendedblocks.road_yellow_two.name=Road block with yellow markings B
@@ -39,6 +43,7 @@ tile.extendedblocks.road_white_one.name=Road block with white markings A
 tile.extendedblocks.road_white_two.name=Road block with white markings B
 tile.extendedblocks.road_white_three.name=Road block with white markings C
 tile.extendedblocks.road_white_four.name=Road block with white markings D
+
 tile.extendedblocks.spike_one.name=Barbed wire
 tile.extendedblocks.spike_two.name=Spike A
 tile.extendedblocks.spike_three.name=Spike B
@@ -52,10 +57,12 @@ tile.extendedblocks.military_wall_two.name= Bunker wall with pipes
 tile.extendedblocks.military_floor_one.name= Bunker floor 
 tile.extendedblocks.military_floor_two.name=  Damaged bunker floor 
 tile.extendedblocks.military_glass.name=Bunker glass
+
 tile.extendedblocks.bricks_crashed.name=Crashed bricks
 tile.extendedblocks.bricks_overgrown.name=Overgrown bricks
 tile.extendedblocks.bricks_paper.name=Bricks with paper sheets
 tile.extendedblocks.bricks_basic.name=Basic bricks
+
 
 
 tile.extendedblocks.cement_mixer.name=Ñoncrete mixer (WIP)
