@@ -31,7 +31,7 @@ tile.extendedblocks.factory_block_lamp_two.name=Фабричная лампа Б
 tile.extendedblocks.factory_block_orange_four.name=Оранжевый потолок фабрики
 tile.extendedblocks.dark_factory_light.name=Темная лампа фабрики
 tile.extendedblocks.dark_factory_one.name=Темный блок фабрики А
-tile.extendedblocks.dark_factory_one.name=Темный блок фабрики Б
+tile.extendedblocks.dark_factory_two.name=Темный блок фабрики Б
 
 tile.extendedblocks.road_block_basic.name=Блок дороги
 tile.extendedblocks.road_yellow_one.name=Блок дороги с жёлтой разметкой А
@@ -71,6 +71,7 @@ tile.extendedblocks.medieval_glass.name=Средневековое стекло
 tile.extendedblocks.roof_one.name=Глиняная крыша А
 tile.extendedblocks.roof_two.name=Глиняная крыша Б
 tile.extendedblocks.roof_three.name=Глиняная крыша С
+tile.extendedblocks.stone_new.name=Средневековый камень
 
 
 tile.extendedblocks.cement_mixer.name=Бетономешалка (WIP)
