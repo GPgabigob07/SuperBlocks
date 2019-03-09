@@ -1,0 +1,51 @@
+ALFA 0.1
+	1. Basic code created.
+	2. Version checker added.
+	
+ALFA 0.2
+	1. First blocks added.
+	2. Added creative tab.
+	3. Added creative tab icon(item).
+	
+ALFA 0.3
+	1. Factory blocks added!
+	2. Creative tab added!
+	3. Added creative tab icon(item).
+	4. Bug fixes.
+	
+ALFA 0.4
+	1. Crafting stations added(WIP).
+	2. Creative tab added.
+	3. Added creative tab icon(item).
+	4. Bug fixes.
+	
+ALFA 0.5
+	1. New crafting stations added(WIP)
+	2. Road blocks added!
+	3. Added creative tab icon(item).
+	4. Bug fixes.
+	
+ALFA 0.6
+	1. Military blocks added!
+	2. Added functional spikes.
+	3. Added creative tab icon(item).
+	4. Bug fixes.
+	
+ALFA 0.7
+	1. New military blocks added!
+	2. Medieval blocks added!
+	3. Deleted creative tab icons!
+	3. Bug fixes.
+	
+ALFA 0.8
+	1. New medieval blocks added.
+		*Vertical planks x7
+		*glass
+		*New stone
+		*Roof blocks
+	2. New factory blocks added!
+		*2 dark factory blocks.
+		*1 dark factory lamp.
+	3. Bug fixes.
+	4. Changelog added!
+	
