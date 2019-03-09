@@ -12,7 +12,7 @@ public class BlockFactoryDarkLight  extends Block {
 		
 		super(Material.GLASS);
 		
-		this.setCreativeTab(TabsInit.LABORATORY_BLOCKS);
+		this.setCreativeTab(TabsInit.FACTORY_BLOCKS);
 		this.setHardness(1.0F);
 		this.setLightLevel(20.0F); //Выставляет свет
 		this.setLightOpacity(7); //Выставляет поглощение света блоками за ним
