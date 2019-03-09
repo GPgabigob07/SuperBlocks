@@ -32,7 +32,7 @@ tile.extendedblocks.factory_block_lamp_two.name=Factory lamp B
 tile.extendedblocks.factory_block_orange_four.name=Orange factory ceiling
 tile.extendedblocks.dark_factory_light.name=Dark factory light
 tile.extendedblocks.dark_factory_one.name=Dark factory  block A
-tile.extendedblocks.dark_factory_one.name=Dark factory  block B
+tile.extendedblocks.dark_factory_two.name=Dark factory  block B
 
 tile.extendedblocks.road_block_basic.name=Road block
 tile.extendedblocks.road_yellow_one.name=Road block with yellow markings A
@@ -72,6 +72,7 @@ tile.extendedblocks.medieval_glass.name=Medieval glass
 tile.extendedblocks.roof_one.name=Clay roof A
 tile.extendedblocks.roof_two.name=Clay roof B
 tile.extendedblocks.roof_three.name=Clay roof C
+tile.extendedblocks.stone_new.name=Medieval stone
 
 
 tile.extendedblocks.cement_mixer.name=Ñoncrete mixer (WIP)
