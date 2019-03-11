@@ -146,6 +146,8 @@ public class BlocksInit {
 	public static final Block DARK_FACTORY_ONE = new BlockFactoryDarkOne();
 	public static final Block DARK_FACTORY_TWO = new BlockFactoryDarkTwo();
 	public static final Block DARK_FACTORY_LIGHT = new BlockFactoryDarkLight();
+	
+
 
 
 	
@@ -218,6 +220,7 @@ public class BlocksInit {
         setRegister(DARK_FACTORY_ONE);
         setRegister(DARK_FACTORY_TWO);
         setRegister(DARK_FACTORY_LIGHT);
+
         
     }
 
@@ -291,6 +294,7 @@ public class BlocksInit {
         setRender(DARK_FACTORY_ONE);
         setRender(DARK_FACTORY_TWO);
         setRender(DARK_FACTORY_LIGHT);
+
         
     }
 

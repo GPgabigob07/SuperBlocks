@@ -65,6 +65,7 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeThree;
 import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockStoneNew;
 import com.maxfreemen.extendedblocks.common.blocks.BlockStonecutter;
+import com.maxfreemen.extendedblocks.common.blocks.FUCKINGPLANT;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentA;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentB;
 
@@ -146,6 +147,8 @@ public class BlocksInit {
 	public static final Block DARK_FACTORY_ONE = new BlockFactoryDarkOne();
 	public static final Block DARK_FACTORY_TWO = new BlockFactoryDarkTwo();
 	public static final Block DARK_FACTORY_LIGHT = new BlockFactoryDarkLight();
+	
+	public static final Block PLANT = new FUCKINGPLANT();
 
 
 	
@@ -218,6 +221,7 @@ public class BlocksInit {
         setRegister(DARK_FACTORY_ONE);
         setRegister(DARK_FACTORY_TWO);
         setRegister(DARK_FACTORY_LIGHT);
+        setRegister(PLANT);
         
     }
 
@@ -291,6 +295,7 @@ public class BlocksInit {
         setRender(DARK_FACTORY_ONE);
         setRender(DARK_FACTORY_TWO);
         setRender(DARK_FACTORY_LIGHT);
+        setRender(PLANT);
         
     }
 
