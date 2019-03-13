@@ -1,10 +1,10 @@
 {
   "homepage": "https://github.com/MaxFreemen/SuperBlocks",
   "1.12.2": {
-    "alfa-0.8": " New blocks added!"
+    "alpha-0.8": " New blocks added!"
   },
   "promos": {
-    "1.12.2-latest": "alfa-0.8",
-    "1.12.2-recommended": "alfa-0.8"
+    "1.12.2-latest": "alpha-0.8",
+    "1.12.2-recommended": "alpha-0.8"
   }
 }
