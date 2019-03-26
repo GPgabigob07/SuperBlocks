@@ -65,6 +65,9 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeThree;
 import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockStoneNew;
 import com.maxfreemen.extendedblocks.common.blocks.BlockStonecutter;
+import com.maxfreemen.extendedblocks.common.blocks.LabFloorIron;
+import com.maxfreemen.extendedblocks.common.blocks.LabFloorPlate;
+import com.maxfreemen.extendedblocks.common.blocks.LabFloorSmooth;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentA;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentB;
 
@@ -147,6 +150,11 @@ public class BlocksInit {
 	public static final Block DARK_FACTORY_TWO = new BlockFactoryDarkTwo();
 	public static final Block DARK_FACTORY_LIGHT = new BlockFactoryDarkLight();
 	
+	public static final Block FLOOR_LAB_SMOOTH = new LabFloorSmooth();
+	public static final Block FLOOR_LAB_IRON = new LabFloorIron();
+	public static final Block FLOOR_LAB_PLATE = new LabFloorPlate();
+	
+	
 
 
 
@@ -220,6 +228,10 @@ public class BlocksInit {
         setRegister(DARK_FACTORY_ONE);
         setRegister(DARK_FACTORY_TWO);
         setRegister(DARK_FACTORY_LIGHT);
+        
+        setRegister(FLOOR_LAB_SMOOTH);
+        setRegister(FLOOR_LAB_IRON);
+        setRegister(FLOOR_LAB_PLATE);
 
         
     }
@@ -294,6 +306,10 @@ public class BlocksInit {
         setRender(DARK_FACTORY_ONE);
         setRender(DARK_FACTORY_TWO);
         setRender(DARK_FACTORY_LIGHT);
+        
+        setRender(FLOOR_LAB_SMOOTH);
+        setRender(FLOOR_LAB_IRON);
+        setRender(FLOOR_LAB_PLATE);
 
         
     }
