@@ -68,6 +68,10 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockStonecutter;
 import com.maxfreemen.extendedblocks.common.blocks.LabFloorIron;
 import com.maxfreemen.extendedblocks.common.blocks.LabFloorPlate;
 import com.maxfreemen.extendedblocks.common.blocks.LabFloorSmooth;
+import com.maxfreemen.extendedblocks.common.blocks.LabWallBasic;
+import com.maxfreemen.extendedblocks.common.blocks.LabWallBlue;
+import com.maxfreemen.extendedblocks.common.blocks.LabWallEmpty;
+import com.maxfreemen.extendedblocks.common.blocks.LabWallSmooth;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentA;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentB;
 
@@ -153,6 +157,10 @@ public class BlocksInit {
 	public static final Block FLOOR_LAB_SMOOTH = new LabFloorSmooth();
 	public static final Block FLOOR_LAB_IRON = new LabFloorIron();
 	public static final Block FLOOR_LAB_PLATE = new LabFloorPlate();
+	public static final Block BASIC_LAB_WALL = new LabWallBasic();
+	public static final Block SMOOTH_LAB_WALL = new LabWallSmooth();
+	public static final Block EMPTY_LAB_WALL = new LabWallEmpty();
+	public static final Block BLUE_LAB_WALL = new LabWallBlue();
 	
 	
 
@@ -161,7 +169,12 @@ public class BlocksInit {
 	
 	public static void registerBlocks() {
 		
-        setRegister(LAMP);
+        setRegister(BASIC_LAB_WALL);
+        setRegister(SMOOTH_LAB_WALL);
+        setRegister(EMPTY_LAB_WALL);
+        setRegister(BLUE_LAB_WALL);
+		
+		setRegister(LAMP);
         setRegister(LABORATORY_BLOCK);
         setRegister(LABORATORY_BLOCK_DARK_CLEAN);
         setRegister(LABORATORY_BLOCK_DARK_PIPE);
@@ -310,6 +323,10 @@ public class BlocksInit {
         setRender(FLOOR_LAB_SMOOTH);
         setRender(FLOOR_LAB_IRON);
         setRender(FLOOR_LAB_PLATE);
+        setRender(BASIC_LAB_WALL);
+        setRender(SMOOTH_LAB_WALL);
+        setRender(EMPTY_LAB_WALL);
+        setRender(BLUE_LAB_WALL);
 
         
     }

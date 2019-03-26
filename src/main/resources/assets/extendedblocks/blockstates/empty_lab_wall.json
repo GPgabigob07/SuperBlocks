@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "extendedblocks:empty_lab_wall" }
+    }
+}
