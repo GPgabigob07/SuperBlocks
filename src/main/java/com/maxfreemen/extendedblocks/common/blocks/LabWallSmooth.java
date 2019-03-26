@@ -14,9 +14,9 @@ public class LabWallSmooth extends Block {
 		this.setCreativeTab(TabsInit.LABORATORY_BLOCKS);
 		this.setHardness(2.0F); //Скорость добычи как у большинства блоков
 		this.setHarvestLevel("pickaxe", 2); //добыча железной киркой
-		this.setRegistryName("floor_lab_smooth");
+		this.setRegistryName("smooth_lab_wall");
 		this.setResistance(15.0F); //Взрывоустойчивость как у камня
-		this.setUnlocalizedName("extendedblocks.floor_lab_smooth");
+		this.setUnlocalizedName("extendedblocks.smooth_lab_wall");
 		
 	}
 

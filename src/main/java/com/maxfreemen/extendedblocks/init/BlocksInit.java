@@ -153,7 +153,6 @@ public class BlocksInit {
 	public static final Block DARK_FACTORY_ONE = new BlockFactoryDarkOne();
 	public static final Block DARK_FACTORY_TWO = new BlockFactoryDarkTwo();
 	public static final Block DARK_FACTORY_LIGHT = new BlockFactoryDarkLight();
-	
 	public static final Block FLOOR_LAB_SMOOTH = new LabFloorSmooth();
 	public static final Block FLOOR_LAB_IRON = new LabFloorIron();
 	public static final Block FLOOR_LAB_PLATE = new LabFloorPlate();
@@ -168,12 +167,7 @@ public class BlocksInit {
 
 	
 	public static void registerBlocks() {
-		
-        setRegister(BASIC_LAB_WALL);
-        setRegister(SMOOTH_LAB_WALL);
-        setRegister(EMPTY_LAB_WALL);
-        setRegister(BLUE_LAB_WALL);
-		
+
 		setRegister(LAMP);
         setRegister(LABORATORY_BLOCK);
         setRegister(LABORATORY_BLOCK_DARK_CLEAN);
@@ -245,7 +239,11 @@ public class BlocksInit {
         setRegister(FLOOR_LAB_SMOOTH);
         setRegister(FLOOR_LAB_IRON);
         setRegister(FLOOR_LAB_PLATE);
-
+        setRegister(BASIC_LAB_WALL);
+        setRegister(SMOOTH_LAB_WALL);
+        setRegister(EMPTY_LAB_WALL);
+        setRegister(BLUE_LAB_WALL);
+		
         
     }
 
