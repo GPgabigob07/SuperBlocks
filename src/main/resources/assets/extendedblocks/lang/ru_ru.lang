@@ -16,6 +16,13 @@ tile.extendedblocks.laboratory_block_hazard_light.name=Светлая линия
 tile.extendedblocks.laboratory_block_hazard_dark.name=Темная линия
 tile.extendedblocks.laboratory_block_vent_a.name=Блок вентиляции А
 tile.extendedblocks.laboratory_block_vent_b.name=Блок вентиляции Б
+tile.extendedblocks.floor_lab_smooth.name==Блок лаборатории А
+tile.extendedblocks.floor_lab_iron.name==Блок лаборатории Б
+tile.extendedblocks.floor_lab_plate.name==Блок лаборатории С
+tile.extendedblocks.blue_lab_wall.name=Блок лаборатории с трубами
+tile.extendedblocks.empty_lab_wall.name=Чистая стена лаборатории
+tile.extendedblocks.smooth_lab_wall.name=Ровная стена лаборатории
+tile.extendedblocks.basic_lab_wall.name=Обычная стена лаборатории
 
 tile.extendedblocks.factory_block_orange_one.name=Оранжевая стена фабрики А
 tile.extendedblocks.factory_block_orange_two.name=Оранжевая стена фабрики Б

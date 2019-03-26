@@ -17,6 +17,13 @@ tile.extendedblocks.laboratory_block_hazard_light.name=Light hazard line
 tile.extendedblocks.laboratory_block_hazard_dark.name=Dark hazard line
 tile.extendedblocks.laboratory_block_vent_a.name=Vent block A
 tile.extendedblocks.laboratory_block_vent_b.name=Vent block B
+tile.extendedblocks.floor_lab_smooth.name=Laboratory floor A
+tile.extendedblocks.floor_lab_iron.name=Laboratory floor B
+tile.extendedblocks.floor_lab_plate.name=Laboratory floor C
+tile.extendedblocks.blue_lab_wall.name=Laboratory wall with pipes
+tile.extendedblocks.empty_lab_wall.name=Clean laboratory wall
+tile.extendedblocks.smooth_lab_wall.name=Smooth laboratory wall
+tile.extendedblocks.basic_lab_wall.name=Basic laboratory wall
 
 tile.extendedblocks.factory_block_orange_one.name=Orange factory wall A
 tile.extendedblocks.factory_block_orange_two.name=Orange factory wall B
