@@ -49,3 +49,9 @@ ALPHA 0.8
 	3. Bug fixes.
 	4. Changelog added!
 	
+ALPHA 0.9
+	1. New laboratory blocks added.
+		*3 floors
+		*4 walls
+	2. Changelog updated.
+	
