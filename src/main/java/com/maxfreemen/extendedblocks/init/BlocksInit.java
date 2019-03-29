@@ -66,6 +66,7 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockSpikeTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockStoneNew;
 import com.maxfreemen.extendedblocks.common.blocks.BlockStonecutter;
 import com.maxfreemen.extendedblocks.common.blocks.HoloOne;
+import com.maxfreemen.extendedblocks.common.blocks.HoloThree;
 import com.maxfreemen.extendedblocks.common.blocks.HoloTwo;
 import com.maxfreemen.extendedblocks.common.blocks.LabFloorIron;
 import com.maxfreemen.extendedblocks.common.blocks.LabFloorPlate;
@@ -164,6 +165,7 @@ public class BlocksInit {
 	public static final Block BLUE_LAB_WALL = new LabWallBlue();
 	public static final Block HOLO_ONE = new HoloOne();
 	public static final Block HOLO_TWO = new HoloTwo();
+	public static final Block HOLO_THREE = new HoloThree();
 	
 	
 
@@ -249,6 +251,7 @@ public class BlocksInit {
         setRegister(BLUE_LAB_WALL);
         setRegister(HOLO_ONE);
         setRegister(HOLO_TWO);
+        setRegister(HOLO_THREE);
 		
         
     }
@@ -333,6 +336,7 @@ public class BlocksInit {
         setRender(BLUE_LAB_WALL);
         setRender(HOLO_ONE);
         setRender(HOLO_TWO);
+        setRender(HOLO_THREE);
 
         
     }
