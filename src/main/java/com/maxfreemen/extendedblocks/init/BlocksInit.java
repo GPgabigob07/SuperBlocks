@@ -1,5 +1,6 @@
 package com.maxfreemen.extendedblocks.init;
 
+import com.maxfreemen.extendedblocks.common.blocks.BigOakShelf;
 import com.maxfreemen.extendedblocks.common.blocks.BlockBench;
 import com.maxfreemen.extendedblocks.common.blocks.BlockBricksBasic;
 import com.maxfreemen.extendedblocks.common.blocks.BlockBricksCrashed;
@@ -166,6 +167,7 @@ public class BlocksInit {
 	public static final Block HOLO_ONE = new HoloOne();
 	public static final Block HOLO_TWO = new HoloTwo();
 	public static final Block HOLO_THREE = new HoloThree();
+	public static final Block BIG_OAK_SIDE = new BigOakShelf();
 	
 	
 
@@ -252,6 +254,7 @@ public class BlocksInit {
         setRegister(HOLO_ONE);
         setRegister(HOLO_TWO);
         setRegister(HOLO_THREE);
+        setRegister(BIG_OAK_SIDE);
 		
         
     }
@@ -337,6 +340,7 @@ public class BlocksInit {
         setRender(HOLO_ONE);
         setRender(HOLO_TWO);
         setRender(HOLO_THREE);
+        setRender(BIG_OAK_SIDE);
 
         
     }
