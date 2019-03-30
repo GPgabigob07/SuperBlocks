@@ -69,6 +69,8 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockStonecutter;
 import com.maxfreemen.extendedblocks.common.blocks.HoloOne;
 import com.maxfreemen.extendedblocks.common.blocks.HoloThree;
 import com.maxfreemen.extendedblocks.common.blocks.HoloTwo;
+import com.maxfreemen.extendedblocks.common.blocks.JungleShelfOne;
+import com.maxfreemen.extendedblocks.common.blocks.JungleShelfTwo;
 import com.maxfreemen.extendedblocks.common.blocks.LabFloorIron;
 import com.maxfreemen.extendedblocks.common.blocks.LabFloorPlate;
 import com.maxfreemen.extendedblocks.common.blocks.LabFloorSmooth;
@@ -168,6 +170,8 @@ public class BlocksInit {
 	public static final Block HOLO_TWO = new HoloTwo();
 	public static final Block HOLO_THREE = new HoloThree();
 	public static final Block BIG_OAK_SHELF = new BigOakShelf();
+	public static final Block JUNGLE_SHELF_ONE = new JungleShelfOne();
+	public static final Block JUNGLE_SHELF_TWO = new JungleShelfTwo();
 	
 	
 
@@ -255,6 +259,8 @@ public class BlocksInit {
         setRegister(HOLO_TWO);
         setRegister(HOLO_THREE);
         setRegister(BIG_OAK_SHELF);
+        setRegister(JUNGLE_SHELF_ONE);
+        setRegister(JUNGLE_SHELF_TWO);
 		
         
     }
@@ -341,6 +347,9 @@ public class BlocksInit {
         setRender(HOLO_TWO);
         setRender(HOLO_THREE);
         setRender(BIG_OAK_SHELF);
+        setRender(JUNGLE_SHELF_ONE);
+        setRender(JUNGLE_SHELF_TWO);
+        
 
         
     }

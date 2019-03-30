@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "extendedblocks:blocks/jungle_top",
+        "side": "extendedblocks:blocks/jungle_side_two",
+        "front": "extendedblocks:blocks/jungle_side_two"
+    }
+}
