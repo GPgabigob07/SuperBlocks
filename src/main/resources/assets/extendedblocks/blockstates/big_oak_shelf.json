@@ -1,8 +1,8 @@
 {
     "variants": {
-        "facing=south": { "model": "extendedblocks:big_oak_side" },
-        "facing=west": { "model": "extendedblocks:big_oak_side", "y": 90 },
-        "facing=north": { "model": "extendedblocks:big_oak_side", "y": 180 },
-        "facing=east": { "model": "extendedblocks:big_oak_side", "y": 270 }
+        "facing=south": { "model": "extendedblocks:big_oak_shelf" },
+        "facing=west": { "model": "extendedblocks:big_oak_shelf", "y": 90 },
+        "facing=north": { "model": "extendedblocks:big_oak_shelf", "y": 180 },
+        "facing=east": { "model": "extendedblocks:big_oak_shelf", "y": 270 }
     }
 }
