@@ -1,7 +1,7 @@
 {
     "parent": "block/orientable",
     "textures": {
-        "top": "extendedblocks:blocks/road_white_two",
+        "top": "extendedblocks:blocks/big_oak_top",
         "side": "extendedblocks:blocks/big_oak_side",
         "front": "extendedblocks:blocks/big_oak_side"
     }
