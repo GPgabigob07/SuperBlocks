@@ -27,9 +27,9 @@ public class BigOakShelf extends Block {
 		this.setCreativeTab(TabsInit.MEDIEVAL_BLOCKS);
 		this.setHardness(2.0F); //Скорость добычи как у большинства блоков
 		this.setHarvestLevel("pickaxe", 2); //добыча железной киркой
-		this.setRegistryName("big_oak_side");
+		this.setRegistryName("big_oak_shelf");
 		this.setResistance(15.0F); //Взрывоустойчивость как у камня
-		this.setUnlocalizedName("extendedblocks.big_oak_side");
+		this.setUnlocalizedName("extendedblocks.big_oak_shelf");
 		this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 		
 	}
