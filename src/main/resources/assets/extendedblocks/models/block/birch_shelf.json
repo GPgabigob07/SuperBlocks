@@ -1,0 +1,9 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "extendedblocks:blocks/birch_top",
+        "side": "extendedblocks:blocks/birch_side",
+        "front": "extendedblocks:blocks/birch_side"
+
+    }
+}
