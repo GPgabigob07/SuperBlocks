@@ -1,8 +1,8 @@
 {
     "variants": {
-        "facing=south": { "model": "extendedblocks:birch_side" },
-        "facing=west": { "model": "extendedblocks:birch_side", "y": 90 },
-        "facing=north": { "model": "extendedblocks:birch_side", "y": 180 },
-        "facing=east": { "model": "extendedblocks:birch_side", "y": 270 }
+        "facing=south": { "model": "extendedblocks:birch_shelf" },
+        "facing=west": { "model": "extendedblocks:birch_shelf", "y": 90 },
+        "facing=north": { "model": "extendedblocks:birch_shelf", "y": 180 },
+        "facing=east": { "model": "extendedblocks:birch_shelf", "y": 270 }
     }
 }
