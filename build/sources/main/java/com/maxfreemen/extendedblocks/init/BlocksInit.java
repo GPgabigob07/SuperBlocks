@@ -81,6 +81,7 @@ import com.maxfreemen.extendedblocks.common.blocks.LabWallEmpty;
 import com.maxfreemen.extendedblocks.common.blocks.LabWallSmooth;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentA;
 import com.maxfreemen.extendedblocks.common.blocks.LaboratoryBlockVentB;
+import com.maxfreemen.extendedblocks.common.blocks.SpruceShelf;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
@@ -174,6 +175,7 @@ public class BlocksInit {
 	public static final Block JUNGLE_SHELF_ONE = new JungleShelfOne();
 	public static final Block JUNGLE_SHELF_TWO = new JungleShelfTwo();
 	public static final Block BIRCH_SHELF = new BirchShelf();
+	public static final Block SPRUCE_SHELF = new SpruceShelf();
 	
 	
 
@@ -264,6 +266,7 @@ public class BlocksInit {
         setRegister(JUNGLE_SHELF_ONE);
         setRegister(JUNGLE_SHELF_TWO);
         setRegister(BIRCH_SHELF);
+        setRegister(SPRUCE_SHELF);
 		
         
     }
@@ -353,6 +356,7 @@ public class BlocksInit {
         setRender(JUNGLE_SHELF_ONE);
         setRender(JUNGLE_SHELF_TWO);
         setRender(BIRCH_SHELF);
+        setRender(SPRUCE_SHELF);
         
 
         
