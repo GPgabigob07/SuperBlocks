@@ -1,6 +1,7 @@
 package com.maxfreemen.extendedblocks.init;
 
 import com.maxfreemen.extendedblocks.common.blocks.BigOakShelf;
+import com.maxfreemen.extendedblocks.common.blocks.BirchShelf;
 import com.maxfreemen.extendedblocks.common.blocks.BlockBench;
 import com.maxfreemen.extendedblocks.common.blocks.BlockBricksBasic;
 import com.maxfreemen.extendedblocks.common.blocks.BlockBricksCrashed;
@@ -172,6 +173,7 @@ public class BlocksInit {
 	public static final Block BIG_OAK_SHELF = new BigOakShelf();
 	public static final Block JUNGLE_SHELF_ONE = new JungleShelfOne();
 	public static final Block JUNGLE_SHELF_TWO = new JungleShelfTwo();
+	public static final Block BIRCH_SHELF = new BirchShelf();
 	
 	
 
@@ -261,6 +263,7 @@ public class BlocksInit {
         setRegister(BIG_OAK_SHELF);
         setRegister(JUNGLE_SHELF_ONE);
         setRegister(JUNGLE_SHELF_TWO);
+        setRegister(BIRCH_SHELF);
 		
         
     }
@@ -349,6 +352,7 @@ public class BlocksInit {
         setRender(BIG_OAK_SHELF);
         setRender(JUNGLE_SHELF_ONE);
         setRender(JUNGLE_SHELF_TWO);
+        setRender(BIRCH_SHELF);
         
 
         
