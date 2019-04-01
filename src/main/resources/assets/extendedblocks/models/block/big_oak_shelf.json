@@ -1,9 +1,9 @@
 {
     "parent": "block/orientable",
     "textures": {
-        "top": "extendedblocks:blocks/spruce_top",
-        "side": "extendedblocks:blocks/spruce_side",
-        "front": "extendedblocks:blocks/spruce_side"
+        "top": "extendedblocks:blocks/big_oak_top",
+        "side": "extendedblocks:blocks/big_oak_side",
+        "front": "extendedblocks:blocks/big_oak_side"
 
     }
 }
