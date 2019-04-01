@@ -1,10 +1,8 @@
 package com.maxfreemen.extendedblocks.common.blocks;
 
 import com.maxfreemen.extendedblocks.init.TabsInit;
-
-import net.minecraft.block.Block;
+import net.minecraft.block.BlockBookshelf;
 import net.minecraft.block.BlockHorizontal;
-import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.state.BlockStateContainer;
@@ -16,13 +14,12 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class JungleShelfOne extends Block {
+public class JungleShelfOne extends BlockBookshelf {
 	
 	public static final PropertyDirection FACING = BlockHorizontal.FACING;
 
 	public JungleShelfOne() {
-		
-		super(Material.WOOD);
+
 		
 		this.setCreativeTab(TabsInit.MEDIEVAL_BLOCKS);
 		this.setHardness(2.0F); //Скорость добычи как у большинства блоков
