@@ -1,8 +1,5 @@
 {
     "variants": {
-        "facing=south": { "model": "extendedblocks:spruce_shelf" },
-        "facing=west": { "model": "extendedblocks:spruce_shelf", "y": 90 },
-        "facing=north": { "model": "extendedblocks:spruce_shelf", "y": 180 },
-        "facing=east": { "model": "extendedblocks:spruce_shelf", "y": 270 }
+        "normal": { "model": "extendedblocks:spruce_shelf" }
     }
 }

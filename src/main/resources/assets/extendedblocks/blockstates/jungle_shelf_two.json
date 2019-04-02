@@ -1,8 +1,5 @@
 {
     "variants": {
-        "facing=south": { "model": "extendedblocks:jungle_shelf_two" },
-        "facing=west": { "model": "extendedblocks:jungle_shelf_two", "y": 90 },
-        "facing=north": { "model": "extendedblocks:jungle_shelf_two", "y": 180 },
-        "facing=east": { "model": "extendedblocks:jungle_shelf_two", "y": 270 }
+        "normal": { "model": "extendedblocks:jungle_shelf_two" }
     }
 }
