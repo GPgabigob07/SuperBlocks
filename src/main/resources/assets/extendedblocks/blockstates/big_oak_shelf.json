@@ -1,8 +1,5 @@
 {
     "variants": {
-        "facing=south": { "model": "extendedblocks:big_oak_shelf" },
-        "facing=west": { "model": "extendedblocks:big_oak_shelf", "y": 90 },
-        "facing=north": { "model": "extendedblocks:big_oak_shelf", "y": 180 },
-        "facing=east": { "model": "extendedblocks:big_oak_shelf", "y": 270 }
+        "normal": { "model": "extendedblocks:big_oak_shelf" }
     }
 }
