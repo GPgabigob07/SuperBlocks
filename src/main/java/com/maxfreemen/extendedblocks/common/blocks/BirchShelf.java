@@ -24,10 +24,10 @@ public class BirchShelf extends BlockBookshelf {
 	
 
 
-@Override
-public float getEnchantPowerBonus(World world, BlockPos pos) {
+	@Override
+	public float getEnchantPowerBonus(World world, BlockPos pos) {
 	return 1;
-}
+	}
 
     
     

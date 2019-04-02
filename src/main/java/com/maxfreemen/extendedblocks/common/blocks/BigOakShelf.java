@@ -2,6 +2,8 @@ package com.maxfreemen.extendedblocks.common.blocks;
 
 import com.maxfreemen.extendedblocks.init.TabsInit;
 import net.minecraft.block.BlockBookshelf;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 
 
 
@@ -20,6 +22,11 @@ public class BigOakShelf extends BlockBookshelf {
 		this.setUnlocalizedName("extendedblocks.big_oak_shelf");
 	
 		
+	}
+	
+	@Override
+	public float getEnchantPowerBonus(World world, BlockPos pos) {
+		return 1;
 	}
     
     
