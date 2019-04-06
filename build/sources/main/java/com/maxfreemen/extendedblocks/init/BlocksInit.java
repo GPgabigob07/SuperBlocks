@@ -176,6 +176,7 @@ public class BlocksInit {
 	public static final Block JUNGLE_SHELF_TWO = new JungleShelfTwo();
 	public static final Block BIRCH_SHELF = new BirchShelf();
 	public static final Block SPRUCE_SHELF = new SpruceShelf();
+
 	
 	
 
