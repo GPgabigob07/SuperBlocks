@@ -17,7 +17,7 @@ buildscript {
 
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-version = "alpha-0.9"
+version = "beta-1.0"
 group = "com.maxfreemen.extendedblocks"
 archivesBaseName = "extendedblocks"
 
