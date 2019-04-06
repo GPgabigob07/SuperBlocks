@@ -40,6 +40,9 @@ tile.extendedblocks.factory_block_orange_four.name=Orange factory ceiling
 tile.extendedblocks.dark_factory_light.name=Dark factory light
 tile.extendedblocks.dark_factory_one.name=Dark factory  block A
 tile.extendedblocks.dark_factory_two.name=Dark factory  block B
+tile.extendedblocks.holo_one.name=Xeno wall A
+tile.extendedblocks.holo_two.name=Xeno wall B
+tile.extendedblocks.holo_three.name=Xeno wall C
 
 tile.extendedblocks.road_block_basic.name=Road block
 tile.extendedblocks.road_yellow_one.name=Road block with yellow markings A
@@ -80,6 +83,12 @@ tile.extendedblocks.roof_one.name=Clay roof A
 tile.extendedblocks.roof_two.name=Clay roof B
 tile.extendedblocks.roof_three.name=Clay roof C
 tile.extendedblocks.stone_new.name=Medieval stone
+tile.extendedblocks.jungle_shelf_one.name=Jungle shelf A
+tile.extendedblocks.jungle_shelf_two.name=Jungle shelf B
+tile.extendedblocks.big_oak_shelf.name=Big oak shelf
+tile.extendedblocks.spruce_shelf_one.name=Spruce shelf
+tile.extendedblocks.birch_shelf_one.name=Birch shelf
+
 
 
 tile.extendedblocks.cement_mixer.name=Ñoncrete mixer (WIP)

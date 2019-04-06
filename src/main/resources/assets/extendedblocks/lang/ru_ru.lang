@@ -39,6 +39,9 @@ tile.extendedblocks.factory_block_orange_four.name=Оранжевый потол
 tile.extendedblocks.dark_factory_light.name=Темная лампа фабрики
 tile.extendedblocks.dark_factory_one.name=Темный блок фабрики А
 tile.extendedblocks.dark_factory_two.name=Темный блок фабрики Б
+tile.extendedblocks.holo_one.name=Ксено стена А
+tile.extendedblocks.holo_two.name=Ксено стена В
+tile.extendedblocks.holo_three.name=Ксено стена С
 
 tile.extendedblocks.road_block_basic.name=Блок дороги
 tile.extendedblocks.road_yellow_one.name=Блок дороги с жёлтой разметкой А
@@ -79,6 +82,11 @@ tile.extendedblocks.roof_one.name=Глиняная крыша А
 tile.extendedblocks.roof_two.name=Глиняная крыша Б
 tile.extendedblocks.roof_three.name=Глиняная крыша С
 tile.extendedblocks.stone_new.name=Средневековый камень
+tile.extendedblocks.jungle_shelf_one.name=Книжный шкаф из тропического дерева А
+tile.extendedblocks.jungle_shelf_two.name=Книжный шкаф из тропического дерева В
+tile.extendedblocks.big_oak_shelf.name=Книжный шкаф из темного дуба
+tile.extendedblocks.spruce_shelf_one.name=Книжный шкаф из ели
+tile.extendedblocks.birch_shelf_one.name=Книжный шкаф из берёзы
 
 
 tile.extendedblocks.cement_mixer.name=Бетономешалка (WIP)
