@@ -82,11 +82,18 @@ tile.extendedblocks.roof_one.name=Глиняная крыша А
 tile.extendedblocks.roof_two.name=Глиняная крыша Б
 tile.extendedblocks.roof_three.name=Глиняная крыша С
 tile.extendedblocks.stone_new.name=Средневековый камень
+
 tile.extendedblocks.jungle_shelf_one.name=Книжный шкаф из тропического дерева А
 tile.extendedblocks.jungle_shelf_two.name=Книжный шкаф из тропического дерева В
 tile.extendedblocks.big_oak_shelf.name=Книжный шкаф из темного дуба
 tile.extendedblocks.spruce_shelf_one.name=Книжный шкаф из ели
 tile.extendedblocks.birch_shelf_one.name=Книжный шкаф из берёзы
+tile.extendedblocks.better_oak.name=Дубовый паркет
+tile.extendedblocks.better_big_oak.name=Паркет из темного дуба
+tile.extendedblocks.better_jungle.name=Паркет из тропического дерева
+tile.extendedblocks.better_acacia.name=Паркет из акации
+tile.extendedblocks.better_birch.name=Берёзовый паркет
+tile.extendedblocks.better_spruce.name=Еловый паркет
 
 
 tile.extendedblocks.cement_mixer.name=Бетономешалка (WIP)
