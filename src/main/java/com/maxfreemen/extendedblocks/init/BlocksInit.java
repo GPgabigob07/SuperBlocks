@@ -1,5 +1,11 @@
 package com.maxfreemen.extendedblocks.init;
 
+import com.maxfreemen.extendedblocks.common.blocks.BetterAcacia;
+import com.maxfreemen.extendedblocks.common.blocks.BetterBigOak;
+import com.maxfreemen.extendedblocks.common.blocks.BetterBirch;
+import com.maxfreemen.extendedblocks.common.blocks.BetterJungle;
+import com.maxfreemen.extendedblocks.common.blocks.BetterOak;
+import com.maxfreemen.extendedblocks.common.blocks.BetterSpruce;
 import com.maxfreemen.extendedblocks.common.blocks.BigOakShelf;
 import com.maxfreemen.extendedblocks.common.blocks.BirchShelf;
 import com.maxfreemen.extendedblocks.common.blocks.BlockBench;
@@ -176,6 +182,12 @@ public class BlocksInit {
 	public static final Block JUNGLE_SHELF_TWO = new JungleShelfTwo();
 	public static final Block BIRCH_SHELF = new BirchShelf();
 	public static final Block SPRUCE_SHELF = new SpruceShelf();
+	public static final Block BETTER_OAK = new BetterOak();
+	public static final Block BETTER_BIG_OAK = new BetterBigOak();
+	public static final Block BETTER_JUNGLE = new BetterJungle();
+	public static final Block BETTER_SPRUCE = new BetterSpruce();
+	public static final Block BETTER_BIRCH = new BetterBirch();
+	public static final Block BETTER_ACACIA = new BetterAcacia();
 
 	
 	
@@ -186,6 +198,12 @@ public class BlocksInit {
 	public static void registerBlocks() {
 
 		setRegister(LAMP);
+		setRegister(BETTER_OAK);
+		setRegister(BETTER_BIG_OAK);
+		setRegister(BETTER_JUNGLE);
+		setRegister(BETTER_SPRUCE);
+		setRegister(BETTER_BIRCH);
+		setRegister(BETTER_ACACIA);
         setRegister(LABORATORY_BLOCK);
         setRegister(LABORATORY_BLOCK_DARK_CLEAN);
         setRegister(LABORATORY_BLOCK_DARK_PIPE);
@@ -358,6 +376,13 @@ public class BlocksInit {
         setRender(JUNGLE_SHELF_TWO);
         setRender(BIRCH_SHELF);
         setRender(SPRUCE_SHELF);
+        
+        setRender(BETTER_OAK);
+        setRender(BETTER_BIG_OAK);
+        setRender(BETTER_JUNGLE);
+        setRender(BETTER_SPRUCE);
+        setRender(BETTER_BIRCH);
+        setRender(BETTER_ACACIA);
         
 
         
