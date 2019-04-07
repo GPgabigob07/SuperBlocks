@@ -55,3 +55,9 @@ ALPHA 0.9
 		*4 walls
 	2. Changelog updated.
 	
+BETA 1.0
+	1. Xeno walls added!
+	2. New wood variations added!
+	3. Now we are Beta!
+	4. Patreon - WIP
+	
