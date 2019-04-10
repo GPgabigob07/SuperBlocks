@@ -17,6 +17,7 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockCementmixer;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryDarkLight;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryDarkOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryDarkTwo;
+import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryFloor;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryLampOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryLampTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryOne;
@@ -29,6 +30,8 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryThree;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryVent;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryVentWall;
+import com.maxfreemen.extendedblocks.common.blocks.BlockLabWallOne;
+import com.maxfreemen.extendedblocks.common.blocks.BlockLabWallTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratory;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryDarkClean;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratoryDarkPipe;
@@ -188,6 +191,9 @@ public class BlocksInit {
 	public static final Block BETTER_SPRUCE = new BetterSpruce();
 	public static final Block BETTER_BIRCH = new BetterBirch();
 	public static final Block BETTER_ACACIA = new BetterAcacia();
+	public static final Block FACTORY_WALL = new BlockFactoryFloor();
+	public static final Block LAB_WALL_ONE = new BlockLabWallOne();
+	public static final Block LAB_WALL_TWO = new BlockLabWallTwo();
 
 	
 	
@@ -198,6 +204,9 @@ public class BlocksInit {
 	public static void registerBlocks() {
 
 		setRegister(LAMP);
+		setRegister(FACTORY_WALL);
+		setRegister(LAB_WALL_ONE);
+		setRegister(LAB_WALL_TWO);
 		setRegister(BETTER_OAK);
 		setRegister(BETTER_BIG_OAK);
 		setRegister(BETTER_JUNGLE);
@@ -383,6 +392,10 @@ public class BlocksInit {
         setRender(BETTER_SPRUCE);
         setRender(BETTER_BIRCH);
         setRender(BETTER_ACACIA);
+        
+        setRender(FACTORY_WALL);
+        setRender(LAB_WALL_ONE);
+        setRender(LAB_WALL_TWO);
         
 
         
