@@ -30,6 +30,7 @@ import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryThree;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryVent;
 import com.maxfreemen.extendedblocks.common.blocks.BlockFactoryVentWall;
+import com.maxfreemen.extendedblocks.common.blocks.BlockHazardYellow;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLabWallOne;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLabWallTwo;
 import com.maxfreemen.extendedblocks.common.blocks.BlockLaboratory;
@@ -194,6 +195,7 @@ public class BlocksInit {
 	public static final Block FACTORY_WALL = new BlockFactoryFloor();
 	public static final Block LAB_WALL_ONE = new BlockLabWallOne();
 	public static final Block LAB_WALL_TWO = new BlockLabWallTwo();
+	public static final Block HAZARD_YELLOW = new BlockHazardYellow();
 
 	
 	
@@ -204,6 +206,7 @@ public class BlocksInit {
 	public static void registerBlocks() {
 
 		setRegister(LAMP);
+		setRegister(HAZARD_YELLOW);
 		setRegister(FACTORY_WALL);
 		setRegister(LAB_WALL_ONE);
 		setRegister(LAB_WALL_TWO);
@@ -396,6 +399,8 @@ public class BlocksInit {
         setRender(FACTORY_WALL);
         setRender(LAB_WALL_ONE);
         setRender(LAB_WALL_TWO);
+        
+        setRender(HAZARD_YELLOW);
         
 
         
