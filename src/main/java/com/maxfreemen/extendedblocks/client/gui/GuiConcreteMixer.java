@@ -42,6 +42,6 @@ public class GuiConcreteMixer extends GuiContainer
     @Override
     protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY)
     {
-        this.fontRenderer.drawString("This is cool machine for mix concrete!", 6, 6, 4210752);
+        this.fontRenderer.drawString("Ñement mixer", 6, 6, 4210752);
     }
 }
