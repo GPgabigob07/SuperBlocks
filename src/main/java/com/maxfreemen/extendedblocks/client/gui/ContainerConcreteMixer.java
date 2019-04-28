@@ -26,12 +26,12 @@ public class ContainerConcreteMixer extends Container {
     private void addOwnSlots()
     {
         IItemHandler itemHandler = this.te.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null);
-        int x = 9;
-        int y = 6;
+        int x = 25;
+        int y = 7;
  
         addSlotToContainer(new SlotItemHandler(itemHandler, 0, x, y));
-        addSlotToContainer(new SlotItemHandler(itemHandler, 1, x + 18, y));
-        addSlotToContainer(new OutputSlot(itemHandler, 1, x + 36, y));
+        addSlotToContainer(new SlotItemHandler(itemHandler, 1, x, y+54));
+        addSlotToContainer(new OutputSlot(itemHandler, 1, 115, 35));
     }
  
     private void addPlayerSlots(IInventory playerInventory) {
