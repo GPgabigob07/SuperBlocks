@@ -36,7 +36,7 @@ public class GuiConcreteMixer extends GuiContainer
     protected void drawGuiContainerBackgroundLayer(float partialTicks, int mouseX, int mouseY) 
     { 
     this.drawDefaultBackground(); 
-    mc.renderEngine.bindTexture(TEXTURE); 
+    mc.renderEngine.bindTexture(TEXTURES); 
     int x = (this.width - this.xSize) / 2; 
     int y = (this.height - this.xSize) / 2; 
     drawTexturedModalRect(x, y, 0, 0, xSize, ySize); 
