@@ -2,8 +2,9 @@ package com.maxfreemen.extendedblocks;
 
 import com.maxfreemen.extendedblocks.common.CommonProxy;
 import com.maxfreemen.extendedblocks.tileentity.TileEntityConcreteMixer;
+import com.maxfreemen.extendedblocks.util.Reference;
 
-
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -20,7 +21,7 @@ public class SuperBlocks {
     @Instance
     public static SuperBlocks instance;
     {
- GameRegistry.registerTileEntity(TileEntityConcreteMixer.class,"extendedblocks:concrete_mixer");
+    	GameRegistry.registerTileEntity(TileEntityConcreteMixer.class, new ResourceLocation(Reference.MOD_ID + ":concrete_mixer"));
     }
 
 	@SidedProxy(clientSide = "com.maxfreemen.extendedblocks.client.ClientProxy", serverSide = "com.maxfreemen.extendedblocks.common.CommonProxy")

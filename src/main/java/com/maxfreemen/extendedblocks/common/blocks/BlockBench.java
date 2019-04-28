@@ -1,6 +1,7 @@
 package com.maxfreemen.extendedblocks.common.blocks;
 
 import com.maxfreemen.extendedblocks.init.TabsInit;
+import com.maxfreemen.extendedblocks.tileentity.TileEntityConcreteMixer;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockHorizontal;
@@ -10,6 +11,7 @@ import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.Rotation;
@@ -76,6 +78,17 @@ public class BlockBench extends Block{
     public IBlockState getStateFromMeta(int meta)
     {
         return this.getDefaultState().withProperty(FACING, EnumFacing.getHorizontal(meta));
+    }
+    @Override
+    public boolean hasTileEntity(IBlockState state)
+    {
+        return true;
+    }
+    
+    @Override
+    public TileEntity createTileEntity(World world, IBlockState state)
+    {
+        return new TileEntityConcreteMixer();
     }
 
 }
