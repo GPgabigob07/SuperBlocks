@@ -33,15 +33,18 @@ public class GuiConcreteMixer extends GuiContainer
     }
    
     @Override
-    protected void drawGuiContainerBackgroundLayer(float partialTicks, int mouseX, int mouseY)
-    {
-        mc.getTextureManager().bindTexture(TEXTURES);
-        drawTexturedModalRect(guiLeft, guiTop, 0, 0, xSize, ySize);
-    }
+    protected void drawGuiContainerBackgroundLayer(float partialTicks, int mouseX, int mouseY) 
+    { 
+    this.drawDefaultBackground(); 
+    mc.renderEngine.bindTexture(TEXTURE); 
+    int x = (this.width - this.xSize) / 2; 
+    int y = (this.height - this.xSize) / 2; 
+    drawTexturedModalRect(x, y, 0, 0, xSize, ySize); 
+    } 
    
     @Override
     protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY)
     {
-        this.fontRenderer.drawString("Ñement mixer", 6, 6, 4210752);
+        this.fontRenderer.drawString("Cement mixer", 6, 6, 4210752);
     }
 }
