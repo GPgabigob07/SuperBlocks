@@ -9,7 +9,8 @@ public class GuiConcreteMixer extends GuiContainer
 {
     public static final int WIDTH = 180;
     public static final int HEIGHT = 166;
-   
+    private final InventoryPleyer player;
+    private final TileEntityConcreteMixer te;
    
    // private final TileEntityConcreteMixer te;
    
@@ -17,9 +18,10 @@ public class GuiConcreteMixer extends GuiContainer
     //private int ix = 0;
     //private int iy = 0;
    
-    public GuiConcreteMixer(TileEntityConcreteMixer tileEntity, ContainerConcreteMixer container) {
-        super(container);
- 
+    public GuiConcreteMixer(InventoryPlayer player, TileEntityConcreteMixer te) {
+        super(new ContainerConcreteMixer(player, te));
+        this.te = te;
+        this.player = plaey;
         xSize = WIDTH;
         ySize = HEIGHT;
        
