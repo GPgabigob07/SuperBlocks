@@ -1,4 +1,4 @@
-package com.maxfreemen.extendedblocks.client.gui;
+&package com.maxfreemen.extendedblocks.client.gui;
 
 import com.maxfreemen.extendedblocks.tileentity.TileEntityConcreteMixer;
 
