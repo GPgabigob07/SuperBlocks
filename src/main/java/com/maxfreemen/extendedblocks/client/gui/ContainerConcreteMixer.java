@@ -3,8 +3,8 @@ package com.maxfreemen.extendedblocks.client.gui;
 import com.maxfreemen.extendedblocks.tileentity.TileEntityConcreteMixer;
 
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
-import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.items.CapabilityItemHandler;
@@ -15,7 +15,7 @@ public class ContainerConcreteMixer extends Container {
 	 
     private TileEntityConcreteMixer te;
  
-    public ContainerConcreteMixer(IInventory playerInventory, TileEntityConcreteMixer te) {
+    public ContainerConcreteMixer(InventoryPlayer playerInventory, TileEntityConcreteMixer te) {
         this.te = te;
  
        
@@ -34,7 +34,7 @@ public class ContainerConcreteMixer extends Container {
         addSlotToContainer(new OutputSlot(itemHandler, 1, 116, 36));
     }
  
-    private void addPlayerSlots(IInventory playerInventory) {
+    private void addPlayerSlots(InventoryPlayer playerInventory) {
         // Slots for the main inventory
     	 for (int i = 0; i < 3; ++i)
          {
