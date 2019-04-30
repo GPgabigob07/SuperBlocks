@@ -3,8 +3,8 @@ package com.maxfreemen.extendedblocks.client.gui;
 import com.maxfreemen.extendedblocks.tileentity.TileEntityConcreteMixer;
 
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
+import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.items.CapabilityItemHandler;
@@ -13,14 +13,16 @@ import net.minecraftforge.items.SlotItemHandler;
 
 public class ContainerConcreteMixer extends Container {
 	 
-    private TileEntityConcreteMixer te;
+    private final TileEntityConcreteMixer te;
+    private final InventoryPlayer player;
  
-    public ContainerConcreteMixer(InventoryPlayer playerInventory, TileEntityConcreteMixer te) {
+    public ContainerConcreteMixer(InventoryPlayer player, TileEntityConcreteMixer te) {
         this.te = te;
+	this.player = player;
  
        
         addOwnSlots();
-        addPlayerSlots(playerInventory);
+        addPlayerSlots();
     }
  
     private void addOwnSlots()
@@ -34,19 +36,19 @@ public class ContainerConcreteMixer extends Container {
         addSlotToContainer(new OutputSlot(itemHandler, 1, 116, 36));
     }
  
-    private void addPlayerSlots(InventoryPlayer playerInventory) {
+    private void addPlayerSlots() {
         // Slots for the main inventory
     	 for (int i = 0; i < 3; ++i)
          {
              for (int j = 0; j < 9; ++j)
              {
-                 this.addSlotToContainer(new Slot(playerInventory, j + i * 9 + 9, 8 + j * 18, 84 + i * 18));
+                 this.addSlotToContainer(new Slot(this.player, j + i * 9 + 9, 8 + j * 18, 84 + i * 18));
              }
          }
 
          for (int k = 0; k < 9; ++k)
          {
-             this.addSlotToContainer(new Slot(playerInventory, k, 8 + k * 18, 142));
+             this.addSlotToContainer(new Slot(this.player, k, 8 + k * 18, 142));
          }
      }
  
